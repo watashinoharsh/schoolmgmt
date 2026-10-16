@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FieldSecurityProfiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FieldSecurityProfile name="EDU Finance" fieldsecurityprofileid="{324142bc-89c9-f111-a05a-000d3ac9f23e}">
+    <FieldPermissions>
+      <FieldPermission>
+        <EntityName>edu_student</EntityName>
+        <AttributeName>edu_feeconcessionpercent</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>4</CanUpdate>
+        <CanCreate>4</CanCreate>
+        <CanReadUnmasked>0</CanReadUnmasked>
+      </FieldPermission>
+    </FieldPermissions>
+  </FieldSecurityProfile>
+  <FieldSecurityProfile name="EDU Identity" fieldsecurityprofileid="{60e19399-89c9-f111-a05a-000d3ac9f23e}">
+    <FieldPermissions>
+      <FieldPermission>
+        <EntityName>edu_student</EntityName>
+        <AttributeName>edu_nationalid</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>4</CanUpdate>
+        <CanCreate>4</CanCreate>
+        <CanReadUnmasked>0</CanReadUnmasked>
+      </FieldPermission>
+    </FieldPermissions>
+  </FieldSecurityProfile>
+</FieldSecurityProfiles>

@@ -149,6 +149,13 @@
       <RootComponent type="1" schemaName="edu_subjectassignment" behavior="0" />
       <RootComponent type="1" schemaName="edu_term" behavior="0" />
       <RootComponent type="1" schemaName="edu_visitor" behavior="0" />
+      <RootComponent type="20" id="{25f1de5a-89c9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="20" id="{5bb2e643-89c9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="20" id="{66213972-89c9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="20" id="{6ac8af27-89c9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="20" id="{edc1c309-89c9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="70" id="{324142bc-89c9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="70" id="{60e19399-89c9-f111-a05a-000d3ac9f23e}" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>

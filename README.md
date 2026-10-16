@@ -39,7 +39,8 @@ DEV environment setup, first import and test users: `docs/phase0-runbook.md`.
 | 6 Fees | Built (source and tests); tables imported to DEV, see docs/phase6.md |
 | 7 Report cards | Built, tables and seed data in DEV. Open: plug-in step registration, publish flow (`docs/phase7.md`) |
 | 8 App | App, site map, main and quick-create forms, views and dashboards built in DEV and exported (`docs/phase8.md`). Not yet checked in the UI |
-| 9 to 10 | Not started. Plan and design: `docs/LLD_v2_EduCore.md` |
+| 9 Security | Roles, teams, column security and auditing built in DEV and verified against the matrix (`docs/phase9.md`). Real-user persona tests pending |
+| 10 | Not started. Plan and design: `docs/LLD_v2_EduCore.md` |
 
 ## Requirements
 Power Platform CLI (`pac`), .NET SDK, PowerShell. A Dataverse environment for DEV.
