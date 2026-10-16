@@ -1,0 +1,11 @@
+<customapiresponseproperty uniquename="InvoiceId">
+  <description default="The invoice created or found">
+    <label description="The invoice created or found" languagecode="1033" />
+  </description>
+  <displayname default="InvoiceId">
+    <label description="InvoiceId" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <name>InvoiceId</name>
+  <type>12</type>
+</customapiresponseproperty>

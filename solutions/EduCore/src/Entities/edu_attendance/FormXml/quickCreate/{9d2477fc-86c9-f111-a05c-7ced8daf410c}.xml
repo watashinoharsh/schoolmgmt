@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9d2477fc-86c9-f111-a05c-7ced8daf410c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_General" verticallayout="true" id="{06AAF8C4-1B3C-4980-85C6-0E2629E357A4}" IsUserDefined="0" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_General" showlabel="true" showbar="false" columns="1" id="{B39B518B-5EC9-4AB3-B23E-C94592528147}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1D8EFD39-3CCA-496F-BCCD-8667628A9089}" showlabel="true">
+                        <labels>
+                          <label description="Student" languagecode="1033" />
+                        </labels>
+                        <control id="edu_student" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_student" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1446E83E-DFA8-4BD5-8339-B20C66A2E363}" showlabel="true">
+                        <labels>
+                          <label description="Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_date" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="edu_date" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0FB39073-0D4A-4452-8786-E08AB7EF5012}" showlabel="true">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_attendancestatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="edu_attendancestatus" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{EC297FD7-052B-48C6-B5E7-6DB581C619F4}" showlabel="true">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_attendancetype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="edu_attendancetype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5B672028-EFB7-49FC-8E92-02BED7B95258}" showlabel="true">
+                        <labels>
+                          <label description="Absence Reason" languagecode="1033" />
+                        </labels>
+                        <control id="edu_absencereason" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_absencereason" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="EduCore Quick Create" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="EduCore attendance quick create" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

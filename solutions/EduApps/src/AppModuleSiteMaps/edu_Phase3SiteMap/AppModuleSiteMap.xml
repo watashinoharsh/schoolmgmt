@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>edu_Phase3SiteMap</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="1.0.0.0">
+    <Area Id="Approvals" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Approvals" />
+      </Titles>
+      <Group Id="g_Approvals" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Approvals" />
+        </Titles>
+        <SubArea Id="s_approvalrequest" Entity="edu_approvalrequest">
+          <Titles>
+            <Title LCID="1033" Title="Approval Requests" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_approvalhistory" Entity="edu_approvalhistory">
+          <Titles>
+            <Title LCID="1033" Title="Approval History Entries" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_approvalmatrix" Entity="edu_approvalmatrix">
+          <Titles>
+            <Title LCID="1033" Title="Approval Matrices" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_approvalmatrixdetail" Entity="edu_approvalmatrixdetail">
+          <Titles>
+            <Title LCID="1033" Title="Approval Matrix Details" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_approvalcontenttemplate" Entity="edu_approvalcontenttemplate">
+          <Titles>
+            <Title LCID="1033" Title="Approval Content Templates" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_approvaldelegation" Entity="edu_approvaldelegation">
+          <Titles>
+            <Title LCID="1033" Title="Approval Delegations" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="Notifications" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Notifications" />
+      </Titles>
+      <Group Id="g_Notifications" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Notifications" />
+        </Titles>
+        <SubArea Id="s_notification" Entity="edu_notification">
+          <Titles>
+            <Title LCID="1033" Title="Notifications" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_notificationrecipient" Entity="edu_notificationrecipient">
+          <Titles>
+            <Title LCID="1033" Title="Notification Recipients" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_notificationrule" Entity="edu_notificationrule">
+          <Titles>
+            <Title LCID="1033" Title="Notification Rules" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_notificationrecipientrule" Entity="edu_notificationrecipientrule">
+          <Titles>
+            <Title LCID="1033" Title="Notification Recipient Rules" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_notificationtemplate" Entity="edu_notificationtemplate">
+          <Titles>
+            <Title LCID="1033" Title="Notification Templates" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="Consent" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Consent" />
+      </Titles>
+      <Group Id="g_Consent" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Consent" />
+        </Titles>
+        <SubArea Id="s_consenttype" Entity="edu_consenttype">
+          <Titles>
+            <Title LCID="1033" Title="Consent Types" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_consentrecord" Entity="edu_consentrecord">
+          <Titles>
+            <Title LCID="1033" Title="Consent Records" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="Kiosk" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Kiosk" />
+      </Titles>
+      <Group Id="g_Kiosk" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Kiosk" />
+        </Titles>
+        <SubArea Id="s_kioskrecord" Entity="edu_kioskrecord">
+          <Titles>
+            <Title LCID="1033" Title="Kiosk Records" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_visitor" Entity="edu_visitor">
+          <Titles>
+            <Title LCID="1033" Title="Visitors" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_gatepass" Entity="edu_gatepass">
+          <Titles>
+            <Title LCID="1033" Title="Gate Passes" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_pickupauthorisation" Entity="edu_pickupauthorisation">
+          <Titles>
+            <Title LCID="1033" Title="Pickup Authorisations" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="Attendance" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Attendance" />
+      </Titles>
+      <Group Id="g_Attendance" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Attendance" />
+        </Titles>
+        <SubArea Id="s_attendancerecord" Entity="edu_attendancerecord">
+          <Titles>
+            <Title LCID="1033" Title="Attendance Records" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_musterevent" Entity="edu_musterevent">
+          <Titles>
+            <Title LCID="1033" Title="Muster Events" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_musterentry" Entity="edu_musterentry">
+          <Titles>
+            <Title LCID="1033" Title="Muster Entries" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="Activities" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Activities" />
+      </Titles>
+      <Group Id="g_Activities" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Activities" />
+        </Titles>
+        <SubArea Id="s_activity" Entity="edu_activity">
+          <Titles>
+            <Title LCID="1033" Title="Activities" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_activityvenue" Entity="edu_activityvenue">
+          <Titles>
+            <Title LCID="1033" Title="Activity Venues" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_activitytransport" Entity="edu_activitytransport">
+          <Titles>
+            <Title LCID="1033" Title="Activity Transports" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_activityrisk" Entity="edu_activityrisk">
+          <Titles>
+            <Title LCID="1033" Title="Activity Risk Assessments" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_activityparticipant" Entity="edu_activityparticipant">
+          <Titles>
+            <Title LCID="1033" Title="Activity Participants" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_activityfeedback" Entity="edu_activityfeedback">
+          <Titles>
+            <Title LCID="1033" Title="Activity Feedback Entries" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_activityreport" Entity="edu_activityreport">
+          <Titles>
+            <Title LCID="1033" Title="Activity Reports" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="Behaviour" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Behaviour" />
+      </Titles>
+      <Group Id="g_Behaviour" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Behaviour" />
+        </Titles>
+        <SubArea Id="s_behaviourcategory" Entity="edu_behaviourcategory">
+          <Titles>
+            <Title LCID="1033" Title="Behaviour Categories" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_behaviourrecord" Entity="edu_behaviourrecord">
+          <Titles>
+            <Title LCID="1033" Title="Behaviour Records" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="Gradebook" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Gradebook" />
+      </Titles>
+      <Group Id="g_Gradebook" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Gradebook" />
+        </Titles>
+        <SubArea Id="s_gradebookpublish" Entity="edu_gradebookpublish">
+          <Titles>
+            <Title LCID="1033" Title="Gradebook Publishes" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_gradebookcomponent" Entity="edu_gradebookcomponent">
+          <Titles>
+            <Title LCID="1033" Title="Gradebook Components" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_gradebookresult" Entity="edu_gradebookresult">
+          <Titles>
+            <Title LCID="1033" Title="Gradebook Results" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="Reports" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Reports" />
+      </Titles>
+      <Group Id="g_Reports" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Reports" />
+        </Titles>
+        <SubArea Id="s_academicreport" Entity="edu_academicreport">
+          <Titles>
+            <Title LCID="1033" Title="Academic Reports" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_academicreportversion" Entity="edu_academicreportversion">
+          <Titles>
+            <Title LCID="1033" Title="Academic Report Versions" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_documentreference" Entity="edu_documentreference">
+          <Titles>
+            <Title LCID="1033" Title="Document References" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="Reenrolment" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Reenrolment" />
+      </Titles>
+      <Group Id="g_Reenrolment" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Reenrolment" />
+        </Titles>
+        <SubArea Id="s_reenrolmentcycle" Entity="edu_reenrolmentcycle">
+          <Titles>
+            <Title LCID="1033" Title="Re-enrolment Cycles" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_reenrolmentrule" Entity="edu_reenrolmentrule">
+          <Titles>
+            <Title LCID="1033" Title="Re-enrolment Rules" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_reenrolmentcohort" Entity="edu_reenrolmentcohort">
+          <Titles>
+            <Title LCID="1033" Title="Re-enrolment Cohorts" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_reenrolment" Entity="edu_reenrolment">
+          <Titles>
+            <Title LCID="1033" Title="Re-enrolments" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="s_rolloverplan" Entity="edu_rolloverplan">
+          <Titles>
+            <Title LCID="1033" Title="Rollover Plans" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="CE Phase 3 Site Map" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

@@ -1,0 +1,15 @@
+<customapi uniquename="edu_GenerateReportCards">
+  <allowedcustomprocessingsteptype>0</allowedcustomprocessingsteptype>
+  <bindingtype>0</bindingtype>
+  <description default="Creates or refreshes the Draft report card of every actively enrolled student in a section for a term, from weighted marks. Published cards are skipped.">
+    <label description="Creates or refreshes the Draft report card of every actively enrolled student in a section for a term, from weighted marks. Published cards are skipped." languagecode="1033" />
+  </description>
+  <displayname default="Generate Report Cards">
+    <label description="Generate Report Cards" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isfunction>0</isfunction>
+  <isprivate>0</isprivate>
+  <name>edu_GenerateReportCards</name>
+  <workflowsdkstepenabled>0</workflowsdkstepenabled>
+</customapi>

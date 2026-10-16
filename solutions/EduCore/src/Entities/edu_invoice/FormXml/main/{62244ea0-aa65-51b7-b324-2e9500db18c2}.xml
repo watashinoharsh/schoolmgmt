@@ -7,86 +7,190 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab name="tab_general" id="{1a6863b7-1521-5809-9636-0557b50a7eca}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+        <tab name="tab_Summary" verticallayout="true" id="{276502F2-CBAA-4DC1-89E0-226DA2742E6B}" IsUserDefined="0" expanded="true">
           <labels>
-            <label description="General" languagecode="1033" />
+            <label description="Summary" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="sec_main" showlabel="true" showbar="false" id="{16a84625-6c7b-5427-b1ec-b72c8fd0f255}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                <section name="sec_Summary" showlabel="true" showbar="false" columns="1" id="{607F235E-5DAA-400B-B2B3-EB07E5D9089C}">
                   <labels>
-                    <label description="Invoice" languagecode="1033" />
+                    <label description="Summary" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{42ee15a9-8ff8-557b-8f22-a4be9ff503a0}" showlabel="true" locklevel="0">
+                      <cell id="{9701883F-E41E-497E-816C-960373A9FDFD}" showlabel="true">
                         <labels>
-                          <label description="Name" languagecode="1033" />
+                          <label description="Invoice" languagecode="1033" />
                         </labels>
-                        <control id="edu_name" classid="{5697fe9e-a451-5d6d-a705-5cb34cd932bf}" datafieldname="edu_name" />
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
                       </cell>
-                      <cell id="{eed5e4e6-7f51-5e6e-89d2-63d1d76ddff3}" showlabel="true" locklevel="0">
+                    </row>
+                    <row>
+                      <cell id="{8CCB5994-CCB4-44F2-85F2-63190962CA3E}" showlabel="true">
                         <labels>
                           <label description="Invoice Number" languagecode="1033" />
                         </labels>
-                        <control id="edu_invoicenumber" classid="{5697fe9e-a451-5d6d-a705-5cb34cd932bf}" datafieldname="edu_invoicenumber" />
+                        <control id="edu_invoicenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_invoicenumber" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{2474e4bd-de01-5cf7-a092-397a07d436ac}" showlabel="true" locklevel="0">
+                      <cell id="{38AAE4B3-3A0B-4F2F-B905-D3331DBA7606}" showlabel="true">
                         <labels>
                           <label description="Student" languagecode="1033" />
                         </labels>
-                        <control id="edu_student" classid="{3479482f-b4ff-5f62-bb3b-e96a8e2a73e4}" datafieldname="edu_student" />
+                        <control id="edu_student" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_student" />
                       </cell>
-                      <cell id="{d81b8b98-e0bd-551a-8682-3a36f96a8dc8}" showlabel="true" locklevel="0">
+                    </row>
+                    <row>
+                      <cell id="{07E55443-4039-4B50-BD79-8C277879A3D2}" showlabel="true">
                         <labels>
                           <label description="Bill-to Guardian" languagecode="1033" />
                         </labels>
-                        <control id="edu_billtoguardian" classid="{3479482f-b4ff-5f62-bb3b-e96a8e2a73e4}" datafieldname="edu_billtoguardian" />
+                        <control id="edu_billtoguardian" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_billtoguardian" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8ce84931-3f28-510d-b8bb-eb0b51ec81dd}" showlabel="true" locklevel="0">
+                      <cell id="{D960A85A-4C8F-45EA-8EB5-9B8F11A9C6A4}" showlabel="true">
                         <labels>
                           <label description="Term" languagecode="1033" />
                         </labels>
-                        <control id="edu_term" classid="{3479482f-b4ff-5f62-bb3b-e96a8e2a73e4}" datafieldname="edu_term" />
-                      </cell>
-                      <cell id="{61bc364d-f51a-5ba0-aae9-465d92572600}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Total Amount" languagecode="1033" />
-                        </labels>
-                        <control id="edu_totalamount" classid="{76d8eeca-07e5-5f0b-9ee8-6a6e0a3ce2ec}" datafieldname="edu_totalamount" />
+                        <control id="edu_term" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_term" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{499c2604-4482-5a9b-9d38-87ee26e7072d}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Paid Amount" languagecode="1033" />
-                        </labels>
-                        <control id="edu_paidamount" classid="{76d8eeca-07e5-5f0b-9ee8-6a6e0a3ce2ec}" datafieldname="edu_paidamount" />
-                      </cell>
-                      <cell id="{d2ab033d-9ad0-5d3f-99d3-898aa0468ea5}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Due Amount" languagecode="1033" />
-                        </labels>
-                        <control id="edu_dueamount" classid="{76d8eeca-07e5-5f0b-9ee8-6a6e0a3ce2ec}" datafieldname="edu_dueamount" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{1068689a-84c7-56f5-8618-74cf1bbb1ed8}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Due Date" languagecode="1033" />
-                        </labels>
-                        <control id="edu_duedate" classid="{f37dbaf3-4fa6-53f3-892f-e9187c0882c1}" datafieldname="edu_duedate" />
-                      </cell>
-                      <cell id="{e4cd0863-c9ce-5c53-9a7e-9e33493ff429}" showlabel="true" locklevel="0">
+                      <cell id="{FF85C3B3-4DDE-4F8F-B7FA-152A7F7EBB1C}" showlabel="true">
                         <labels>
                           <label description="Invoice Status" languagecode="1033" />
                         </labels>
-                        <control id="edu_invoicestatus" classid="{eaa536e4-3938-5692-bb59-0d1ad5717a59}" datafieldname="edu_invoicestatus" />
+                        <control id="edu_invoicestatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="edu_invoicestatus" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{F2EDFCF3-0559-46B7-8E17-2B28F26E9F17}" showlabel="true">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_duedate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="edu_duedate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54999288-B61B-4A77-8B95-7D450CC5AEDA}" showlabel="true">
+                        <labels>
+                          <label description="Total Amount" languagecode="1033" />
+                        </labels>
+                        <control id="edu_totalamount" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079AFDE7}" datafieldname="edu_totalamount" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{51966540-5818-4346-A144-C7BDF7426C2D}" showlabel="true">
+                        <labels>
+                          <label description="Paid Amount" languagecode="1033" />
+                        </labels>
+                        <control id="edu_paidamount" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079AFDE7}" datafieldname="edu_paidamount" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{36CD6F39-2779-4002-839E-614F7FCBC19C}" showlabel="true">
+                        <labels>
+                          <label description="Due Amount" languagecode="1033" />
+                        </labels>
+                        <control id="edu_dueamount" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079AFDE7}" datafieldname="edu_dueamount" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{A5B57ABA-FB13-4F8D-96A1-FA7E7E922036}" showlabel="true">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Lines" verticallayout="true" id="{4E19E78A-155B-42B1-A592-3F2B158E6F1F}" IsUserDefined="0" expanded="true">
+          <labels>
+            <label description="Lines" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_Lines" showlabel="true" showbar="false" columns="1" id="{78E53A6D-6C75-4C2B-9E55-665169DD3C81}">
+                  <labels>
+                    <label description="Lines" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7D2DCAE6-A4A1-49CA-A3A6-16CE9090EF92}" showlabel="false" rowspan="6" colspan="1">
+                        <labels>
+                          <label description="Invoice lines" languagecode="1033" />
+                        </labels>
+                        <control id="sg_edu_invoiceline_invoice" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{2CC16EC4-FEC9-5A4A-ACDF-810ED0773A34}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>edu_invoiceline_invoice</RelationshipName>
+                            <TargetEntityType>edu_invoiceline</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{2CC16EC4-FEC9-5A4A-ACDF-810ED0773A34}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Payments" verticallayout="true" id="{A0303307-DEF8-4DEB-88A4-154A07AEE8B0}" IsUserDefined="0" expanded="true">
+          <labels>
+            <label description="Payments" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_Payments" showlabel="true" showbar="false" columns="1" id="{02C00D1B-3F73-4E09-BA97-38FE9DC9B6C7}">
+                  <labels>
+                    <label description="Payments" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{16109B38-A071-4967-8122-6763551BE99A}" showlabel="false" rowspan="6" colspan="1">
+                        <labels>
+                          <label description="Payments" languagecode="1033" />
+                        </labels>
+                        <control id="sg_edu_payment_invoice" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{19E11B77-B6F6-59CC-9DA8-255140E98774}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>edu_payment_invoice</RelationshipName>
+                            <TargetEntityType>edu_payment</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{19E11B77-B6F6-59CC-9DA8-255140E98774}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                   </rows>
@@ -100,10 +204,10 @@
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Invoice" languagecode="1033" />
+      <LocalizedName description="EduCore Main" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
-      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="EduCore invoice main form" languagecode="1033" />
     </Descriptions>
   </systemform>
 </forms>

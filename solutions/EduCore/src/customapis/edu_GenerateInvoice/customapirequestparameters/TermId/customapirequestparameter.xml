@@ -1,0 +1,13 @@
+<customapirequestparameter uniquename="TermId">
+  <description default="Term to bill">
+    <label description="Term to bill" languagecode="1033" />
+  </description>
+  <displayname default="TermId">
+    <label description="TermId" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isoptional>0</isoptional>
+  <logicalentityname>edu_term</logicalentityname>
+  <name>TermId</name>
+  <type>5</type>
+</customapirequestparameter>

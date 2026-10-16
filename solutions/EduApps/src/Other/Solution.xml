@@ -1,35 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.643" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.26094.142" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.26094.142" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.26101.00152">
   <SolutionManifest>
-    <!-- Unique Name of Cds Solution-->
     <UniqueName>EduApps</UniqueName>
     <LocalizedNames>
-      <!-- Localized Solution Name in language code -->
       <LocalizedName description="EduApps" languagecode="1033" />
     </LocalizedNames>
-    <Descriptions><Description description="Model-driven app, site map and dashboards for the EDU School Management System. Depends on EduCore." languagecode="1033" /></Descriptions>
+    <Descriptions>
+      <Description description="Model-driven app, site map and dashboards for the EDU School Management System. Depends on EduCore." languagecode="1033" />
+    </Descriptions>
     <Version>1.0.0.0</Version>
-    <!-- Solution Package Type: Unmanaged(0)/Managed(1)/Both(2)-->
     <Managed>2</Managed>
     <Publisher>
-      <!-- Unique Publisher Name of Cds Solution -->
       <UniqueName>EduPublisher</UniqueName>
       <LocalizedNames>
-        <!-- Localized Cds Publisher Name in language code-->
         <LocalizedName description="Edu Publisher" languagecode="1033" />
       </LocalizedNames>
       <Descriptions>
-        <!-- Description of Cds Publisher in language code -->
         <Description description="EduPublisher" languagecode="1033" />
       </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
-      <!-- Customization Prefix for the Cds Publisher-->
       <CustomizationPrefix>edu</CustomizationPrefix>
-      <!-- Derived Option Value Prefix for the Customization Prefix of Cds Publisher -->
       <CustomizationOptionValuePrefix>85968</CustomizationOptionValuePrefix>
       <Addresses>
-        <!-- Address of the Publisher-->
         <Address>
           <AddressNumber>1</AddressNumber>
           <AddressTypeCode>1</AddressTypeCode>
@@ -89,9 +82,547 @@
       </Addresses>
     </Publisher>
     <RootComponents>
+      <RootComponent type="1" schemaName="edu_applicant" behavior="1" />
+      <RootComponent type="1" schemaName="edu_assessment" behavior="1" />
+      <RootComponent type="1" schemaName="edu_attendance" behavior="1" />
+      <RootComponent type="1" schemaName="edu_invoice" behavior="1" />
+      <RootComponent type="1" schemaName="edu_reportcard" behavior="1" />
+      <RootComponent type="60" id="{6ecb8f39-87c9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="60" id="{76cb8f39-87c9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="60" id="{7bcb8f39-87c9-f111-a05c-7ced8daf410c}" behavior="0" />
       <RootComponent type="62" schemaName="edu_Phase3SiteMap" behavior="0" />
-      <RootComponent type="80" schemaName="edu_Phase3Admin" behavior="0" />
+      <RootComponent type="62" schemaName="edu_SchoolAdminSiteMap" behavior="0" />
+      <RootComponent type="80" schemaName="edu_SchoolAdmin" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_academicreport" displayName="Academic Report" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_academicreport" displayName="Academic Report" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_academicreportversion" displayName="Academic Report Version" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_academicreportversion" displayName="Academic Report Version" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_academicyear" displayName="Academic Year" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activity" displayName="Activity" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activity" displayName="Activity" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activityfeedback" displayName="Activity Feedback" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activityfeedback" displayName="Activity Feedback" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activityparticipant" displayName="Activity Participant" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activityparticipant" displayName="Activity Participant" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activityreport" displayName="Activity Report" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activityreport" displayName="Activity Report" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activityrisk" displayName="Activity Risk Assessment" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activityrisk" displayName="Activity Risk Assessment" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activitytransport" displayName="Activity Transport" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activitytransport" displayName="Activity Transport" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activityvenue" displayName="Activity Venue" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activityvenue" displayName="Activity Venue" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_applicant" displayName="Applicant" solution="Active" />
+        <Dependent type="1" schemaName="edu_applicant" displayName="Applicant" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvalcontenttemplate" displayName="Approval Content Template" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvalcontenttemplate" displayName="Approval Content Template" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvaldelegation" displayName="Approval Delegation" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvaldelegation" displayName="Approval Delegation" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvalhistory" displayName="Approval History" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvalhistory" displayName="Approval History" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvalmatrix" displayName="Approval Matrix" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvalmatrix" displayName="Approval Matrix" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvalmatrixdetail" displayName="Approval Matrix Detail" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvalmatrixdetail" displayName="Approval Matrix Detail" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvalrequest" displayName="Approval Request" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvalrequest" displayName="Approval Request" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_assessment" displayName="Assessment" solution="Active" />
+        <Dependent type="1" schemaName="edu_assessment" displayName="Assessment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_attendance" displayName="Attendance" solution="Active" />
+        <Dependent type="1" schemaName="edu_attendance" displayName="Attendance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_attendancerecord" displayName="Attendance Record" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_attendancerecord" displayName="Attendance Record" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_attendancesummary" displayName="Attendance Summary" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_behaviourcategory" displayName="Behaviour Category" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_behaviourcategory" displayName="Behaviour Category" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_behaviourrecord" displayName="Behaviour Record" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_behaviourrecord" displayName="Behaviour Record" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_calendarday" displayName="Calendar Day" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_classschedule" displayName="Class Schedule" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_consentrecord" displayName="Consent Record" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_consentrecord" displayName="Consent Record" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_consenttype" displayName="Consent Type" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_consenttype" displayName="Consent Type" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_course" displayName="Course" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_documentreference" displayName="Document Reference" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_documentreference" displayName="Document Reference" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_enrolment" displayName="Enrolment" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_feestructure" displayName="Fee Structure" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_feetype" displayName="Fee Type" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_gatepass" displayName="Gate Pass" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_gatepass" displayName="Gate Pass" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_grade" displayName="Grade" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_gradeband" displayName="Grade Band" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_gradebookcomponent" displayName="Gradebook Component" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_gradebookcomponent" displayName="Gradebook Component" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_gradebookpublish" displayName="Gradebook Publish" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_gradebookpublish" displayName="Gradebook Publish" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_gradebookresult" displayName="Gradebook Result" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_gradebookresult" displayName="Gradebook Result" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_invoice" displayName="Invoice" solution="Active" />
+        <Dependent type="1" schemaName="edu_invoice" displayName="Invoice" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_invoiceline" displayName="Invoice Line" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_kioskrecord" displayName="Kiosk Record" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_kioskrecord" displayName="Kiosk Record" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_musterentry" displayName="Muster Entry" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_musterentry" displayName="Muster Entry" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_musterevent" displayName="Muster Event" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_musterevent" displayName="Muster Event" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_notification" displayName="Notification" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_notification" displayName="Notification" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_notificationrecipient" displayName="Notification Recipient" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_notificationrecipient" displayName="Notification Recipient" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_notificationrecipientrule" displayName="Notification Recipient Rule" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_notificationrecipientrule" displayName="Notification Recipient Rule" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_notificationrule" displayName="Notification Rule" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_notificationrule" displayName="Notification Rule" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_notificationtemplate" displayName="Notification Template" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_notificationtemplate" displayName="Notification Template" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_payment" displayName="Payment" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_period" displayName="Period" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_pickupauthorisation" displayName="Pickup Authorisation" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_pickupauthorisation" displayName="Pickup Authorisation" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_reenrolment" displayName="Re-enrolment" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_reenrolment" displayName="Re-enrolment" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_reenrolmentcohort" displayName="Re-enrolment Cohort" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_reenrolmentcohort" displayName="Re-enrolment Cohort" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_reenrolmentcycle" displayName="Re-enrolment Cycle" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_reenrolmentcycle" displayName="Re-enrolment Cycle" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_reenrolmentrule" displayName="Re-enrolment Rule" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_reenrolmentrule" displayName="Re-enrolment Rule" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_reportcard" displayName="Report Card" solution="Active" />
+        <Dependent type="1" schemaName="edu_reportcard" displayName="Report Card" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_reportcardline" displayName="Report Card Line" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_rolloverplan" displayName="Rollover Plan" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_rolloverplan" displayName="Rollover Plan" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_section" displayName="Section" solution="Active" />
+        <Dependent type="60" displayName="EDU Teacher Dashboard" id="{76cb8f39-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_section" displayName="Section" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_staff" displayName="Staff" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_student" displayName="Student" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_studentguardian" displayName="Student Guardian" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_studentmark" displayName="Student Mark" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_subjectassignment" displayName="Subject Assignment" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_term" displayName="Term" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_visitor" displayName="Visitor" solution="Active" />
+        <Dependent type="62" schemaName="edu_Phase3SiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_visitor" displayName="Visitor" solution="Active" />
+        <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="edu_applicantid" displayName="Applicant" parentSchemaName="edu_applicant" parentDisplayName="Applicant" solution="Active" />
+        <Dependent type="59" schemaName="EDU Applications by status" displayName="EDU Applications by status" parentSchemaName="edu_applicant" parentDisplayName="Applicant" id="{f2e0d82c-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="edu_assessmentid" displayName="Assessment" parentSchemaName="edu_assessment" parentDisplayName="Assessment" solution="Active" />
+        <Dependent type="59" schemaName="EDU Assessments by type" displayName="EDU Assessments by type" parentSchemaName="edu_assessment" parentDisplayName="Assessment" id="{02e1d82c-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="edu_assessmenttype" displayName="Type" parentSchemaName="edu_assessment" parentDisplayName="Assessment" solution="Active" />
+        <Dependent type="59" schemaName="EDU Assessments by type" displayName="EDU Assessments by type" parentSchemaName="edu_assessment" parentDisplayName="Assessment" id="{02e1d82c-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="edu_attendanceid" displayName="Attendance" parentSchemaName="edu_attendance" parentDisplayName="Attendance" solution="Active" />
+        <Dependent type="59" schemaName="EDU Attendance trend by month" displayName="EDU Attendance trend by month" parentSchemaName="edu_attendance" parentDisplayName="Attendance" id="{f8e0d82c-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="edu_attendanceid" displayName="Attendance" parentSchemaName="edu_attendance" parentDisplayName="Attendance" solution="Active" />
+        <Dependent type="59" schemaName="EDU Attendance by status" displayName="EDU Attendance by status" parentSchemaName="edu_attendance" parentDisplayName="Attendance" id="{fee0d82c-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="edu_attendancestatus" displayName="Status" parentSchemaName="edu_attendance" parentDisplayName="Attendance" solution="Active" />
+        <Dependent type="59" schemaName="EDU Attendance by status" displayName="EDU Attendance by status" parentSchemaName="edu_attendance" parentDisplayName="Attendance" id="{fee0d82c-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="edu_date" displayName="Date" parentSchemaName="edu_attendance" parentDisplayName="Attendance" solution="Active" />
+        <Dependent type="59" schemaName="EDU Attendance trend by month" displayName="EDU Attendance trend by month" parentSchemaName="edu_attendance" parentDisplayName="Attendance" id="{f8e0d82c-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="edu_dueamount" displayName="Due Amount" parentSchemaName="edu_invoice" parentDisplayName="Invoice" solution="Active" />
+        <Dependent type="59" schemaName="EDU Fees collected vs outstanding" displayName="EDU Fees collected vs outstanding" parentSchemaName="edu_invoice" parentDisplayName="Invoice" id="{69cb8f39-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="edu_invoicestatus" displayName="Invoice Status" parentSchemaName="edu_invoice" parentDisplayName="Invoice" solution="Active" />
+        <Dependent type="59" schemaName="EDU Fees collected vs outstanding" displayName="EDU Fees collected vs outstanding" parentSchemaName="edu_invoice" parentDisplayName="Invoice" id="{69cb8f39-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="edu_paidamount" displayName="Paid Amount" parentSchemaName="edu_invoice" parentDisplayName="Invoice" solution="Active" />
+        <Dependent type="59" schemaName="EDU Fees collected vs outstanding" displayName="EDU Fees collected vs outstanding" parentSchemaName="edu_invoice" parentDisplayName="Invoice" id="{69cb8f39-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="edu_reportcardid" displayName="Report Card" parentSchemaName="edu_reportcard" parentDisplayName="Report Card" solution="Active" />
+        <Dependent type="59" schemaName="EDU Report cards by status" displayName="EDU Report cards by status" parentSchemaName="edu_reportcard" parentDisplayName="Report Card" id="{06e1d82c-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="edu_reportstatus" displayName="Status" parentSchemaName="edu_reportcard" parentDisplayName="Report Card" solution="Active" />
+        <Dependent type="59" schemaName="EDU Report cards by status" displayName="EDU Report cards by status" parentSchemaName="edu_reportcard" parentDisplayName="Report Card" id="{06e1d82c-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="edu_applicant" parentDisplayName="Applicant" solution="Active" />
+        <Dependent type="59" schemaName="EDU Applications by status" displayName="EDU Applications by status" parentSchemaName="edu_applicant" parentDisplayName="Applicant" id="{f2e0d82c-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Applicants" displayName="Active Applicants" parentSchemaName="edu_applicant" parentDisplayName="Applicant" solution="Active" id="{f6bca33e-1fbe-56e9-a44b-1989762244a0}" />
+        <Dependent type="60" displayName="EDU Admin Dashboard" id="{6ecb8f39-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Applicants" displayName="Active Applicants" parentSchemaName="edu_applicant" parentDisplayName="Applicant" solution="Active" id="{f6bca33e-1fbe-56e9-a44b-1989762244a0}" />
+        <Dependent type="60" displayName="EDU Front Office Dashboard" id="{7bcb8f39-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Assessments" displayName="Active Assessments" parentSchemaName="edu_assessment" parentDisplayName="Assessment" solution="Active" id="{a364eeeb-7ac7-5f4c-8c19-87502b5d00d2}" />
+        <Dependent type="60" displayName="EDU Teacher Dashboard" id="{76cb8f39-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Attendance Records" displayName="Active Attendance Records" parentSchemaName="edu_attendance" parentDisplayName="Attendance" solution="Active" id="{1f5b440d-b5b8-5a11-96ef-d0cc3bcd4af0}" />
+        <Dependent type="60" displayName="EDU Admin Dashboard" id="{6ecb8f39-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Attendance Records" displayName="Active Attendance Records" parentSchemaName="edu_attendance" parentDisplayName="Attendance" solution="Active" id="{1f5b440d-b5b8-5a11-96ef-d0cc3bcd4af0}" />
+        <Dependent type="60" displayName="EDU Front Office Dashboard" id="{7bcb8f39-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Invoices" displayName="Active Invoices" parentSchemaName="edu_invoice" parentDisplayName="Invoice" solution="Active" id="{53a75016-8aef-5696-98b5-05c222b9b2f5}" />
+        <Dependent type="60" displayName="EDU Admin Dashboard" id="{6ecb8f39-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Invoices" displayName="Active Invoices" parentSchemaName="edu_invoice" parentDisplayName="Invoice" solution="Active" id="{53a75016-8aef-5696-98b5-05c222b9b2f5}" />
+        <Dependent type="60" displayName="EDU Front Office Dashboard" id="{7bcb8f39-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Report Cards" displayName="Active Report Cards" parentSchemaName="edu_reportcard" parentDisplayName="Report Card" solution="Active" id="{eadc154b-8881-48d3-b754-560e57581f6b}" />
+        <Dependent type="60" displayName="EDU Teacher Dashboard" id="{76cb8f39-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Sections" displayName="Active Sections" parentSchemaName="edu_section" parentDisplayName="Section" solution="Active" id="{db898ece-96e2-5500-9334-a50df7940ef6}" />
+        <Dependent type="60" displayName="EDU Teacher Dashboard" id="{76cb8f39-87c9-f111-a05c-7ced8daf410c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="edu_SchoolAdmin" displayName="EDU School Admin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.27)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.27">PowerAppsAppFramework_Anchor (1.0.0.27)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=edu_SchoolAdmin,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="edu_SchoolAdmin" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>

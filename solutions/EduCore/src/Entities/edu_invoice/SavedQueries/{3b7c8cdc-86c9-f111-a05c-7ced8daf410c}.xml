@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{3b7c8cdc-86c9-f111-a05c-7ced8daf410c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="edu_invoicenumber" select="1" icon="1" preview="1">
+        <row name="result" id="edu_invoiceid">
+          <cell name="edu_invoicenumber" width="130" />
+          <cell name="edu_student" width="180" />
+          <cell name="edu_term" width="110" />
+          <cell name="edu_duedate" width="110" />
+          <cell name="edu_totalamount" width="110" />
+          <cell name="edu_paidamount" width="110" />
+          <cell name="edu_dueamount" width="110" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="edu_invoice">
+          <attribute name="edu_invoicenumber" />
+          <attribute name="edu_student" />
+          <attribute name="edu_term" />
+          <attribute name="edu_duedate" />
+          <attribute name="edu_totalamount" />
+          <attribute name="edu_paidamount" />
+          <attribute name="edu_dueamount" />
+          <attribute name="edu_invoiceid" />
+          <order attribute="edu_duedate" descending="false" />
+          <filter type="and">
+            <condition attribute="edu_invoicestatus" operator="eq" value="859680004" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Overdue Invoices" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Invoices with Overdue status" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

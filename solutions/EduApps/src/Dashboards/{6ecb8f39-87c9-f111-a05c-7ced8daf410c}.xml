@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="EDU Admin Dashboard" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Application funnel, fees collected vs outstanding, attendance trend" languagecode="1033" />
+  </Descriptions>
+  <FormId>{6ecb8f39-87c9-f111-a05c-7ced8daf410c}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab verticallayout="true" id="{0A0363E2-C15A-4AA0-9C9B-A51B8442878E}">
+            <labels>
+              <label description="" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" id="{1706DDDF-9950-4DA9-997F-9BBB73A57B35}" columns="2">
+                    <labels>
+                      <label description="" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell id="{B299E654-C971-4DB0-98D0-AC62663F3CF5}" showlabel="false" rowspan="9" colspan="1">
+                          <labels>
+                            <label description="Applicants" languagecode="1033" />
+                          </labels>
+                          <control id="c42bfee0f79ed4ec0bee51b75fa382ef4" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{f6bca33e-1fbe-56e9-a44b-1989762244a0}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>edu_applicant</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{f2e0d82c-87c9-f111-a05c-7ced8daf410c}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>5</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{91AD1CC2-8FC8-45C1-8BC4-48907C13AF6A}" showlabel="false" rowspan="9" colspan="1">
+                          <labels>
+                            <label description="Invoices" languagecode="1033" />
+                          </labels>
+                          <control id="c98fa7a1e80734c65bcd88216ec4095b1" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{53a75016-8aef-5696-98b5-05c222b9b2f5}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>edu_invoice</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{69cb8f39-87c9-f111-a05c-7ced8daf410c}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>5</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{E9C9DCD4-7F40-4425-9009-0772DF65D048}" showlabel="false" rowspan="9" colspan="1">
+                          <labels>
+                            <label description="Attendance Records" languagecode="1033" />
+                          </labels>
+                          <control id="c6a653b56edd84217965c3919275947fa" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{1f5b440d-b5b8-5a11-96ef-d0cc3bcd4af0}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>edu_attendance</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{f8e0d82c-87c9-f111-a05c-7ced8daf410c}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>5</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{3C35452F-5BBB-49D0-BC3B-1D59500E8829}" showlabel="false" rowspan="9" colspan="1">
+                          <labels>
+                            <label description="Attendance Records" languagecode="1033" />
+                          </labels>
+                          <control id="c6eb1360eda3c4a228848aad45a2f9b34" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{1f5b440d-b5b8-5a11-96ef-d0cc3bcd4af0}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>edu_attendance</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{fee0d82c-87c9-f111-a05c-7ced8daf410c}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>5</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

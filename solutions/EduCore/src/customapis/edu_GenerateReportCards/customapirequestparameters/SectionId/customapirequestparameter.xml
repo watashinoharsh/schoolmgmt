@@ -1,0 +1,13 @@
+<customapirequestparameter uniquename="SectionId">
+  <description default="Section to report on">
+    <label description="Section to report on" languagecode="1033" />
+  </description>
+  <displayname default="SectionId">
+    <label description="SectionId" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isoptional>0</isoptional>
+  <logicalentityname>edu_section</logicalentityname>
+  <name>SectionId</name>
+  <type>5</type>
+</customapirequestparameter>

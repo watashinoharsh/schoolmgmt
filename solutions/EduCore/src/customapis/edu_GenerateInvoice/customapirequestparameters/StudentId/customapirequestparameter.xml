@@ -1,0 +1,13 @@
+<customapirequestparameter uniquename="StudentId">
+  <description default="Student to bill">
+    <label description="Student to bill" languagecode="1033" />
+  </description>
+  <displayname default="StudentId">
+    <label description="StudentId" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isoptional>0</isoptional>
+  <logicalentityname>edu_student</logicalentityname>
+  <name>StudentId</name>
+  <type>5</type>
+</customapirequestparameter>
