@@ -5,7 +5,7 @@
   Then export with export-solution.ps1.
 #>
 param(
-    [string]$OrgUrl = 'https://clinicmgmtdev01.crm8.dynamics.com',
+    [Parameter(Mandatory)][string]$OrgUrl,
     [string]$TokenFile = "$env:LOCALAPPDATA\Temp\dvtoken.txt",
     [string]$Solution = 'EduCore'
 )
