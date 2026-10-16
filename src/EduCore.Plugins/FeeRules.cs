@@ -4,6 +4,26 @@ using Microsoft.Xrm.Sdk;
 
 namespace EduCore.Plugins
 {
+    /// <summary>Reads optional Custom API inputs. The platform can hand an omitted DateTime parameter over as 0001-01-01.</summary>
+    public static class ApiInput
+    {
+        /// <summary>The date, or null when the parameter was left out, null, or is the 0001-01-01 placeholder.</summary>
+        public static DateTime? OptionalDate(object value)
+        {
+            if (!(value is DateTime)) return null;
+            var d = (DateTime)value;
+            return d.Year <= 1 ? (DateTime?)null : d;
+        }
+
+        /// <summary>The choice value, or null when the parameter was left out: an omitted integer arrives as 0, which no choice uses.</summary>
+        public static int? OptionalChoice(object value)
+        {
+            if (!(value is int)) return null;
+            var v = (int)value;
+            return v <= 0 ? (int?)null : v;
+        }
+    }
+
     /// <summary>One fee-structure row as the generator sees it.</summary>
     public sealed class FeeItem
     {

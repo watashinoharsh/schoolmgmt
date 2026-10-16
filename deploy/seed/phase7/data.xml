@@ -2,1047 +2,1047 @@
 <entities timestamp="2026-10-16T00:00:00Z">
   <entity name="edu_reportcard" displayname="Report Card">
     <records>
-      <record id="282a837a-1696-5d51-ac56-016adefa58ec">
+      <record id="e50de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Rohan Iyer - Term 1" />
-        <field name="edu_student" value="d41c2251-83e9-5214-ac25-6fc57cb2d265" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="4ac77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="75.00" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="97.44" />
         <field name="edu_reportstatus" value="859680001" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
         <field name="edu_publishedon" value="2026-09-28T00:00:00" />
-        <field name="edu_uniquekey" value="d41c2251-83e9-5214-ac25-6fc57cb2d265|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="4ac77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="dd5dfab9-a4e4-5a3d-843a-7b57851baba1">
+      <record id="834de24c-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Diya Nair - Term 1" />
-        <field name="edu_student" value="4ea5d49b-6184-52e0-9d7a-c7cf45a4d015" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="4ec77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="72.38" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="94.87" />
         <field name="edu_reportstatus" value="859680001" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
         <field name="edu_publishedon" value="2026-09-28T00:00:00" />
-        <field name="edu_uniquekey" value="4ea5d49b-6184-52e0-9d7a-c7cf45a4d015|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="4ec77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="e1c12863-a50e-5488-b063-ef84eba3ffe2">
+      <record id="e10de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Aarav Menon - Term 1" />
-        <field name="edu_student" value="44b9d096-a07a-5e35-8cc3-971a2ca2ea13" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="5ac77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="75.25" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="97.50" />
         <field name="edu_reportstatus" value="859680001" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
         <field name="edu_publishedon" value="2026-09-28T00:00:00" />
-        <field name="edu_uniquekey" value="44b9d096-a07a-5e35-8cc3-971a2ca2ea13|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="5ac77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="05c19710-529e-5cab-a263-115ffbb617d8">
+      <record id="7e4de24c-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Anaya Shah - Term 1" />
-        <field name="edu_student" value="b1a34cc1-ecdd-55c6-bbb9-1c515210d636" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="47c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="72.63" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="95.00" />
         <field name="edu_reportstatus" value="859680001" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
         <field name="edu_publishedon" value="2026-09-28T00:00:00" />
-        <field name="edu_uniquekey" value="b1a34cc1-ecdd-55c6-bbb9-1c515210d636|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="47c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="9979e8f0-ce37-54f6-90d8-4c43a3487429">
+      <record id="de0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Ishaan Verma - Term 1" />
-        <field name="edu_student" value="04eb8b94-fb2f-564e-8022-288c625706be" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="4dc77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="75.50" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="97.44" />
         <field name="edu_reportstatus" value="859680001" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
         <field name="edu_publishedon" value="2026-09-28T00:00:00" />
-        <field name="edu_uniquekey" value="04eb8b94-fb2f-564e-8022-288c625706be|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="4dc77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="25115143-597f-5e41-9646-ab75f21f30c6">
+      <record id="e20de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Kavya Gupta - Term 1" />
-        <field name="edu_student" value="86ccd2fc-a7bd-5799-bae8-e3746609ca8e" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="51c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="68.75" />
         <field name="edu_overallgrade" value="C" />
         <field name="edu_attendancepercent" value="80.00" />
         <field name="edu_reportstatus" value="859680001" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
         <field name="edu_publishedon" value="2026-09-28T00:00:00" />
-        <field name="edu_uniquekey" value="86ccd2fc-a7bd-5799-bae8-e3746609ca8e|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="51c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="44a6f235-fd36-5b22-824e-5890e9e13de7">
+      <record id="e80de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Rahul Kapoor - Term 1" />
-        <field name="edu_student" value="c0eacd11-c148-52b3-b9ee-1e7b0cedce6c" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="5bc77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="75.75" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="97.44" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="c0eacd11-c148-52b3-b9ee-1e7b0cedce6c|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="5bc77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="1f6c7663-0f56-555a-91ee-fe5bf4ab4773">
+      <record id="7f4de24c-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Asha Reddy - Term 1" />
-        <field name="edu_student" value="172e58c1-3162-5e43-82d5-72d1925cf0a8" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="48c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="69.00" />
         <field name="edu_overallgrade" value="C" />
         <field name="edu_attendancepercent" value="97.44" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="172e58c1-3162-5e43-82d5-72d1925cf0a8|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="48c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="6c08e93b-0050-5a28-9a11-4f348c535a1c">
+      <record id="e30de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Rohan Singh - Term 1" />
-        <field name="edu_student" value="ab27a9de-5c8f-5d83-84d7-0b3096b1067a" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="4cc77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="76.00" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="94.87" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="ab27a9de-5c8f-5d83-84d7-0b3096b1067a|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="4cc77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="91a3cf7b-72ec-5d8c-83ea-3a093976b3b5">
+      <record id="dc0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Diya Das - Term 1" />
-        <field name="edu_student" value="e1a10621-0ec2-5995-9f06-d61af74cec1e" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="50c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="73.38" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="97.50" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="e1a10621-0ec2-5995-9f06-d61af74cec1e|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="50c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="0ca0aedb-eff4-58e1-ae51-4185959a1ac7">
+      <record id="e00de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Aarav Joshi - Term 1" />
-        <field name="edu_student" value="9c80895d-bd39-5741-92e4-aced098ea07b" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="54c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="76.25" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="95.00" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="9c80895d-bd39-5741-92e4-aced098ea07b|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="54c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="41f1ea41-204b-5eb3-8f77-44f27d470abf">
+      <record id="814de24c-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Anaya Rao - Term 1" />
-        <field name="edu_student" value="9f670c8e-8e52-5cd1-b0a8-26bbda67dfed" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="49c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="69.50" />
         <field name="edu_overallgrade" value="C" />
         <field name="edu_attendancepercent" value="80.00" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="9f670c8e-8e52-5cd1-b0a8-26bbda67dfed|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="49c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="a91bea06-25d5-5921-9cb0-46f75545343a">
+      <record id="e40de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Ishaan Iyer - Term 1" />
-        <field name="edu_student" value="3e195bae-2f58-53aa-9c48-d5527c5c2474" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="46c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="76.50" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="100.00" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="3e195bae-2f58-53aa-9c48-d5527c5c2474|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="46c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="9f0684e8-e566-58c0-bb1a-9ad9b7685cf5">
+      <record id="db0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Kavya Nair - Term 1" />
-        <field name="edu_student" value="3c0d9146-1993-584c-bae6-46f698b627c4" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="4bc77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="69.75" />
         <field name="edu_overallgrade" value="C" />
         <field name="edu_attendancepercent" value="97.44" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="3c0d9146-1993-584c-bae6-46f698b627c4|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="4bc77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="34cccd23-8e89-5793-a2cb-1752607c1d1c">
+      <record id="df0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Rahul Menon - Term 1" />
-        <field name="edu_student" value="03ad8417-aab3-54d0-9850-89cd4804d5ce" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="53c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="67.13" />
         <field name="edu_overallgrade" value="C" />
         <field name="edu_attendancepercent" value="97.44" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="03ad8417-aab3-54d0-9850-89cd4804d5ce|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="53c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="5ea85563-3b48-577d-94bf-1f6262512812">
+      <record id="804de24c-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Asha Shah - Term 1" />
-        <field name="edu_student" value="728f5253-fbc6-575a-b202-453814e93182" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="4fc77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="70.00" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="94.87" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="728f5253-fbc6-575a-b202-453814e93182|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="4fc77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="c5b4fedb-2560-52e7-8727-8e74e316b642">
+      <record id="ed0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Rohan Verma - Term 1" />
-        <field name="edu_student" value="9f802f8d-06de-5629-a672-d258dc803b73" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="52c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="77.00" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="97.50" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="9f802f8d-06de-5629-a672-d258dc803b73|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="52c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="18a69b13-278f-5582-b73e-b41c77405b8a">
+      <record id="e70de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Diya Gupta - Term 1" />
-        <field name="edu_student" value="9d1212f7-d56b-5511-8011-bf1de157f7c0" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="57c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="70.25" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="75.00" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="9d1212f7-d56b-5511-8011-bf1de157f7c0|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="57c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="5099340f-2e19-5aa2-bd6a-22dfcb38307a">
+      <record id="eb0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Aarav Kapoor - Term 1" />
-        <field name="edu_student" value="ba7a46a9-bd52-57ca-8b1c-82b59990ee6e" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="5cc77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="77.25" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="97.44" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="ba7a46a9-bd52-57ca-8b1c-82b59990ee6e|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="5cc77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="3c7cf6bd-06e7-5032-b063-2773136a9cc5">
+      <record id="dd0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Anaya Reddy - Term 1" />
-        <field name="edu_student" value="e819e5fc-1c2b-5a5d-b38f-8867df6ce88a" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="59c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="70.50" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="100.00" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="e819e5fc-1c2b-5a5d-b38f-8867df6ce88a|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="59c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="43f9610a-152c-55e9-9f21-32e77daf961b">
+      <record id="ec0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Ishaan Singh - Term 1" />
-        <field name="edu_student" value="fab5b090-7e30-5250-b42a-68f500b8a2b8" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="55c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="67.88" />
         <field name="edu_overallgrade" value="C" />
         <field name="edu_attendancepercent" value="97.44" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="fab5b090-7e30-5250-b42a-68f500b8a2b8|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="55c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="0c8d6e49-788f-5270-8d44-78951faeb49d">
+      <record id="e60de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Kavya Das - Term 1" />
-        <field name="edu_student" value="14d74c38-16e9-55af-94a2-1af59cc950e1" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="56c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="70.75" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="97.44" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="14d74c38-16e9-55af-94a2-1af59cc950e1|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="56c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="6e073563-443a-550c-92f2-77d36013225c">
+      <record id="e90de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Rahul Joshi - Term 1" />
-        <field name="edu_student" value="85e9ac9c-0cc4-5a6a-ad60-e1f506e31c65" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="5dc77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="68.13" />
         <field name="edu_overallgrade" value="C" />
         <field name="edu_attendancepercent" value="94.87" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="85e9ac9c-0cc4-5a6a-ad60-e1f506e31c65|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="5dc77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
-      <record id="e8b49278-77e5-5cfc-b8b3-5466860a42ea">
+      <record id="844de24c-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Asha Rao - Term 1" />
-        <field name="edu_student" value="d78b09c9-f79e-58c9-80e7-90aec518df86" lookupentity="edu_student" lookupentityname="" />
-        <field name="edu_term" value="787a36c1-7f39-538b-93cb-b6c9ec9c77f9" lookupentity="edu_term" lookupentityname="" />
+        <field name="edu_student" value="58c77c84-04b9-f111-aaae-7ced8daf410c" lookupentity="edu_student" lookupentityname="" />
+        <field name="edu_term" value="cb746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_term" lookupentityname="" />
         <field name="edu_overallpercent" value="71.00" />
         <field name="edu_overallgrade" value="B" />
         <field name="edu_attendancepercent" value="77.50" />
         <field name="edu_reportstatus" value="859680000" />
         <field name="edu_generatedon" value="2026-09-26T00:00:00" />
-        <field name="edu_uniquekey" value="d78b09c9-f79e-58c9-80e7-90aec518df86|787a36c1-7f39-538b-93cb-b6c9ec9c77f9" />
+        <field name="edu_uniquekey" value="58c77c84-04b9-f111-aaae-7ced8daf410c|cb746481-02b9-f111-aaad-6045bdea6e32" />
       </record>
     </records>
   </entity>
   <entity name="edu_reportcardline" displayname="Report Card Line">
     <records>
-      <record id="4439d86f-9ee3-5c96-a225-3a78f4c86330">
+      <record id="ee0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="282a837a-1696-5d51-ac56-016adefa58ec" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="8490dbf4-15cd-5f10-a1fc-5e1182a8f9f5" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e50de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7b98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="55.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="282a837a-1696-5d51-ac56-016adefa58ec|8490dbf4-15cd-5f10-a1fc-5e1182a8f9f5" />
+        <field name="edu_uniquekey" value="e50de252-86c9-f111-a05c-7ced8daf410c|7b98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="c15297a9-f6eb-5eee-afaa-acb524d5e3e3">
+      <record id="0e0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="282a837a-1696-5d51-ac56-016adefa58ec" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="0f1ba6b3-b081-5584-a013-e271dfa79b38" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e50de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7198c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="68.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="282a837a-1696-5d51-ac56-016adefa58ec|0f1ba6b3-b081-5584-a013-e271dfa79b38" />
+        <field name="edu_uniquekey" value="e50de252-86c9-f111-a05c-7ced8daf410c|7198c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="0ec1bca9-2b09-502b-8475-6e78f6030f58">
+      <record id="120ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="282a837a-1696-5d51-ac56-016adefa58ec" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="2fa3cfea-8667-5a6f-bccd-9a66f1a07c56" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e50de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7698c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="81.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="282a837a-1696-5d51-ac56-016adefa58ec|2fa3cfea-8667-5a6f-bccd-9a66f1a07c56" />
+        <field name="edu_uniquekey" value="e50de252-86c9-f111-a05c-7ced8daf410c|7698c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="1813be4f-509d-58fc-896f-eb830feda112">
+      <record id="f20de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="282a837a-1696-5d51-ac56-016adefa58ec" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="2d74d2ec-c89e-5adf-9e24-e452e049f102" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e50de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6d98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="94.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="282a837a-1696-5d51-ac56-016adefa58ec|2d74d2ec-c89e-5adf-9e24-e452e049f102" />
+        <field name="edu_uniquekey" value="e50de252-86c9-f111-a05c-7ced8daf410c|6d98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="9b25e1d0-0db0-5e69-bc08-ffd34c21f7ac">
+      <record id="f00de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="dd5dfab9-a4e4-5a3d-843a-7b57851baba1" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="8490dbf4-15cd-5f10-a1fc-5e1182a8f9f5" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="834de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7b98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="62.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="dd5dfab9-a4e4-5a3d-843a-7b57851baba1|8490dbf4-15cd-5f10-a1fc-5e1182a8f9f5" />
+        <field name="edu_uniquekey" value="834de24c-86c9-f111-a05c-7ced8daf410c|7b98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="db011abe-b7b4-5a1e-90ad-1340bc3ea53e">
+      <record id="100ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="dd5dfab9-a4e4-5a3d-843a-7b57851baba1" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="0f1ba6b3-b081-5584-a013-e271dfa79b38" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="834de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7198c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="75.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="dd5dfab9-a4e4-5a3d-843a-7b57851baba1|0f1ba6b3-b081-5584-a013-e271dfa79b38" />
+        <field name="edu_uniquekey" value="834de24c-86c9-f111-a05c-7ced8daf410c|7198c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="b53e9396-0ded-5d28-ab81-59a09603d0a7">
+      <record id="140ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="dd5dfab9-a4e4-5a3d-843a-7b57851baba1" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="2fa3cfea-8667-5a6f-bccd-9a66f1a07c56" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="834de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7698c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="88.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="dd5dfab9-a4e4-5a3d-843a-7b57851baba1|2fa3cfea-8667-5a6f-bccd-9a66f1a07c56" />
+        <field name="edu_uniquekey" value="834de24c-86c9-f111-a05c-7ced8daf410c|7698c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="77e2ec1c-13c5-5f27-b7ab-fcf023e5d205">
+      <record id="f50de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="dd5dfab9-a4e4-5a3d-843a-7b57851baba1" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="2d74d2ec-c89e-5adf-9e24-e452e049f102" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="834de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6d98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="63.00" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="dd5dfab9-a4e4-5a3d-843a-7b57851baba1|2d74d2ec-c89e-5adf-9e24-e452e049f102" />
+        <field name="edu_uniquekey" value="834de24c-86c9-f111-a05c-7ced8daf410c|6d98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="1a314c34-0b53-5f42-9dd6-9acfae31c5a9">
+      <record id="f10de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="e1c12863-a50e-5488-b063-ef84eba3ffe2" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="8490dbf4-15cd-5f10-a1fc-5e1182a8f9f5" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e10de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7b98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="69.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="e1c12863-a50e-5488-b063-ef84eba3ffe2|8490dbf4-15cd-5f10-a1fc-5e1182a8f9f5" />
+        <field name="edu_uniquekey" value="e10de252-86c9-f111-a05c-7ced8daf410c|7b98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="71582aa1-4f20-5e0d-bd9c-398f0df6bc6a">
+      <record id="0f0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="e1c12863-a50e-5488-b063-ef84eba3ffe2" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="0f1ba6b3-b081-5584-a013-e271dfa79b38" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e10de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7198c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="82.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="e1c12863-a50e-5488-b063-ef84eba3ffe2|0f1ba6b3-b081-5584-a013-e271dfa79b38" />
+        <field name="edu_uniquekey" value="e10de252-86c9-f111-a05c-7ced8daf410c|7198c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="5a0a8c66-5762-5e95-8e41-f7f5373e9f99">
+      <record id="130ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="e1c12863-a50e-5488-b063-ef84eba3ffe2" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="2fa3cfea-8667-5a6f-bccd-9a66f1a07c56" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e10de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7698c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="95.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="e1c12863-a50e-5488-b063-ef84eba3ffe2|2fa3cfea-8667-5a6f-bccd-9a66f1a07c56" />
+        <field name="edu_uniquekey" value="e10de252-86c9-f111-a05c-7ced8daf410c|7698c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="7dd42aa7-fe17-5fa5-a9c9-34e7d237a239">
+      <record id="f60de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="e1c12863-a50e-5488-b063-ef84eba3ffe2" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="2d74d2ec-c89e-5adf-9e24-e452e049f102" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e10de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6d98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="53.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="e1c12863-a50e-5488-b063-ef84eba3ffe2|2d74d2ec-c89e-5adf-9e24-e452e049f102" />
+        <field name="edu_uniquekey" value="e10de252-86c9-f111-a05c-7ced8daf410c|6d98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="90fd7a69-cd45-5f7c-9bd5-60f53b1e3e39">
+      <record id="ef0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="05c19710-529e-5cab-a263-115ffbb617d8" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="8490dbf4-15cd-5f10-a1fc-5e1182a8f9f5" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="7e4de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7b98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="76.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="05c19710-529e-5cab-a263-115ffbb617d8|8490dbf4-15cd-5f10-a1fc-5e1182a8f9f5" />
+        <field name="edu_uniquekey" value="7e4de24c-86c9-f111-a05c-7ced8daf410c|7b98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="896f4c11-8995-5824-8a6d-3fbc7d24f9a2">
+      <record id="0d0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="05c19710-529e-5cab-a263-115ffbb617d8" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="0f1ba6b3-b081-5584-a013-e271dfa79b38" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="7e4de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7198c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="89.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="05c19710-529e-5cab-a263-115ffbb617d8|0f1ba6b3-b081-5584-a013-e271dfa79b38" />
+        <field name="edu_uniquekey" value="7e4de24c-86c9-f111-a05c-7ced8daf410c|7198c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="5e042cc5-8a15-5994-8395-ce7db9c4a930">
+      <record id="110ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="05c19710-529e-5cab-a263-115ffbb617d8" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="2fa3cfea-8667-5a6f-bccd-9a66f1a07c56" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="7e4de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7698c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="64.00" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="05c19710-529e-5cab-a263-115ffbb617d8|2fa3cfea-8667-5a6f-bccd-9a66f1a07c56" />
+        <field name="edu_uniquekey" value="7e4de24c-86c9-f111-a05c-7ced8daf410c|7698c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="63978d96-3495-54eb-ad00-3f4ff6b55abf">
+      <record id="f30de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="05c19710-529e-5cab-a263-115ffbb617d8" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="2d74d2ec-c89e-5adf-9e24-e452e049f102" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="7e4de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6d98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="60.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="05c19710-529e-5cab-a263-115ffbb617d8|2d74d2ec-c89e-5adf-9e24-e452e049f102" />
+        <field name="edu_uniquekey" value="7e4de24c-86c9-f111-a05c-7ced8daf410c|6d98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="d6702a15-cc24-5e82-8606-e9bd8d7ba769">
+      <record id="2a0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="9979e8f0-ce37-54f6-90d8-4c43a3487429" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="b55dcbb8-b4b4-50cc-b578-99636366ad7b" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="de0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7c98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="83.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="9979e8f0-ce37-54f6-90d8-4c43a3487429|b55dcbb8-b4b4-50cc-b578-99636366ad7b" />
+        <field name="edu_uniquekey" value="de0de252-86c9-f111-a05c-7ced8daf410c|7c98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="0ea6bcd0-ccbb-503e-8a87-450010d736d3">
+      <record id="3d0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="9979e8f0-ce37-54f6-90d8-4c43a3487429" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="a66d583a-eb05-58e6-a31d-9ec06280ce1f" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="de0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6f98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="96.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="9979e8f0-ce37-54f6-90d8-4c43a3487429|a66d583a-eb05-58e6-a31d-9ec06280ce1f" />
+        <field name="edu_uniquekey" value="de0de252-86c9-f111-a05c-7ced8daf410c|6f98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="0483e8a1-4655-585a-ae75-22b4f426164b">
+      <record id="160ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="9979e8f0-ce37-54f6-90d8-4c43a3487429" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="f105636d-6a05-59bb-b251-6c6fe7725b48" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="de0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7498c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="54.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="9979e8f0-ce37-54f6-90d8-4c43a3487429|f105636d-6a05-59bb-b251-6c6fe7725b48" />
+        <field name="edu_uniquekey" value="de0de252-86c9-f111-a05c-7ced8daf410c|7498c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="6684f333-d70a-58cf-98c3-432544e69206">
+      <record id="f70de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="9979e8f0-ce37-54f6-90d8-4c43a3487429" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="effd49b7-9c68-580d-b60c-cd08f7bfc1a9" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="de0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6a98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="67.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="9979e8f0-ce37-54f6-90d8-4c43a3487429|effd49b7-9c68-580d-b60c-cd08f7bfc1a9" />
+        <field name="edu_uniquekey" value="de0de252-86c9-f111-a05c-7ced8daf410c|6a98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="dc06b56a-8eca-5512-b6a0-f71be8804b69">
+      <record id="2e0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="25115143-597f-5e41-9646-ab75f21f30c6" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="b55dcbb8-b4b4-50cc-b578-99636366ad7b" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e20de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7c98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="90.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="25115143-597f-5e41-9646-ab75f21f30c6|b55dcbb8-b4b4-50cc-b578-99636366ad7b" />
+        <field name="edu_uniquekey" value="e20de252-86c9-f111-a05c-7ced8daf410c|7c98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="d126b952-b94b-5aa2-b1cd-26f7ad91326a">
+      <record id="410ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="25115143-597f-5e41-9646-ab75f21f30c6" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="a66d583a-eb05-58e6-a31d-9ec06280ce1f" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e20de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6f98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="48.50" />
         <field name="edu_letter" value="F" />
-        <field name="edu_uniquekey" value="25115143-597f-5e41-9646-ab75f21f30c6|a66d583a-eb05-58e6-a31d-9ec06280ce1f" />
+        <field name="edu_uniquekey" value="e20de252-86c9-f111-a05c-7ced8daf410c|6f98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="93ad5449-e327-5250-ae2e-92cc4873ed4b">
+      <record id="180ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="25115143-597f-5e41-9646-ab75f21f30c6" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="f105636d-6a05-59bb-b251-6c6fe7725b48" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e20de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7498c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="61.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="25115143-597f-5e41-9646-ab75f21f30c6|f105636d-6a05-59bb-b251-6c6fe7725b48" />
+        <field name="edu_uniquekey" value="e20de252-86c9-f111-a05c-7ced8daf410c|7498c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="4448fc8e-ff1b-5912-a4eb-bc7d7ca082ee">
+      <record id="fa0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="25115143-597f-5e41-9646-ab75f21f30c6" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="effd49b7-9c68-580d-b60c-cd08f7bfc1a9" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e20de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6a98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="74.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="25115143-597f-5e41-9646-ab75f21f30c6|effd49b7-9c68-580d-b60c-cd08f7bfc1a9" />
+        <field name="edu_uniquekey" value="e20de252-86c9-f111-a05c-7ced8daf410c|6a98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="9903dbc0-d2a9-54fd-a4e6-d992f67804e8">
+      <record id="2b0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="44a6f235-fd36-5b22-824e-5890e9e13de7" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="b55dcbb8-b4b4-50cc-b578-99636366ad7b" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e80de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7c98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="97.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="44a6f235-fd36-5b22-824e-5890e9e13de7|b55dcbb8-b4b4-50cc-b578-99636366ad7b" />
+        <field name="edu_uniquekey" value="e80de252-86c9-f111-a05c-7ced8daf410c|7c98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="ab19d666-6122-5eaf-8716-0db81c293548">
+      <record id="400ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="44a6f235-fd36-5b22-824e-5890e9e13de7" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="a66d583a-eb05-58e6-a31d-9ec06280ce1f" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e80de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6f98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="55.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="44a6f235-fd36-5b22-824e-5890e9e13de7|a66d583a-eb05-58e6-a31d-9ec06280ce1f" />
+        <field name="edu_uniquekey" value="e80de252-86c9-f111-a05c-7ced8daf410c|6f98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="ae45027a-8f65-5a4e-9e3b-63a474e6aee8">
+      <record id="170ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="44a6f235-fd36-5b22-824e-5890e9e13de7" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="f105636d-6a05-59bb-b251-6c6fe7725b48" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e80de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7498c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="68.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="44a6f235-fd36-5b22-824e-5890e9e13de7|f105636d-6a05-59bb-b251-6c6fe7725b48" />
+        <field name="edu_uniquekey" value="e80de252-86c9-f111-a05c-7ced8daf410c|7498c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="ce72d2f2-488c-56a7-b343-a1371579fa38">
+      <record id="fb0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="44a6f235-fd36-5b22-824e-5890e9e13de7" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="effd49b7-9c68-580d-b60c-cd08f7bfc1a9" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e80de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6a98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="81.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="44a6f235-fd36-5b22-824e-5890e9e13de7|effd49b7-9c68-580d-b60c-cd08f7bfc1a9" />
+        <field name="edu_uniquekey" value="e80de252-86c9-f111-a05c-7ced8daf410c|6a98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="dbc7943f-7a5c-5f19-8a68-1d19d4fd3286">
+      <record id="2c0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="1f6c7663-0f56-555a-91ee-fe5bf4ab4773" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="b55dcbb8-b4b4-50cc-b578-99636366ad7b" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="7f4de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7c98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="49.50" />
         <field name="edu_letter" value="F" />
-        <field name="edu_uniquekey" value="1f6c7663-0f56-555a-91ee-fe5bf4ab4773|b55dcbb8-b4b4-50cc-b578-99636366ad7b" />
+        <field name="edu_uniquekey" value="7f4de24c-86c9-f111-a05c-7ced8daf410c|7c98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="2fc749aa-3875-5ead-9bfb-344405becb68">
+      <record id="3f0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="1f6c7663-0f56-555a-91ee-fe5bf4ab4773" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="a66d583a-eb05-58e6-a31d-9ec06280ce1f" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="7f4de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6f98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="62.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="1f6c7663-0f56-555a-91ee-fe5bf4ab4773|a66d583a-eb05-58e6-a31d-9ec06280ce1f" />
+        <field name="edu_uniquekey" value="7f4de24c-86c9-f111-a05c-7ced8daf410c|6f98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="1ed85797-0641-5543-9ecf-1831af61c8be">
+      <record id="150ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="1f6c7663-0f56-555a-91ee-fe5bf4ab4773" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="f105636d-6a05-59bb-b251-6c6fe7725b48" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="7f4de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7498c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="75.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="1f6c7663-0f56-555a-91ee-fe5bf4ab4773|f105636d-6a05-59bb-b251-6c6fe7725b48" />
+        <field name="edu_uniquekey" value="7f4de24c-86c9-f111-a05c-7ced8daf410c|7498c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="28b48fd6-74cc-5d6a-abee-9e3d88918d52">
+      <record id="f80de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="1f6c7663-0f56-555a-91ee-fe5bf4ab4773" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="effd49b7-9c68-580d-b60c-cd08f7bfc1a9" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="7f4de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6a98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="88.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="1f6c7663-0f56-555a-91ee-fe5bf4ab4773|effd49b7-9c68-580d-b60c-cd08f7bfc1a9" />
+        <field name="edu_uniquekey" value="7f4de24c-86c9-f111-a05c-7ced8daf410c|6a98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="c76fe9c6-45ee-5c33-a72e-daaa5fd08fc0">
+      <record id="2d0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="6c08e93b-0050-5a28-9a11-4f348c535a1c" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="5e99d292-aacc-5064-844b-82ad5e6141c7" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e30de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7598c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="56.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="6c08e93b-0050-5a28-9a11-4f348c535a1c|5e99d292-aacc-5064-844b-82ad5e6141c7" />
+        <field name="edu_uniquekey" value="e30de252-86c9-f111-a05c-7ced8daf410c|7598c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="47af45f5-167f-54ec-9d1a-70b5c1e73969">
+      <record id="420ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="6c08e93b-0050-5a28-9a11-4f348c535a1c" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="360f1a4a-de5a-52e7-9c33-acca4da32693" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e30de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7998c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="69.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="6c08e93b-0050-5a28-9a11-4f348c535a1c|360f1a4a-de5a-52e7-9c33-acca4da32693" />
+        <field name="edu_uniquekey" value="e30de252-86c9-f111-a05c-7ced8daf410c|7998c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="f4db8626-f419-544c-bc8a-0c9220bd2202">
+      <record id="190ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="6c08e93b-0050-5a28-9a11-4f348c535a1c" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="e5cc17bd-d083-56b0-98f3-cb885b5ddfd8" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e30de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7298c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="82.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="6c08e93b-0050-5a28-9a11-4f348c535a1c|e5cc17bd-d083-56b0-98f3-cb885b5ddfd8" />
+        <field name="edu_uniquekey" value="e30de252-86c9-f111-a05c-7ced8daf410c|7298c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="b2598e9d-5abe-51e4-b167-fd3032b7c544">
+      <record id="fc0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="6c08e93b-0050-5a28-9a11-4f348c535a1c" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="46b793f8-ff88-5de7-beb0-a5407a63aa35" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e30de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6c98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="95.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="6c08e93b-0050-5a28-9a11-4f348c535a1c|46b793f8-ff88-5de7-beb0-a5407a63aa35" />
+        <field name="edu_uniquekey" value="e30de252-86c9-f111-a05c-7ced8daf410c|6c98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="2128f76b-aee7-54a9-bd3b-b02a89eca1a2">
+      <record id="310ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="91a3cf7b-72ec-5d8c-83ea-3a093976b3b5" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="5e99d292-aacc-5064-844b-82ad5e6141c7" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="dc0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7598c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="63.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="91a3cf7b-72ec-5d8c-83ea-3a093976b3b5|5e99d292-aacc-5064-844b-82ad5e6141c7" />
+        <field name="edu_uniquekey" value="dc0de252-86c9-f111-a05c-7ced8daf410c|7598c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="c00bba57-8283-5ff7-9bd1-377251aa262f">
+      <record id="460ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="91a3cf7b-72ec-5d8c-83ea-3a093976b3b5" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="360f1a4a-de5a-52e7-9c33-acca4da32693" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="dc0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7998c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="76.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="91a3cf7b-72ec-5d8c-83ea-3a093976b3b5|360f1a4a-de5a-52e7-9c33-acca4da32693" />
+        <field name="edu_uniquekey" value="dc0de252-86c9-f111-a05c-7ced8daf410c|7998c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="e2e1f7a6-564c-5ba0-87df-27a69f46fd18">
+      <record id="1b0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="91a3cf7b-72ec-5d8c-83ea-3a093976b3b5" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="e5cc17bd-d083-56b0-98f3-cb885b5ddfd8" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="dc0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7298c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="89.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="91a3cf7b-72ec-5d8c-83ea-3a093976b3b5|e5cc17bd-d083-56b0-98f3-cb885b5ddfd8" />
+        <field name="edu_uniquekey" value="dc0de252-86c9-f111-a05c-7ced8daf410c|7298c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="dfdd969a-694c-5155-9350-d2e573462660">
+      <record id="ff0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="91a3cf7b-72ec-5d8c-83ea-3a093976b3b5" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="46b793f8-ff88-5de7-beb0-a5407a63aa35" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="dc0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6c98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="64.00" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="91a3cf7b-72ec-5d8c-83ea-3a093976b3b5|46b793f8-ff88-5de7-beb0-a5407a63aa35" />
+        <field name="edu_uniquekey" value="dc0de252-86c9-f111-a05c-7ced8daf410c|6c98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="d53f67ad-b9c3-5054-b661-f8ee444d425c">
+      <record id="300ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="0ca0aedb-eff4-58e1-ae51-4185959a1ac7" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="5e99d292-aacc-5064-844b-82ad5e6141c7" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e00de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7598c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="70.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="0ca0aedb-eff4-58e1-ae51-4185959a1ac7|5e99d292-aacc-5064-844b-82ad5e6141c7" />
+        <field name="edu_uniquekey" value="e00de252-86c9-f111-a05c-7ced8daf410c|7598c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="44ecd242-5a52-5fd4-a7ab-60cd5de1994f">
+      <record id="440ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="0ca0aedb-eff4-58e1-ae51-4185959a1ac7" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="360f1a4a-de5a-52e7-9c33-acca4da32693" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e00de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7998c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="83.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="0ca0aedb-eff4-58e1-ae51-4185959a1ac7|360f1a4a-de5a-52e7-9c33-acca4da32693" />
+        <field name="edu_uniquekey" value="e00de252-86c9-f111-a05c-7ced8daf410c|7998c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="71516270-26fe-5f86-8d3c-06c99b90529f">
+      <record id="1c0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="0ca0aedb-eff4-58e1-ae51-4185959a1ac7" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="e5cc17bd-d083-56b0-98f3-cb885b5ddfd8" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e00de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7298c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="96.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="0ca0aedb-eff4-58e1-ae51-4185959a1ac7|e5cc17bd-d083-56b0-98f3-cb885b5ddfd8" />
+        <field name="edu_uniquekey" value="e00de252-86c9-f111-a05c-7ced8daf410c|7298c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="67dd6857-dac9-528e-9e79-bf91e792bf1e">
+      <record id="fe0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="0ca0aedb-eff4-58e1-ae51-4185959a1ac7" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="46b793f8-ff88-5de7-beb0-a5407a63aa35" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e00de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6c98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="54.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="0ca0aedb-eff4-58e1-ae51-4185959a1ac7|46b793f8-ff88-5de7-beb0-a5407a63aa35" />
+        <field name="edu_uniquekey" value="e00de252-86c9-f111-a05c-7ced8daf410c|6c98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="08e70b2b-075e-585f-954c-6f985bb3ea19">
+      <record id="2f0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="41f1ea41-204b-5eb3-8f77-44f27d470abf" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="5e99d292-aacc-5064-844b-82ad5e6141c7" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="814de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7598c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="77.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="41f1ea41-204b-5eb3-8f77-44f27d470abf|5e99d292-aacc-5064-844b-82ad5e6141c7" />
+        <field name="edu_uniquekey" value="814de24c-86c9-f111-a05c-7ced8daf410c|7598c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="c2409dfa-c74d-5657-9ab3-6e3e373f0e4c">
+      <record id="430ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="41f1ea41-204b-5eb3-8f77-44f27d470abf" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="360f1a4a-de5a-52e7-9c33-acca4da32693" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="814de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7998c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="90.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="41f1ea41-204b-5eb3-8f77-44f27d470abf|360f1a4a-de5a-52e7-9c33-acca4da32693" />
+        <field name="edu_uniquekey" value="814de24c-86c9-f111-a05c-7ced8daf410c|7998c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="c97f7244-1bb3-5bf5-a732-8fbbf9fc9559">
+      <record id="1a0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="41f1ea41-204b-5eb3-8f77-44f27d470abf" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="e5cc17bd-d083-56b0-98f3-cb885b5ddfd8" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="814de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7298c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="48.50" />
         <field name="edu_letter" value="F" />
-        <field name="edu_uniquekey" value="41f1ea41-204b-5eb3-8f77-44f27d470abf|e5cc17bd-d083-56b0-98f3-cb885b5ddfd8" />
+        <field name="edu_uniquekey" value="814de24c-86c9-f111-a05c-7ced8daf410c|7298c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="7e9c7e10-5ba4-5b53-910c-76e27fd2edb7">
+      <record id="fd0de252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="41f1ea41-204b-5eb3-8f77-44f27d470abf" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="46b793f8-ff88-5de7-beb0-a5407a63aa35" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="814de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6c98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="61.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="41f1ea41-204b-5eb3-8f77-44f27d470abf|46b793f8-ff88-5de7-beb0-a5407a63aa35" />
+        <field name="edu_uniquekey" value="814de24c-86c9-f111-a05c-7ced8daf410c|6c98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="f6dda004-3220-5ecb-a674-c9591d81c454">
+      <record id="320ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="a91bea06-25d5-5921-9cb0-46f75545343a" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="4abb4ac0-855e-56ed-b1ac-33deaffc616a" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e40de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7398c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="84.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="a91bea06-25d5-5921-9cb0-46f75545343a|4abb4ac0-855e-56ed-b1ac-33deaffc616a" />
+        <field name="edu_uniquekey" value="e40de252-86c9-f111-a05c-7ced8daf410c|7398c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="ad6f2796-aedc-50ca-9048-aecd70134280">
+      <record id="450ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="a91bea06-25d5-5921-9cb0-46f75545343a" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="c74d7746-4523-50c0-8742-ad8dc438cc0c" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e40de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7798c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="97.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="a91bea06-25d5-5921-9cb0-46f75545343a|c74d7746-4523-50c0-8742-ad8dc438cc0c" />
+        <field name="edu_uniquekey" value="e40de252-86c9-f111-a05c-7ced8daf410c|7798c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="197596c2-2200-5842-a4ef-0a74e423afca">
+      <record id="1d0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="a91bea06-25d5-5921-9cb0-46f75545343a" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="914ac2fd-591d-5db1-86f2-2acbc8fb1238" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e40de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7098c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="55.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="a91bea06-25d5-5921-9cb0-46f75545343a|914ac2fd-591d-5db1-86f2-2acbc8fb1238" />
+        <field name="edu_uniquekey" value="e40de252-86c9-f111-a05c-7ced8daf410c|7098c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="2dc292ae-10fe-5422-b743-52223139750d">
+      <record id="000ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="a91bea06-25d5-5921-9cb0-46f75545343a" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="b3e63c3a-d333-5180-aaaa-1b4930a7a90e" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e40de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6b98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="68.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="a91bea06-25d5-5921-9cb0-46f75545343a|b3e63c3a-d333-5180-aaaa-1b4930a7a90e" />
+        <field name="edu_uniquekey" value="e40de252-86c9-f111-a05c-7ced8daf410c|6b98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="7124bfc8-6384-57c3-bd9f-6cf9e1ff521b">
+      <record id="360ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="9f0684e8-e566-58c0-bb1a-9ad9b7685cf5" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="4abb4ac0-855e-56ed-b1ac-33deaffc616a" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="db0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7398c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="91.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="9f0684e8-e566-58c0-bb1a-9ad9b7685cf5|4abb4ac0-855e-56ed-b1ac-33deaffc616a" />
+        <field name="edu_uniquekey" value="db0de252-86c9-f111-a05c-7ced8daf410c|7398c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="38a74e35-8fa1-5f45-a726-3ec30b76136a">
+      <record id="4a0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="9f0684e8-e566-58c0-bb1a-9ad9b7685cf5" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="c74d7746-4523-50c0-8742-ad8dc438cc0c" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="db0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7798c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="49.50" />
         <field name="edu_letter" value="F" />
-        <field name="edu_uniquekey" value="9f0684e8-e566-58c0-bb1a-9ad9b7685cf5|c74d7746-4523-50c0-8742-ad8dc438cc0c" />
+        <field name="edu_uniquekey" value="db0de252-86c9-f111-a05c-7ced8daf410c|7798c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="b253282a-860c-5a36-b8bd-023fbdfd1e5c">
+      <record id="200ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="9f0684e8-e566-58c0-bb1a-9ad9b7685cf5" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="914ac2fd-591d-5db1-86f2-2acbc8fb1238" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="db0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7098c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="62.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="9f0684e8-e566-58c0-bb1a-9ad9b7685cf5|914ac2fd-591d-5db1-86f2-2acbc8fb1238" />
+        <field name="edu_uniquekey" value="db0de252-86c9-f111-a05c-7ced8daf410c|7098c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="c587ab72-7e53-5543-998e-226a560f69ae">
+      <record id="030ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="9f0684e8-e566-58c0-bb1a-9ad9b7685cf5" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="b3e63c3a-d333-5180-aaaa-1b4930a7a90e" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="db0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6b98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="75.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="9f0684e8-e566-58c0-bb1a-9ad9b7685cf5|b3e63c3a-d333-5180-aaaa-1b4930a7a90e" />
+        <field name="edu_uniquekey" value="db0de252-86c9-f111-a05c-7ced8daf410c|6b98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="bf5a1d48-9fe2-59d1-97bf-f967cdbf9ce6">
+      <record id="340ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="34cccd23-8e89-5793-a2cb-1752607c1d1c" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="4abb4ac0-855e-56ed-b1ac-33deaffc616a" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="df0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7398c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="60.00" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="34cccd23-8e89-5793-a2cb-1752607c1d1c|4abb4ac0-855e-56ed-b1ac-33deaffc616a" />
+        <field name="edu_uniquekey" value="df0de252-86c9-f111-a05c-7ced8daf410c|7398c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="e34746b8-990c-53c6-893b-9cccb9fb9fee">
+      <record id="470ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="34cccd23-8e89-5793-a2cb-1752607c1d1c" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="c74d7746-4523-50c0-8742-ad8dc438cc0c" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="df0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7798c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="56.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="34cccd23-8e89-5793-a2cb-1752607c1d1c|c74d7746-4523-50c0-8742-ad8dc438cc0c" />
+        <field name="edu_uniquekey" value="df0de252-86c9-f111-a05c-7ced8daf410c|7798c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="ea99a0ad-8101-5b7b-be31-1e308bdec6b7">
+      <record id="1f0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="34cccd23-8e89-5793-a2cb-1752607c1d1c" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="914ac2fd-591d-5db1-86f2-2acbc8fb1238" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="df0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7098c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="69.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="34cccd23-8e89-5793-a2cb-1752607c1d1c|914ac2fd-591d-5db1-86f2-2acbc8fb1238" />
+        <field name="edu_uniquekey" value="df0de252-86c9-f111-a05c-7ced8daf410c|7098c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="827065f7-a645-55ab-9437-cfabbff1f3d4">
+      <record id="020ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="34cccd23-8e89-5793-a2cb-1752607c1d1c" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="b3e63c3a-d333-5180-aaaa-1b4930a7a90e" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="df0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6b98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="82.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="34cccd23-8e89-5793-a2cb-1752607c1d1c|b3e63c3a-d333-5180-aaaa-1b4930a7a90e" />
+        <field name="edu_uniquekey" value="df0de252-86c9-f111-a05c-7ced8daf410c|6b98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="11fcb286-0fad-5d59-a633-5106b6100956">
+      <record id="330ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="5ea85563-3b48-577d-94bf-1f6262512812" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="4abb4ac0-855e-56ed-b1ac-33deaffc616a" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="804de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7398c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="50.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="5ea85563-3b48-577d-94bf-1f6262512812|4abb4ac0-855e-56ed-b1ac-33deaffc616a" />
+        <field name="edu_uniquekey" value="804de24c-86c9-f111-a05c-7ced8daf410c|7398c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="34b1edcc-c1d4-54b2-8a3d-4fc0916a8c4c">
+      <record id="480ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="5ea85563-3b48-577d-94bf-1f6262512812" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="c74d7746-4523-50c0-8742-ad8dc438cc0c" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="804de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7798c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="63.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="5ea85563-3b48-577d-94bf-1f6262512812|c74d7746-4523-50c0-8742-ad8dc438cc0c" />
+        <field name="edu_uniquekey" value="804de24c-86c9-f111-a05c-7ced8daf410c|7798c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="beb37ffe-8e2a-5757-93cf-a4e55dadf67f">
+      <record id="1e0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="5ea85563-3b48-577d-94bf-1f6262512812" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="914ac2fd-591d-5db1-86f2-2acbc8fb1238" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="804de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7098c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="76.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="5ea85563-3b48-577d-94bf-1f6262512812|914ac2fd-591d-5db1-86f2-2acbc8fb1238" />
+        <field name="edu_uniquekey" value="804de24c-86c9-f111-a05c-7ced8daf410c|7098c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="02fde3fa-851e-54bb-9944-e795ebe26abf">
+      <record id="010ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="5ea85563-3b48-577d-94bf-1f6262512812" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="b3e63c3a-d333-5180-aaaa-1b4930a7a90e" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="804de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="6b98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="89.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="5ea85563-3b48-577d-94bf-1f6262512812|b3e63c3a-d333-5180-aaaa-1b4930a7a90e" />
+        <field name="edu_uniquekey" value="804de24c-86c9-f111-a05c-7ced8daf410c|6b98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="49dfe15d-210f-5ef4-ba9e-7213ce765c8f">
+      <record id="350ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="c5b4fedb-2560-52e7-8727-8e74e316b642" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="09e0dc07-a50b-5579-8f65-e79d31136b4e" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="ed0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7d98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="57.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="c5b4fedb-2560-52e7-8727-8e74e316b642|09e0dc07-a50b-5579-8f65-e79d31136b4e" />
+        <field name="edu_uniquekey" value="ed0de252-86c9-f111-a05c-7ced8daf410c|7d98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="aa17cea7-04bb-5ec4-a8d2-504804d9c7d6">
+      <record id="490ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="c5b4fedb-2560-52e7-8727-8e74e316b642" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="0f406373-9e6e-519b-ae1d-2da6cfca1009" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="ed0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="8198c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="70.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="c5b4fedb-2560-52e7-8727-8e74e316b642|0f406373-9e6e-519b-ae1d-2da6cfca1009" />
+        <field name="edu_uniquekey" value="ed0de252-86c9-f111-a05c-7ced8daf410c|8198c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="f71b445f-84d9-528f-8532-8e71789d4b17">
+      <record id="220ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="c5b4fedb-2560-52e7-8727-8e74e316b642" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="f9828f78-b644-53c3-b1a1-79a7aaadc9d6" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="ed0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="8098c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="83.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="c5b4fedb-2560-52e7-8727-8e74e316b642|f9828f78-b644-53c3-b1a1-79a7aaadc9d6" />
+        <field name="edu_uniquekey" value="ed0de252-86c9-f111-a05c-7ced8daf410c|8098c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="c28f9f54-cb3b-5d57-a00f-1d74297cf937">
+      <record id="040ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="c5b4fedb-2560-52e7-8727-8e74e316b642" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="1ab1c0d6-5261-572b-a768-52eba4a94b39" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="ed0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7a98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="96.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="c5b4fedb-2560-52e7-8727-8e74e316b642|1ab1c0d6-5261-572b-a768-52eba4a94b39" />
+        <field name="edu_uniquekey" value="ed0de252-86c9-f111-a05c-7ced8daf410c|7a98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="a2c7055c-b860-55cb-a4a6-87fdf7aec09b">
+      <record id="3a0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="18a69b13-278f-5582-b73e-b41c77405b8a" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="09e0dc07-a50b-5579-8f65-e79d31136b4e" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e70de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7d98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="64.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="18a69b13-278f-5582-b73e-b41c77405b8a|09e0dc07-a50b-5579-8f65-e79d31136b4e" />
+        <field name="edu_uniquekey" value="e70de252-86c9-f111-a05c-7ced8daf410c|7d98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="d2ba06cf-5b36-55ee-b05f-74b37ad6598a">
+      <record id="4d0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="18a69b13-278f-5582-b73e-b41c77405b8a" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="0f406373-9e6e-519b-ae1d-2da6cfca1009" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e70de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="8198c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="77.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="18a69b13-278f-5582-b73e-b41c77405b8a|0f406373-9e6e-519b-ae1d-2da6cfca1009" />
+        <field name="edu_uniquekey" value="e70de252-86c9-f111-a05c-7ced8daf410c|8198c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="9daab058-42cf-5834-8f07-776e72cb28b7">
+      <record id="230ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="18a69b13-278f-5582-b73e-b41c77405b8a" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="f9828f78-b644-53c3-b1a1-79a7aaadc9d6" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e70de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="8098c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="90.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="18a69b13-278f-5582-b73e-b41c77405b8a|f9828f78-b644-53c3-b1a1-79a7aaadc9d6" />
+        <field name="edu_uniquekey" value="e70de252-86c9-f111-a05c-7ced8daf410c|8098c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="2a8d5541-57ad-5adb-b313-af2cffe96610">
+      <record id="070ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="18a69b13-278f-5582-b73e-b41c77405b8a" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="1ab1c0d6-5261-572b-a768-52eba4a94b39" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e70de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7a98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="48.50" />
         <field name="edu_letter" value="F" />
-        <field name="edu_uniquekey" value="18a69b13-278f-5582-b73e-b41c77405b8a|1ab1c0d6-5261-572b-a768-52eba4a94b39" />
+        <field name="edu_uniquekey" value="e70de252-86c9-f111-a05c-7ced8daf410c|7a98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="9f840cf6-6ce5-5148-a484-bb05b7d9ebc2">
+      <record id="380ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="5099340f-2e19-5aa2-bd6a-22dfcb38307a" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="09e0dc07-a50b-5579-8f65-e79d31136b4e" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="eb0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7d98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="71.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="5099340f-2e19-5aa2-bd6a-22dfcb38307a|09e0dc07-a50b-5579-8f65-e79d31136b4e" />
+        <field name="edu_uniquekey" value="eb0de252-86c9-f111-a05c-7ced8daf410c|7d98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="2c1e93c0-71d8-52db-acb6-74e88613ef35">
+      <record id="4b0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="5099340f-2e19-5aa2-bd6a-22dfcb38307a" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="0f406373-9e6e-519b-ae1d-2da6cfca1009" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="eb0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="8198c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="84.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="5099340f-2e19-5aa2-bd6a-22dfcb38307a|0f406373-9e6e-519b-ae1d-2da6cfca1009" />
+        <field name="edu_uniquekey" value="eb0de252-86c9-f111-a05c-7ced8daf410c|8198c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="c773d6ff-f198-543b-9c2c-453574ecd57c">
+      <record id="240ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="5099340f-2e19-5aa2-bd6a-22dfcb38307a" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="f9828f78-b644-53c3-b1a1-79a7aaadc9d6" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="eb0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="8098c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="97.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="5099340f-2e19-5aa2-bd6a-22dfcb38307a|f9828f78-b644-53c3-b1a1-79a7aaadc9d6" />
+        <field name="edu_uniquekey" value="eb0de252-86c9-f111-a05c-7ced8daf410c|8098c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="4bdb6eba-8a29-5507-be50-e2be6c36b41a">
+      <record id="060ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="5099340f-2e19-5aa2-bd6a-22dfcb38307a" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="1ab1c0d6-5261-572b-a768-52eba4a94b39" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="eb0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7a98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="55.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="5099340f-2e19-5aa2-bd6a-22dfcb38307a|1ab1c0d6-5261-572b-a768-52eba4a94b39" />
+        <field name="edu_uniquekey" value="eb0de252-86c9-f111-a05c-7ced8daf410c|7a98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="473f3951-08ef-54c3-b329-9001b697207d">
+      <record id="370ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="3c7cf6bd-06e7-5032-b063-2773136a9cc5" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="09e0dc07-a50b-5579-8f65-e79d31136b4e" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="dd0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7d98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="78.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="3c7cf6bd-06e7-5032-b063-2773136a9cc5|09e0dc07-a50b-5579-8f65-e79d31136b4e" />
+        <field name="edu_uniquekey" value="dd0de252-86c9-f111-a05c-7ced8daf410c|7d98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="20ada49d-686b-50f0-b3a7-47edd2b7b9c4">
+      <record id="4c0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="3c7cf6bd-06e7-5032-b063-2773136a9cc5" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="0f406373-9e6e-519b-ae1d-2da6cfca1009" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="dd0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="8198c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="91.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="3c7cf6bd-06e7-5032-b063-2773136a9cc5|0f406373-9e6e-519b-ae1d-2da6cfca1009" />
+        <field name="edu_uniquekey" value="dd0de252-86c9-f111-a05c-7ced8daf410c|8198c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="e440f080-6eef-55ca-a8c1-c939059e0c60">
+      <record id="210ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="3c7cf6bd-06e7-5032-b063-2773136a9cc5" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="f9828f78-b644-53c3-b1a1-79a7aaadc9d6" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="dd0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="8098c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="49.50" />
         <field name="edu_letter" value="F" />
-        <field name="edu_uniquekey" value="3c7cf6bd-06e7-5032-b063-2773136a9cc5|f9828f78-b644-53c3-b1a1-79a7aaadc9d6" />
+        <field name="edu_uniquekey" value="dd0de252-86c9-f111-a05c-7ced8daf410c|8098c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="1d9ce20e-874d-5eb0-a726-4b073d96d2f9">
+      <record id="050ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="3c7cf6bd-06e7-5032-b063-2773136a9cc5" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="1ab1c0d6-5261-572b-a768-52eba4a94b39" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="dd0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7a98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="62.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="3c7cf6bd-06e7-5032-b063-2773136a9cc5|1ab1c0d6-5261-572b-a768-52eba4a94b39" />
+        <field name="edu_uniquekey" value="dd0de252-86c9-f111-a05c-7ced8daf410c|7a98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="bad83afd-8ca9-5951-baa9-96cc7d16df74">
+      <record id="390ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="43f9610a-152c-55e9-9f21-32e77daf961b" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="50a177a9-d5e0-5f19-8f4d-448fb29b67ea" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="ec0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7e98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="85.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="43f9610a-152c-55e9-9f21-32e77daf961b|50a177a9-d5e0-5f19-8f4d-448fb29b67ea" />
+        <field name="edu_uniquekey" value="ec0de252-86c9-f111-a05c-7ced8daf410c|7e98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="a30843f4-aefe-59f1-bd88-d850c9649ffe">
+      <record id="4e0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="43f9610a-152c-55e9-9f21-32e77daf961b" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="8ff27093-63e0-537b-bca4-2450ecbaf607" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="ec0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="8298c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="60.00" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="43f9610a-152c-55e9-9f21-32e77daf961b|8ff27093-63e0-537b-bca4-2450ecbaf607" />
+        <field name="edu_uniquekey" value="ec0de252-86c9-f111-a05c-7ced8daf410c|8298c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="90464459-710b-5cf1-a0e0-e3bb1f7bd4e5">
+      <record id="270ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="43f9610a-152c-55e9-9f21-32e77daf961b" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="1f1710f9-1e5b-5a35-b095-42b51b7c6d51" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="ec0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7f98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="56.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="43f9610a-152c-55e9-9f21-32e77daf961b|1f1710f9-1e5b-5a35-b095-42b51b7c6d51" />
+        <field name="edu_uniquekey" value="ec0de252-86c9-f111-a05c-7ced8daf410c|7f98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="deae043d-ffa7-5e04-a5ea-1e4acf1f505b">
+      <record id="080ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="43f9610a-152c-55e9-9f21-32e77daf961b" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="23b8491d-91cc-59c2-930d-91afd79f9a3c" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="ec0de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7898c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="69.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="43f9610a-152c-55e9-9f21-32e77daf961b|23b8491d-91cc-59c2-930d-91afd79f9a3c" />
+        <field name="edu_uniquekey" value="ec0de252-86c9-f111-a05c-7ced8daf410c|7898c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="d7a2c5fe-83e7-5124-9aa4-40413b4e02ec">
+      <record id="3e0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="0c8d6e49-788f-5270-8d44-78951faeb49d" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="50a177a9-d5e0-5f19-8f4d-448fb29b67ea" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e60de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7e98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="92.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="0c8d6e49-788f-5270-8d44-78951faeb49d|50a177a9-d5e0-5f19-8f4d-448fb29b67ea" />
+        <field name="edu_uniquekey" value="e60de252-86c9-f111-a05c-7ced8daf410c|7e98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="623af197-758f-56bb-be66-8b694992a1c7">
+      <record id="510ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="0c8d6e49-788f-5270-8d44-78951faeb49d" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="8ff27093-63e0-537b-bca4-2450ecbaf607" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e60de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="8298c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="50.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="0c8d6e49-788f-5270-8d44-78951faeb49d|8ff27093-63e0-537b-bca4-2450ecbaf607" />
+        <field name="edu_uniquekey" value="e60de252-86c9-f111-a05c-7ced8daf410c|8298c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="b7633df5-0413-5130-b5d9-5d495a0b5497">
+      <record id="290ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="0c8d6e49-788f-5270-8d44-78951faeb49d" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="1f1710f9-1e5b-5a35-b095-42b51b7c6d51" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e60de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7f98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="63.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="0c8d6e49-788f-5270-8d44-78951faeb49d|1f1710f9-1e5b-5a35-b095-42b51b7c6d51" />
+        <field name="edu_uniquekey" value="e60de252-86c9-f111-a05c-7ced8daf410c|7f98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="4b0d79ef-921c-5f45-bf12-1b67eb9a2cf2">
+      <record id="0b0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="0c8d6e49-788f-5270-8d44-78951faeb49d" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="23b8491d-91cc-59c2-930d-91afd79f9a3c" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e60de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7898c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="76.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="0c8d6e49-788f-5270-8d44-78951faeb49d|23b8491d-91cc-59c2-930d-91afd79f9a3c" />
+        <field name="edu_uniquekey" value="e60de252-86c9-f111-a05c-7ced8daf410c|7898c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="db16b801-2841-5518-92ea-a2ad720d7aa2">
+      <record id="3c0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="6e073563-443a-550c-92f2-77d36013225c" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="50a177a9-d5e0-5f19-8f4d-448fb29b67ea" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e90de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7e98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="61.00" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="6e073563-443a-550c-92f2-77d36013225c|50a177a9-d5e0-5f19-8f4d-448fb29b67ea" />
+        <field name="edu_uniquekey" value="e90de252-86c9-f111-a05c-7ced8daf410c|7e98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="ea64ed25-f330-56fe-b909-71dd0ea30e8f">
+      <record id="4f0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="6e073563-443a-550c-92f2-77d36013225c" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="8ff27093-63e0-537b-bca4-2450ecbaf607" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e90de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="8298c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="57.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="6e073563-443a-550c-92f2-77d36013225c|8ff27093-63e0-537b-bca4-2450ecbaf607" />
+        <field name="edu_uniquekey" value="e90de252-86c9-f111-a05c-7ced8daf410c|8298c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="7dbae4ea-ef34-5691-abe9-492bf011e76f">
+      <record id="280ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="6e073563-443a-550c-92f2-77d36013225c" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="1f1710f9-1e5b-5a35-b095-42b51b7c6d51" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e90de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7f98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="70.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="6e073563-443a-550c-92f2-77d36013225c|1f1710f9-1e5b-5a35-b095-42b51b7c6d51" />
+        <field name="edu_uniquekey" value="e90de252-86c9-f111-a05c-7ced8daf410c|7f98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="b0686f27-ba34-559d-9e8b-c4eb8296fc17">
+      <record id="0a0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="6e073563-443a-550c-92f2-77d36013225c" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="23b8491d-91cc-59c2-930d-91afd79f9a3c" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="e90de252-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7898c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="83.50" />
         <field name="edu_letter" value="A" />
-        <field name="edu_uniquekey" value="6e073563-443a-550c-92f2-77d36013225c|23b8491d-91cc-59c2-930d-91afd79f9a3c" />
+        <field name="edu_uniquekey" value="e90de252-86c9-f111-a05c-7ced8daf410c|7898c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="42773ad2-7dca-5319-981f-a842020a2793">
+      <record id="3b0ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="English" />
-        <field name="edu_reportcard" value="e8b49278-77e5-5cfc-b8b3-5466860a42ea" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="50a177a9-d5e0-5f19-8f4d-448fb29b67ea" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="844de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7e98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="51.50" />
         <field name="edu_letter" value="D" />
-        <field name="edu_uniquekey" value="e8b49278-77e5-5cfc-b8b3-5466860a42ea|50a177a9-d5e0-5f19-8f4d-448fb29b67ea" />
+        <field name="edu_uniquekey" value="844de24c-86c9-f111-a05c-7ced8daf410c|7e98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="4293c917-03a1-5555-8b4c-cdeab9594391">
+      <record id="500ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Mathematics" />
-        <field name="edu_reportcard" value="e8b49278-77e5-5cfc-b8b3-5466860a42ea" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="8ff27093-63e0-537b-bca4-2450ecbaf607" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="844de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="8298c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="64.50" />
         <field name="edu_letter" value="C" />
-        <field name="edu_uniquekey" value="e8b49278-77e5-5cfc-b8b3-5466860a42ea|8ff27093-63e0-537b-bca4-2450ecbaf607" />
+        <field name="edu_uniquekey" value="844de24c-86c9-f111-a05c-7ced8daf410c|8298c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="3a029b63-d523-5090-8ee7-78e5a6567c1b">
+      <record id="260ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Science" />
-        <field name="edu_reportcard" value="e8b49278-77e5-5cfc-b8b3-5466860a42ea" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="1f1710f9-1e5b-5a35-b095-42b51b7c6d51" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="844de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7f98c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="77.50" />
         <field name="edu_letter" value="B" />
-        <field name="edu_uniquekey" value="e8b49278-77e5-5cfc-b8b3-5466860a42ea|1f1710f9-1e5b-5a35-b095-42b51b7c6d51" />
+        <field name="edu_uniquekey" value="844de24c-86c9-f111-a05c-7ced8daf410c|7f98c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
-      <record id="9737b81e-8c18-5185-9d90-d03fbd3fc150">
+      <record id="090ee252-86c9-f111-a05c-7ced8daf410c">
         <field name="edu_name" value="Social Studies" />
-        <field name="edu_reportcard" value="e8b49278-77e5-5cfc-b8b3-5466860a42ea" lookupentity="edu_reportcard" lookupentityname="" />
-        <field name="edu_subjectassignment" value="23b8491d-91cc-59c2-930d-91afd79f9a3c" lookupentity="edu_subjectassignment" lookupentityname="" />
+        <field name="edu_reportcard" value="844de24c-86c9-f111-a05c-7ced8daf410c" lookupentity="edu_reportcard" lookupentityname="" />
+        <field name="edu_subjectassignment" value="7898c1b6-08b9-f111-aaae-7ced8daf410c" lookupentity="edu_subjectassignment" lookupentityname="" />
         <field name="edu_finalpercent" value="90.50" />
         <field name="edu_letter" value="A+" />
-        <field name="edu_uniquekey" value="e8b49278-77e5-5cfc-b8b3-5466860a42ea|23b8491d-91cc-59c2-930d-91afd79f9a3c" />
+        <field name="edu_uniquekey" value="844de24c-86c9-f111-a05c-7ced8daf410c|7898c1b6-08b9-f111-aaae-7ced8daf410c" />
       </record>
     </records>
   </entity>

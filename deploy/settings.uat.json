@@ -7,30 +7,6 @@
     {
       "SchemaName": "edu_FeeReminderDaysBefore",
       "Value": "7"
-    },
-    {
-      "SchemaName": "edu_SenderMailbox",
-      "Value": ""
-    },
-    {
-      "SchemaName": "edu_PortalBaseUrl",
-      "Value": ""
-    },
-    {
-      "SchemaName": "edu_DefaultReminderIntervalHours",
-      "Value": ""
-    },
-    {
-      "SchemaName": "edu_NotificationDeepLinkBase",
-      "Value": ""
-    },
-    {
-      "SchemaName": "edu_PaymentLinkBase",
-      "Value": ""
-    },
-    {
-      "SchemaName": "edu_SharePointSiteUrl",
-      "Value": ""
     }
   ],
   "ConnectionReferences": []

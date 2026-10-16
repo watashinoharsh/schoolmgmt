@@ -134,6 +134,25 @@ namespace EduCore.Plugins.Tests
         }
 
         [Fact]
+        public void Optional_api_dates_treat_the_placeholder_as_missing()
+        {
+            Assert.Null(ApiInput.OptionalDate(null));
+            Assert.Null(ApiInput.OptionalDate("2026-01-01"));
+            Assert.Null(ApiInput.OptionalDate(DateTime.MinValue));
+            Assert.Null(ApiInput.OptionalDate(new DateTime(1, 1, 1, 5, 30, 0)));
+            Assert.Equal(new DateTime(2026, 9, 30), ApiInput.OptionalDate(new DateTime(2026, 9, 30)));
+        }
+
+        [Fact]
+        public void Optional_api_choices_treat_zero_as_missing()
+        {
+            Assert.Null(ApiInput.OptionalChoice(null));
+            Assert.Null(ApiInput.OptionalChoice(0));
+            Assert.Null(ApiInput.OptionalChoice("859680000"));
+            Assert.Equal(859680001, ApiInput.OptionalChoice(859680001));
+        }
+
+        [Fact]
         public void Keys_use_the_shared_format()
         {
             var s = new EntityReference("edu_student", new Guid("11111111-1111-1111-1111-111111111111"));

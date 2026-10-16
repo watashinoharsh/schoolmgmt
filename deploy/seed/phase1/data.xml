@@ -2,7 +2,7 @@
 <entities timestamp="2026-09-25T00:00:00Z">
   <entity name="edu_academicyear" displayname="Academic Year">
     <records>
-      <record id="a633a66c-ae29-541c-852d-9529dc0d1a93">
+      <record id="ca746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="2026-27" />
         <field name="edu_startdate" value="2026-06-01T00:00:00" />
         <field name="edu_enddate" value="2027-05-31T00:00:00" />
@@ -14,67 +14,67 @@
   </entity>
   <entity name="edu_term" displayname="Term">
     <records>
-      <record id="787a36c1-7f39-538b-93cb-b6c9ec9c77f9">
+      <record id="cb746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Term 1" />
-        <field name="edu_academicyear" value="a633a66c-ae29-541c-852d-9529dc0d1a93" lookupentity="edu_academicyear" lookupentityname="" />
+        <field name="edu_academicyear" value="ca746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_academicyear" lookupentityname="" />
         <field name="edu_startdate" value="2026-06-01T00:00:00" />
         <field name="edu_enddate" value="2026-09-30T00:00:00" />
         <field name="edu_sequence" value="1" />
-        <field name="edu_uniquekey" value="a633a66c-ae29-541c-852d-9529dc0d1a93|1" />
+        <field name="edu_uniquekey" value="ca746481-02b9-f111-aaad-6045bdea6e32|1" />
       </record>
-      <record id="8dbd9a41-fdc5-5457-bf59-fafed06969a7">
+      <record id="cd746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Term 2" />
-        <field name="edu_academicyear" value="a633a66c-ae29-541c-852d-9529dc0d1a93" lookupentity="edu_academicyear" lookupentityname="" />
+        <field name="edu_academicyear" value="ca746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_academicyear" lookupentityname="" />
         <field name="edu_startdate" value="2026-10-01T00:00:00" />
         <field name="edu_enddate" value="2027-01-31T00:00:00" />
         <field name="edu_sequence" value="2" />
-        <field name="edu_uniquekey" value="a633a66c-ae29-541c-852d-9529dc0d1a93|2" />
+        <field name="edu_uniquekey" value="ca746481-02b9-f111-aaad-6045bdea6e32|2" />
       </record>
-      <record id="e7794ae3-1bf6-557b-8854-1e8c025a2350">
+      <record id="cc746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Term 3" />
-        <field name="edu_academicyear" value="a633a66c-ae29-541c-852d-9529dc0d1a93" lookupentity="edu_academicyear" lookupentityname="" />
+        <field name="edu_academicyear" value="ca746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_academicyear" lookupentityname="" />
         <field name="edu_startdate" value="2027-02-01T00:00:00" />
         <field name="edu_enddate" value="2027-05-31T00:00:00" />
         <field name="edu_sequence" value="3" />
-        <field name="edu_uniquekey" value="a633a66c-ae29-541c-852d-9529dc0d1a93|3" />
+        <field name="edu_uniquekey" value="ca746481-02b9-f111-aaad-6045bdea6e32|3" />
       </record>
     </records>
     <m2mrelationships />
   </entity>
   <entity name="edu_calendarday" displayname="Calendar Day">
     <records>
-      <record id="8fec2a34-7f8d-5f5f-88a1-5ff789189075">
+      <record id="ce746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Independence Day" />
         <field name="edu_date" value="2026-08-15T00:00:00" />
-        <field name="edu_academicyear" value="a633a66c-ae29-541c-852d-9529dc0d1a93" lookupentity="edu_academicyear" lookupentityname="" />
+        <field name="edu_academicyear" value="ca746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_academicyear" lookupentityname="" />
         <field name="edu_daytype" value="859680000" />
         <field name="edu_uniquekey" value="2026-08-15" />
       </record>
-      <record id="5b299b25-294d-500c-b128-ed32276b6dbc">
+      <record id="d0746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Gandhi Jayanti" />
         <field name="edu_date" value="2026-10-02T00:00:00" />
-        <field name="edu_academicyear" value="a633a66c-ae29-541c-852d-9529dc0d1a93" lookupentity="edu_academicyear" lookupentityname="" />
+        <field name="edu_academicyear" value="ca746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_academicyear" lookupentityname="" />
         <field name="edu_daytype" value="859680000" />
         <field name="edu_uniquekey" value="2026-10-02" />
       </record>
-      <record id="56c21b36-dba0-587d-ab9c-6622e25582c1">
+      <record id="d1746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Winter Break" />
         <field name="edu_date" value="2026-12-25T00:00:00" />
-        <field name="edu_academicyear" value="a633a66c-ae29-541c-852d-9529dc0d1a93" lookupentity="edu_academicyear" lookupentityname="" />
+        <field name="edu_academicyear" value="ca746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_academicyear" lookupentityname="" />
         <field name="edu_daytype" value="859680001" />
         <field name="edu_uniquekey" value="2026-12-25" />
       </record>
-      <record id="c38bc4ff-f66b-5b6d-995e-b805cbe9d09c">
+      <record id="d2746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Republic Day" />
         <field name="edu_date" value="2027-01-26T00:00:00" />
-        <field name="edu_academicyear" value="a633a66c-ae29-541c-852d-9529dc0d1a93" lookupentity="edu_academicyear" lookupentityname="" />
+        <field name="edu_academicyear" value="ca746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_academicyear" lookupentityname="" />
         <field name="edu_daytype" value="859680000" />
         <field name="edu_uniquekey" value="2027-01-26" />
       </record>
-      <record id="b24b4a43-dc6a-5a61-a51b-fdeae81b1680">
+      <record id="cf746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Staff Training Day" />
         <field name="edu_date" value="2027-03-12T00:00:00" />
-        <field name="edu_academicyear" value="a633a66c-ae29-541c-852d-9529dc0d1a93" lookupentity="edu_academicyear" lookupentityname="" />
+        <field name="edu_academicyear" value="ca746481-02b9-f111-aaad-6045bdea6e32" lookupentity="edu_academicyear" lookupentityname="" />
         <field name="edu_daytype" value="859680002" />
         <field name="edu_uniquekey" value="2027-03-12" />
       </record>
@@ -83,62 +83,62 @@
   </entity>
   <entity name="edu_grade" displayname="Grade">
     <records>
-      <record id="faa14944-d71a-51d3-a00a-a99b5a70c6ff">
+      <record id="d4746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Grade 1" />
         <field name="edu_sequence" value="1" />
         <field name="edu_uniquekey" value="grade 1" />
       </record>
-      <record id="c90d74a0-0600-5326-bfea-0d2c43083ef8">
+      <record id="d7746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Grade 2" />
         <field name="edu_sequence" value="2" />
         <field name="edu_uniquekey" value="grade 2" />
       </record>
-      <record id="6559977a-1d8b-506a-967a-008f8502bb00">
+      <record id="d9746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Grade 3" />
         <field name="edu_sequence" value="3" />
         <field name="edu_uniquekey" value="grade 3" />
       </record>
-      <record id="e6d9630c-d2b6-56ae-853f-59ab3a03de44">
+      <record id="db746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Grade 4" />
         <field name="edu_sequence" value="4" />
         <field name="edu_uniquekey" value="grade 4" />
       </record>
-      <record id="e8aa09d2-0ddc-5e00-ae7d-4f41196d2eae">
+      <record id="d3746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Grade 5" />
         <field name="edu_sequence" value="5" />
         <field name="edu_uniquekey" value="grade 5" />
       </record>
-      <record id="62dc381f-4e3c-52cf-9ab6-80f0f0a22ef3">
+      <record id="d6746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Grade 6" />
         <field name="edu_sequence" value="6" />
         <field name="edu_uniquekey" value="grade 6" />
       </record>
-      <record id="824ace19-ff59-541a-ae44-7b93eae9d18b">
+      <record id="d8746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Grade 7" />
         <field name="edu_sequence" value="7" />
         <field name="edu_uniquekey" value="grade 7" />
       </record>
-      <record id="e3f0f987-ab5c-5a13-8d92-5244da25f29f">
+      <record id="dc746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Grade 8" />
         <field name="edu_sequence" value="8" />
         <field name="edu_uniquekey" value="grade 8" />
       </record>
-      <record id="e218aa82-2162-58d9-9464-7546558ac840">
+      <record id="d5746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Grade 9" />
         <field name="edu_sequence" value="9" />
         <field name="edu_uniquekey" value="grade 9" />
       </record>
-      <record id="7e9f7bc8-404e-5ebb-aa97-b838ebe35512">
+      <record id="da746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Grade 10" />
         <field name="edu_sequence" value="10" />
         <field name="edu_uniquekey" value="grade 10" />
       </record>
-      <record id="0c275b95-3fa5-5abc-a74e-3001f35fcfa2">
+      <record id="dd746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Grade 11" />
         <field name="edu_sequence" value="11" />
         <field name="edu_uniquekey" value="grade 11" />
       </record>
-      <record id="404dd729-6c6d-55cc-9dfe-a506d6aba1bf">
+      <record id="de746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Grade 12" />
         <field name="edu_sequence" value="12" />
         <field name="edu_uniquekey" value="grade 12" />
@@ -148,49 +148,49 @@
   </entity>
   <entity name="edu_course" displayname="Course">
     <records>
-      <record id="f3e4c0b2-6214-5c4a-9b48-cd6c36c6c084">
+      <record id="df746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="English" />
         <field name="edu_coursecode" value="ENG" />
         <field name="edu_ismandatory" value="True" />
         <field name="edu_uniquekey" value="eng" />
       </record>
-      <record id="2ba85601-e852-5dd6-80b3-7a153159c25b">
+      <record id="e2746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Mathematics" />
         <field name="edu_coursecode" value="MATH" />
         <field name="edu_ismandatory" value="True" />
         <field name="edu_uniquekey" value="math" />
       </record>
-      <record id="4fc66e8a-c995-5c3d-af23-3a3bf891dbeb">
+      <record id="e3746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Science" />
         <field name="edu_coursecode" value="SCI" />
         <field name="edu_ismandatory" value="True" />
         <field name="edu_uniquekey" value="sci" />
       </record>
-      <record id="1743e146-efba-5b0f-a033-785015dfb8bd">
+      <record id="e6746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Social Studies" />
         <field name="edu_coursecode" value="SOC" />
         <field name="edu_ismandatory" value="True" />
         <field name="edu_uniquekey" value="soc" />
       </record>
-      <record id="162d1135-e269-53bb-a8ae-31d26283ba47">
+      <record id="e0746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Hindi" />
         <field name="edu_coursecode" value="HIN" />
         <field name="edu_ismandatory" value="True" />
         <field name="edu_uniquekey" value="hin" />
       </record>
-      <record id="890368ce-053f-5e5b-bb9e-2bc534734eb6">
+      <record id="e1746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Computer Science" />
         <field name="edu_coursecode" value="CS" />
         <field name="edu_ismandatory" value="True" />
         <field name="edu_uniquekey" value="cs" />
       </record>
-      <record id="ad4ccffa-c077-566c-a8b0-a1e8a733cbe6">
+      <record id="e4746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Physical Education" />
         <field name="edu_coursecode" value="PE" />
         <field name="edu_ismandatory" value="True" />
         <field name="edu_uniquekey" value="pe" />
       </record>
-      <record id="2fecf2be-1d4e-57c4-875c-014ab7ce32f3">
+      <record id="e5746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Art" />
         <field name="edu_coursecode" value="ART" />
         <field name="edu_ismandatory" value="True" />
@@ -201,56 +201,56 @@
   </entity>
   <entity name="edu_period" displayname="Period">
     <records>
-      <record id="25c64831-3bdb-53b1-982c-e473af31ec1d">
+      <record id="e7746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Period 1" />
         <field name="edu_starttime" value="08:00" />
         <field name="edu_endtime" value="08:45" />
         <field name="edu_sequence" value="1" />
         <field name="edu_uniquekey" value="1" />
       </record>
-      <record id="273ee608-7a69-5b33-9928-c561c0b050c9">
+      <record id="ea746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Period 2" />
         <field name="edu_starttime" value="08:50" />
         <field name="edu_endtime" value="09:35" />
         <field name="edu_sequence" value="2" />
         <field name="edu_uniquekey" value="2" />
       </record>
-      <record id="521ffefb-dc17-5c0f-a6d5-65d79dd4dda3">
+      <record id="ec746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Period 3" />
         <field name="edu_starttime" value="09:40" />
         <field name="edu_endtime" value="10:25" />
         <field name="edu_sequence" value="3" />
         <field name="edu_uniquekey" value="3" />
       </record>
-      <record id="45daa625-7a34-565e-b146-12f8955eaf60">
+      <record id="ed746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Period 4" />
         <field name="edu_starttime" value="10:45" />
         <field name="edu_endtime" value="11:30" />
         <field name="edu_sequence" value="4" />
         <field name="edu_uniquekey" value="4" />
       </record>
-      <record id="042e5ab2-4c8d-5982-ab81-daf229c7f294">
+      <record id="e8746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Period 5" />
         <field name="edu_starttime" value="11:35" />
         <field name="edu_endtime" value="12:20" />
         <field name="edu_sequence" value="5" />
         <field name="edu_uniquekey" value="5" />
       </record>
-      <record id="d2647d63-2f10-5e68-822f-d8ec75553c6b">
+      <record id="e9746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Period 6" />
         <field name="edu_starttime" value="13:00" />
         <field name="edu_endtime" value="13:45" />
         <field name="edu_sequence" value="6" />
         <field name="edu_uniquekey" value="6" />
       </record>
-      <record id="4b657e37-3ccf-564e-a3e2-3e93907b8947">
+      <record id="eb746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Period 7" />
         <field name="edu_starttime" value="13:50" />
         <field name="edu_endtime" value="14:35" />
         <field name="edu_sequence" value="7" />
         <field name="edu_uniquekey" value="7" />
       </record>
-      <record id="089819d6-9f11-5dc9-b3ca-159f0c66bdc4">
+      <record id="ee746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="Period 8" />
         <field name="edu_starttime" value="14:40" />
         <field name="edu_endtime" value="15:25" />
@@ -262,42 +262,42 @@
   </entity>
   <entity name="edu_gradeband" displayname="Grade Band">
     <records>
-      <record id="1d135dc0-1f08-591d-9b97-35840c8a43c8">
+      <record id="ef746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="A+" />
         <field name="edu_letter" value="A+" />
         <field name="edu_minpercent" value="90.00" />
         <field name="edu_gpapoints" value="4.00" />
         <field name="edu_uniquekey" value="a+" />
       </record>
-      <record id="16253bec-5b8d-5d08-b12d-3b2a71440047">
+      <record id="f2746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="A" />
         <field name="edu_letter" value="A" />
         <field name="edu_minpercent" value="80.00" />
         <field name="edu_gpapoints" value="3.70" />
         <field name="edu_uniquekey" value="a" />
       </record>
-      <record id="10f870b2-ef9c-5745-94e2-67bf6134e56d">
+      <record id="f3746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="B" />
         <field name="edu_letter" value="B" />
         <field name="edu_minpercent" value="70.00" />
         <field name="edu_gpapoints" value="3.00" />
         <field name="edu_uniquekey" value="b" />
       </record>
-      <record id="96f52f2e-bdf4-53c7-86c6-fa65be90e4ea">
+      <record id="f4746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="C" />
         <field name="edu_letter" value="C" />
         <field name="edu_minpercent" value="60.00" />
         <field name="edu_gpapoints" value="2.00" />
         <field name="edu_uniquekey" value="c" />
       </record>
-      <record id="9aaa0dff-fde9-5e28-93a8-1b9bb8a54b71">
+      <record id="f0746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="D" />
         <field name="edu_letter" value="D" />
         <field name="edu_minpercent" value="50.00" />
         <field name="edu_gpapoints" value="1.00" />
         <field name="edu_uniquekey" value="d" />
       </record>
-      <record id="3fb5a4a7-1883-5850-b5d8-7f1782483f08">
+      <record id="f1746481-02b9-f111-aaad-6045bdea6e32">
         <field name="edu_name" value="F" />
         <field name="edu_letter" value="F" />
         <field name="edu_minpercent" value="0.00" />

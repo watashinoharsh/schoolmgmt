@@ -58,7 +58,7 @@ namespace EduCore.Plugins
         {
             var context = ctx.PluginExecutionContext;
             var termRef = (EntityReference)context.InputParameters["TermId"];
-            DateTime asOf = context.InputParameters.Contains("AsOf") && context.InputParameters["AsOf"] != null ? (DateTime)context.InputParameters["AsOf"] : DateTime.UtcNow;
+            DateTime asOf = ApiInput.OptionalDate(context.InputParameters.Contains("AsOf") ? context.InputParameters["AsOf"] : null) ?? DateTime.UtcNow;
             var service = ctx.InitiatingUserService;
             var data = new OrgDataAccess(service);
 

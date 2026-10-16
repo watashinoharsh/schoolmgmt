@@ -13,6 +13,19 @@ Custom APIs `edu_GenerateInvoice` and `edu_GenerateReportCards` were created in 
 
 Plug-in package `edu_EduCorePlugins` and 54 steps (with images) were registered in DEV by `scripts/Register-Plugins.ps1` and exported to `solutions/EduCore/src` (`pluginpackages`, `SdkMessageProcessingSteps`). The four Custom APIs are bound to their plug-in types. Smoke tests, all rejected as intended: invoice line on a non-draft invoice, deleting a payment, marks above the assessment maximum, editing a Published report card. This closes the "plug-in step registration" item in the Phase 1 to 7 notes: the rules are now enforced in DEV. The script builds with `--no-incremental` because a stale incremental package held only 14 plug-in types.
 
+## Seed data and the API check
+Running the APIs against the seed exposed three things:
+- `pac data import` ignores the ids in `data.xml` for new rows and does not set lookups that point at records from another seed package, so the Phase 2 to 7 seed rows had blank year, term, grade and section references. The seed files now carry the ids of the DEV records, and `scripts/repair-seed-lookups.py` sets the lookups after the packages are loaded (1,661 records patched, no failures). On a new environment: load phase 1 to 7, read back the ids, rewrite `data.xml` the same way, reload, then run the script.
+- `edu_RefreshAttendanceSummary` and `edu_GenerateInvoice` read an omitted optional date as 0001-01-01, which gave 0 teaching days. `ApiInput.OptionalDate` now treats that as missing (114 tests). Package re-registered in DEV.
+- After the fix, `edu_GenerateInvoice` returned all 24 existing invoices unchanged and `edu_GenerateReportCards` reproduced every seeded line and overall percentage exactly. `edu_RefreshAttendanceSummary` now writes 88 teaching days (1 June to 30 September, less closures), about 44% for the sample students, because the attendance seed only covers 3 August to 25 September (40 days). The seed summaries in `deploy/seed/phase5` still say 40 days. Decide whether to extend the attendance seed back to 1 June or move Term 1 to start on 3 August.
+- DEV also holds three leftover `ZZTEST_625971_*` students, a section and academic years from an earlier test run.
+
+## UAT deployment
+The three managed solutions (1.0.0.0) were imported into the UAT environment, next to the earlier `ClinicSchoolSuite`, with `pac solution import --settings-file deploy/settings.uat.json --activate-plugins --publish-changes`. `scripts/Test-EndToEnd.ps1` builds its own `E2E_` records and walks an applicant to a paid invoice and a Published report card, checking the rejections too. Its first runs found one more bug: `edu_EnrolApplicant` failed when the optional `Relationship` input was left out (the platform sends 0), fixed with `ApiInput.OptionalChoice` (115 tests). Plug-in package bumped to 1.0.1.
+- The managed solution packs the plug-in package stored in `solutions/EduCore/src/pluginpackages`, so a new plug-in build only reaches an environment after that file is refreshed (export from DEV, or copy the built `.nupkg` there and update `pluginpackage.xml`). The 1.0.1 package is in source now.
+- The upgrade of EduCore in UAT with the 1.0.1 package was started; the end-to-end run against UAT after it is still to do.
+- The `settings.*.json` files no longer list empty values (`pac` rejects them); set `edu_SenderMailbox` and the URL variables per environment.
+
 ## Not done yet
 - **Clean managed deploy to a second environment.** Needs an environment that is not Clinic Mgmt DEV01 (see `docs/phase0-runbook.md`); import `out\*_managed.zip` with the matching settings file and confirm the app opens and the seed loads.
 - **Pipeline run to TEST.** Needs an Azure DevOps project, the `edu-vars` variable group, service connections and the three environments.

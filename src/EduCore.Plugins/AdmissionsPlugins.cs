@@ -52,10 +52,8 @@ namespace EduCore.Plugins
             var context = ctx.PluginExecutionContext;
             var applicantRef = (EntityReference)context.InputParameters["ApplicantId"];
             var sectionRef = (EntityReference)context.InputParameters["SectionId"];
-            DateTime start = context.InputParameters.Contains("StartDate") && context.InputParameters["StartDate"] != null
-                ? (DateTime)context.InputParameters["StartDate"] : DateTime.UtcNow;
-            int relationship = context.InputParameters.Contains("Relationship") && context.InputParameters["Relationship"] != null
-                ? (int)context.InputParameters["Relationship"] : LegalGuardian;
+            DateTime start = ApiInput.OptionalDate(context.InputParameters.Contains("StartDate") ? context.InputParameters["StartDate"] : null) ?? DateTime.UtcNow;
+            int relationship = ApiInput.OptionalChoice(context.InputParameters.Contains("Relationship") ? context.InputParameters["Relationship"] : null) ?? LegalGuardian;
 
             var service = ctx.InitiatingUserService;
             var data = new OrgDataAccess(service);
