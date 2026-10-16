@@ -144,6 +144,15 @@ namespace EduCore.Plugins.Tests
         }
 
         [Fact]
+        public void Optional_api_choices_treat_zero_as_missing()
+        {
+            Assert.Null(ApiInput.OptionalChoice(null));
+            Assert.Null(ApiInput.OptionalChoice(0));
+            Assert.Null(ApiInput.OptionalChoice("859680000"));
+            Assert.Equal(859680001, ApiInput.OptionalChoice(859680001));
+        }
+
+        [Fact]
         public void Keys_use_the_shared_format()
         {
             var s = new EntityReference("edu_student", new Guid("11111111-1111-1111-1111-111111111111"));
