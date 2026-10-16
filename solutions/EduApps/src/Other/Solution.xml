@@ -92,6 +92,7 @@
       <RootComponent type="60" id="{7bcb8f39-87c9-f111-a05c-7ced8daf410c}" behavior="0" />
       <RootComponent type="62" schemaName="edu_Phase3SiteMap" behavior="0" />
       <RootComponent type="62" schemaName="edu_SchoolAdminSiteMap" behavior="0" />
+      <RootComponent type="80" schemaName="edu_Phase3Admin" behavior="0" />
       <RootComponent type="80" schemaName="edu_SchoolAdmin" behavior="0" />
     </RootComponents>
     <MissingDependencies>
@@ -104,12 +105,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_academicreport" displayName="Academic Report" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_academicreportversion" displayName="Academic Report Version" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_academicreportversion" displayName="Academic Report Version" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_academicreportversion" displayName="Academic Report Version" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_academicyear" displayName="Academic Year" solution="Active" />
@@ -124,12 +133,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_activity" displayName="Activity" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_activityfeedback" displayName="Activity Feedback" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_activityfeedback" displayName="Activity Feedback" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activityfeedback" displayName="Activity Feedback" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_activityparticipant" displayName="Activity Participant" solution="Active" />
@@ -140,12 +157,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_activityparticipant" displayName="Activity Participant" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_activityreport" displayName="Activity Report" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_activityreport" displayName="Activity Report" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activityreport" displayName="Activity Report" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_activityrisk" displayName="Activity Risk Assessment" solution="Active" />
@@ -156,6 +181,10 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_activityrisk" displayName="Activity Risk Assessment" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_activitytransport" displayName="Activity Transport" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
@@ -164,12 +193,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_activitytransport" displayName="Activity Transport" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_activityvenue" displayName="Activity Venue" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_activityvenue" displayName="Activity Venue" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_activityvenue" displayName="Activity Venue" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_applicant" displayName="Applicant" solution="Active" />
@@ -184,12 +221,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_approvalcontenttemplate" displayName="Approval Content Template" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_approvaldelegation" displayName="Approval Delegation" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_approvaldelegation" displayName="Approval Delegation" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvaldelegation" displayName="Approval Delegation" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_approvalhistory" displayName="Approval History" solution="Active" />
@@ -200,12 +245,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_approvalhistory" displayName="Approval History" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_approvalmatrix" displayName="Approval Matrix" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_approvalmatrix" displayName="Approval Matrix" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvalmatrix" displayName="Approval Matrix" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_approvalmatrixdetail" displayName="Approval Matrix Detail" solution="Active" />
@@ -216,12 +269,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_approvalmatrixdetail" displayName="Approval Matrix Detail" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_approvalrequest" displayName="Approval Request" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_approvalrequest" displayName="Approval Request" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_approvalrequest" displayName="Approval Request" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_assessment" displayName="Assessment" solution="Active" />
@@ -240,6 +301,10 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_attendancerecord" displayName="Attendance Record" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_attendancesummary" displayName="Attendance Summary" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
@@ -252,12 +317,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_behaviourcategory" displayName="Behaviour Category" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_behaviourrecord" displayName="Behaviour Record" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_behaviourrecord" displayName="Behaviour Record" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_behaviourrecord" displayName="Behaviour Record" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_calendarday" displayName="Calendar Day" solution="Active" />
@@ -276,12 +349,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_consentrecord" displayName="Consent Record" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_consenttype" displayName="Consent Type" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_consenttype" displayName="Consent Type" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_consenttype" displayName="Consent Type" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_course" displayName="Course" solution="Active" />
@@ -294,6 +375,10 @@
       <MissingDependency>
         <Required type="1" schemaName="edu_documentreference" displayName="Document Reference" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_documentreference" displayName="Document Reference" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_enrolment" displayName="Enrolment" solution="Active" />
@@ -316,6 +401,10 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_gatepass" displayName="Gate Pass" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_grade" displayName="Grade" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
@@ -332,6 +421,10 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_gradebookcomponent" displayName="Gradebook Component" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_gradebookpublish" displayName="Gradebook Publish" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
@@ -340,12 +433,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_gradebookpublish" displayName="Gradebook Publish" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_gradebookresult" displayName="Gradebook Result" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_gradebookresult" displayName="Gradebook Result" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_gradebookresult" displayName="Gradebook Result" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_invoice" displayName="Invoice" solution="Active" />
@@ -364,12 +465,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_kioskrecord" displayName="Kiosk Record" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_musterentry" displayName="Muster Entry" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_musterentry" displayName="Muster Entry" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_musterentry" displayName="Muster Entry" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_musterevent" displayName="Muster Event" solution="Active" />
@@ -380,12 +489,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_musterevent" displayName="Muster Event" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_notification" displayName="Notification" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_notification" displayName="Notification" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_notification" displayName="Notification" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_notificationrecipient" displayName="Notification Recipient" solution="Active" />
@@ -396,12 +513,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_notificationrecipient" displayName="Notification Recipient" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_notificationrecipientrule" displayName="Notification Recipient Rule" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_notificationrecipientrule" displayName="Notification Recipient Rule" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_notificationrecipientrule" displayName="Notification Recipient Rule" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_notificationrule" displayName="Notification Rule" solution="Active" />
@@ -412,12 +537,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_notificationrule" displayName="Notification Rule" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_notificationtemplate" displayName="Notification Template" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_notificationtemplate" displayName="Notification Template" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_notificationtemplate" displayName="Notification Template" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_payment" displayName="Payment" solution="Active" />
@@ -436,12 +569,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_pickupauthorisation" displayName="Pickup Authorisation" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_reenrolment" displayName="Re-enrolment" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_reenrolment" displayName="Re-enrolment" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_reenrolment" displayName="Re-enrolment" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_reenrolmentcohort" displayName="Re-enrolment Cohort" solution="Active" />
@@ -452,6 +593,10 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_reenrolmentcohort" displayName="Re-enrolment Cohort" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_reenrolmentcycle" displayName="Re-enrolment Cycle" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
@@ -460,12 +605,20 @@
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="edu_reenrolmentcycle" displayName="Re-enrolment Cycle" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="edu_reenrolmentrule" displayName="Re-enrolment Rule" solution="Active" />
         <Dependent type="62" schemaName="edu_Phase3SiteMap" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_reenrolmentrule" displayName="Re-enrolment Rule" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_reenrolmentrule" displayName="Re-enrolment Rule" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_reportcard" displayName="Report Card" solution="Active" />
@@ -482,6 +635,10 @@
       <MissingDependency>
         <Required type="1" schemaName="edu_rolloverplan" displayName="Rollover Plan" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_rolloverplan" displayName="Rollover Plan" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="edu_section" displayName="Section" solution="Active" />
@@ -522,6 +679,10 @@
       <MissingDependency>
         <Required type="1" schemaName="edu_visitor" displayName="Visitor" solution="Active" />
         <Dependent type="62" schemaName="edu_SchoolAdminSiteMap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="edu_visitor" displayName="Visitor" solution="Active" />
+        <Dependent type="80" schemaName="edu_Phase3Admin" displayName="EDU Phase 3 Admin" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="edu_applicantid" displayName="Applicant" parentSchemaName="edu_applicant" parentDisplayName="Applicant" solution="Active" />

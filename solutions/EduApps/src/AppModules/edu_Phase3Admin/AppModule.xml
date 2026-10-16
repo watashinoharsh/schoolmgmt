@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>edu_Phase3Admin</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>00000000-0000-0000-0000-000000000000</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="edu_academicreport" />
+    <AppModuleComponent type="1" schemaName="edu_academicreportversion" />
+    <AppModuleComponent type="1" schemaName="edu_activity" />
+    <AppModuleComponent type="1" schemaName="edu_activityfeedback" />
+    <AppModuleComponent type="1" schemaName="edu_activityparticipant" />
+    <AppModuleComponent type="1" schemaName="edu_activityreport" />
+    <AppModuleComponent type="1" schemaName="edu_activityrisk" />
+    <AppModuleComponent type="1" schemaName="edu_activitytransport" />
+    <AppModuleComponent type="1" schemaName="edu_activityvenue" />
+    <AppModuleComponent type="1" schemaName="edu_approvalcontenttemplate" />
+    <AppModuleComponent type="1" schemaName="edu_approvaldelegation" />
+    <AppModuleComponent type="1" schemaName="edu_approvalhistory" />
+    <AppModuleComponent type="1" schemaName="edu_approvalmatrix" />
+    <AppModuleComponent type="1" schemaName="edu_approvalmatrixdetail" />
+    <AppModuleComponent type="1" schemaName="edu_approvalrequest" />
+    <AppModuleComponent type="1" schemaName="edu_attendancerecord" />
+    <AppModuleComponent type="1" schemaName="edu_behaviourcategory" />
+    <AppModuleComponent type="1" schemaName="edu_behaviourrecord" />
+    <AppModuleComponent type="1" schemaName="edu_consentrecord" />
+    <AppModuleComponent type="1" schemaName="edu_consenttype" />
+    <AppModuleComponent type="1" schemaName="edu_documentreference" />
+    <AppModuleComponent type="1" schemaName="edu_gatepass" />
+    <AppModuleComponent type="1" schemaName="edu_gradebookcomponent" />
+    <AppModuleComponent type="1" schemaName="edu_gradebookpublish" />
+    <AppModuleComponent type="1" schemaName="edu_gradebookresult" />
+    <AppModuleComponent type="1" schemaName="edu_kioskrecord" />
+    <AppModuleComponent type="1" schemaName="edu_musterentry" />
+    <AppModuleComponent type="1" schemaName="edu_musterevent" />
+    <AppModuleComponent type="1" schemaName="edu_notification" />
+    <AppModuleComponent type="1" schemaName="edu_notificationrecipient" />
+    <AppModuleComponent type="1" schemaName="edu_notificationrecipientrule" />
+    <AppModuleComponent type="1" schemaName="edu_notificationrule" />
+    <AppModuleComponent type="1" schemaName="edu_notificationtemplate" />
+    <AppModuleComponent type="1" schemaName="edu_pickupauthorisation" />
+    <AppModuleComponent type="1" schemaName="edu_reenrolment" />
+    <AppModuleComponent type="1" schemaName="edu_reenrolmentcohort" />
+    <AppModuleComponent type="1" schemaName="edu_reenrolmentcycle" />
+    <AppModuleComponent type="1" schemaName="edu_reenrolmentrule" />
+    <AppModuleComponent type="1" schemaName="edu_rolloverplan" />
+    <AppModuleComponent type="1" schemaName="edu_visitor" />
+    <AppModuleComponent type="62" schemaName="edu_Phase3SiteMap" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="EDU Phase 3 Admin" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="CE Phase 3: approvals, notifications, consent, kiosk, attendance, activities, behaviour, gradebook, reports and re-enrolment" languagecode="1033" />
+  </Descriptions>
+</AppModule>
