@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2714d2b6-0788-5cbb-bcdf-59e8dbecbd00}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{0be8a8fe-3a91-5ad9-8635-9042e28cad49}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{722a15f7-a735-577f-8ca6-1714fb1a9547}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Re-enrolment Cohort" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{359cf6ad-b4b9-550d-93e8-addd9feb3144}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Cohort" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{144f0af2-c960-56a3-a9ec-8d75659f6669}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Cycle" languagecode="1033" />
+                        </labels>
+                        <control id="edu_cycle" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_cycle" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3450d921-982f-5eaa-a7ba-94df0698120d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Capacity" languagecode="1033" />
+                        </labels>
+                        <control id="edu_capacity" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="edu_capacity" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Re-enrolment Cohort" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

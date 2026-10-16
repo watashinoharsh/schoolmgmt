@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{072bc35c-ddc6-5253-afd4-49137aee5a36}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{cff5a6ab-80e0-53f4-9915-665e36dd3656}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{5091eb68-6947-5242-b5a6-0205e2e5ff3b}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Payment" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{119a0023-de16-51e4-ba22-1247ae5ea468}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{029ca879-e104-5cd6-9c51-d8aaf5b73ba5}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{e6ea0da9-7a7f-59bb-a391-1b2c64f17c4e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Invoice" languagecode="1033" />
+                        </labels>
+                        <control id="edu_invoice" classid="{cf99e629-98b6-54d7-b8dc-1b8b72e12595}" datafieldname="edu_invoice" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4cef327e-18fd-5b34-90bf-ab564ac9b318}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="edu_amount" classid="{42186136-5777-5d23-ad2d-a9df5aad37ec}" datafieldname="edu_amount" />
+                      </cell>
+                      <cell id="{6920d13d-dbe9-5c7b-8917-5e3e2487babe}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Payment Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_paymentdate" classid="{7c444e8a-2e27-5aac-a61f-7d612a87c196}" datafieldname="edu_paymentdate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4f6169bb-afc9-5161-85af-b49b69939a46}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Method" languagecode="1033" />
+                        </labels>
+                        <control id="edu_method" classid="{d5362425-b24f-547e-aeff-c86c9ce59f80}" datafieldname="edu_method" />
+                      </cell>
+                      <cell id="{e0afe9e8-663d-5785-a009-474b92761750}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Reference" languagecode="1033" />
+                        </labels>
+                        <control id="edu_reference" classid="{029ca879-e104-5cd6-9c51-d8aaf5b73ba5}" datafieldname="edu_reference" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{87762ebc-8a69-5272-a3d5-7c7b6ff8cb96}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Payment Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_paymentstatus" classid="{d5362425-b24f-547e-aeff-c86c9ce59f80}" datafieldname="edu_paymentstatus" />
+                      </cell>
+                      <cell id="{1a418a3f-b3f7-59ff-a887-58f04609ef8c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Recorded By" languagecode="1033" />
+                        </labels>
+                        <control id="edu_recordedby" classid="{cf99e629-98b6-54d7-b8dc-1b8b72e12595}" datafieldname="edu_recordedby" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Payment" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

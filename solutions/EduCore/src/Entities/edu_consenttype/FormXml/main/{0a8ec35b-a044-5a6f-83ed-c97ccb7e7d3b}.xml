@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0a8ec35b-a044-5a6f-83ed-c97ccb7e7d3b}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{493406b1-6b54-524f-9d9d-cede2f8a3555}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{1a83a1c4-09fb-5de1-9836-aa10cb1136c0}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Consent Type" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{365b2f46-5575-5302-acd8-503ef141ff18}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Consent Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{aa8025a0-8569-5c81-b741-e929944a492b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="edu_category" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_category" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{259c9bd2-c19a-5cf9-93e3-629fefc9c776}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Requires Expiry" languagecode="1033" />
+                        </labels>
+                        <control id="edu_requiresexpiry" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="edu_requiresexpiry" />
+                      </cell>
+                      <cell id="{c54529a7-284d-50be-9cb0-71cc0d381f89}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is Sensitive" languagecode="1033" />
+                        </labels>
+                        <control id="edu_issensitive" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="edu_issensitive" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Consent Type" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

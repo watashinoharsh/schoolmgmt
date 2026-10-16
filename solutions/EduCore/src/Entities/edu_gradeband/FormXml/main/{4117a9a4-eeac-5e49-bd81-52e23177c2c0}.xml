@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4117a9a4-eeac-5e49-bd81-52e23177c2c0}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{a3b47177-84d2-500d-8677-8c4ae3a90491}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{40cb16ee-d7ad-5e7c-bc57-9cdf21781d11}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Grade Band" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{46d037e5-710b-5adc-9769-4b71b0b875f9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{1718841b-a9d5-5c06-ae32-e9912195e071}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{ff8323b2-b849-5b9a-a5cb-37526243ea1e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Letter" languagecode="1033" />
+                        </labels>
+                        <control id="edu_letter" classid="{1718841b-a9d5-5c06-ae32-e9912195e071}" datafieldname="edu_letter" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81e21c86-7f67-520c-b1e4-c50359d3d0eb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Minimum %" languagecode="1033" />
+                        </labels>
+                        <control id="edu_minpercent" classid="{655a1457-1bb6-5652-9617-46454d0a4fb5}" datafieldname="edu_minpercent" />
+                      </cell>
+                      <cell id="{56ae9ebc-9d03-5b42-8f4f-9c5134b8f034}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="GPA Points" languagecode="1033" />
+                        </labels>
+                        <control id="edu_gpapoints" classid="{655a1457-1bb6-5652-9617-46454d0a4fb5}" datafieldname="edu_gpapoints" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Grade Band" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

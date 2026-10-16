@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{71002183-a3b9-57ad-af2d-a5f671bde4be}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{478d018b-1ed9-51e1-8999-04233460a16e}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{4fd1ccbe-a350-548b-be05-8edd1bf7477e}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Pickup Authorisation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{379187de-8712-5d2c-b256-dd93da0c5627}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Authorisation" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{1fbbdc9c-f3b1-5b75-9ac3-fa7befe368e2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Authorised Person" languagecode="1033" />
+                        </labels>
+                        <control id="edu_authorisedperson" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_authorisedperson" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a720242-788d-5e2f-80dc-81534deb2a36}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Relationship" languagecode="1033" />
+                        </labels>
+                        <control id="edu_relationship" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_relationship" />
+                      </cell>
+                      <cell id="{7109f1b0-3d63-598e-ba3b-e0dbdc6f5d08}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Valid From" languagecode="1033" />
+                        </labels>
+                        <control id="edu_validfrom" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_validfrom" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{100819b9-f864-5ee3-bcc2-34316c26a4b3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Valid To" languagecode="1033" />
+                        </labels>
+                        <control id="edu_validto" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_validto" />
+                      </cell>
+                      <cell id="{5d72f092-5cda-500d-b709-be6ea4f922fa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Authorisation Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_authstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_authstatus" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8b9590a-5b47-5c9a-9089-0656eb83bfd7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="ID Document Reference" languagecode="1033" />
+                        </labels>
+                        <control id="edu_iddocumentref" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_iddocumentref" />
+                      </cell>
+                      <cell id="{767e1b35-6710-59c6-817b-9c8bbee14ea4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Pickup Authorisation" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

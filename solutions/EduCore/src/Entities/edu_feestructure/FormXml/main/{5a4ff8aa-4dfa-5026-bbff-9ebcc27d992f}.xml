@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5a4ff8aa-4dfa-5026-bbff-9ebcc27d992f}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{b4417766-9269-5c72-9335-8e5a45ba51f9}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{ae68f3ef-2d6e-5ac0-a1a7-bf425941d837}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Fee Structure" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{656691e7-7e62-522c-8035-a48061ab6db9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{c02a9af0-0bd1-5533-9c0e-2986b3fd8da9}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{628ca755-5091-55be-99fd-32d098e8f549}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Grade" languagecode="1033" />
+                        </labels>
+                        <control id="edu_grade" classid="{adc5e8a5-6887-5992-8fb8-61ccdda17fcc}" datafieldname="edu_grade" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{592096f0-13dd-59fa-9571-56ea1de5f904}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Term" languagecode="1033" />
+                        </labels>
+                        <control id="edu_term" classid="{adc5e8a5-6887-5992-8fb8-61ccdda17fcc}" datafieldname="edu_term" />
+                      </cell>
+                      <cell id="{0063e178-4fca-517f-bace-d940e5d14b9f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Fee Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_feetype" classid="{f7236967-6e3c-52fc-b204-97c97f6e7c31}" datafieldname="edu_feetype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{25a3ce54-1f97-5dfb-9b96-82fc3927ac3f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="edu_amount" classid="{a3ed2542-c624-54cc-af7a-a3d55df5193d}" datafieldname="edu_amount" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Fee Structure" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

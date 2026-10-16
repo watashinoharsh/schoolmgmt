@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{92c62045-da3a-524a-8293-13dbcecff91f}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{dcbb9f87-0f55-54bc-8640-2f4d82670c22}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{5e9560a1-750c-58d1-afa3-030720596242}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Notification Recipient Rule" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{21969eab-2510-5799-8682-6f0a11a0723a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Recipient Rule" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{bb151bf0-b3b8-5f38-abc8-d34c9d0bb5e1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Notification Rule" languagecode="1033" />
+                        </labels>
+                        <control id="edu_rule" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_rule" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{542573a0-d01f-5c98-a4e4-2c57b84b52ae}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Recipient Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_recipienttype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_recipienttype" />
+                      </cell>
+                      <cell id="{32ff513e-4ab1-55ad-abd9-c73bd2175c27}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Role Code" languagecode="1033" />
+                        </labels>
+                        <control id="edu_rolecode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_rolecode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5d7b2e56-3d8f-577c-9e4a-358bce62800b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Relationship Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_relationshiptype" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_relationshiptype" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Notification Recipient Rule" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

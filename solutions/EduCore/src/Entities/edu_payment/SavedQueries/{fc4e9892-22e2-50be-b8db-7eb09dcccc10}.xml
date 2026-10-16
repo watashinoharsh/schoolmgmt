@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{fc4e9892-22e2-50be-b8db-7eb09dcccc10}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="edu_name" select="1" icon="1" preview="1">
+        <row name="result" id="edu_paymentid">
+          <cell name="edu_name" width="140" />
+          <cell name="edu_invoice" width="140" />
+          <cell name="edu_amount" width="140" />
+          <cell name="edu_paymentdate" width="140" />
+          <cell name="edu_method" width="140" />
+          <cell name="edu_reference" width="140" />
+          <cell name="edu_paymentstatus" width="140" />
+          <cell name="edu_recordedby" width="140" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="edu_payment">
+          <attribute name="edu_paymentid" />
+          <attribute name="edu_name" />
+          <attribute name="edu_invoice" />
+          <attribute name="edu_amount" />
+          <attribute name="edu_paymentdate" />
+          <attribute name="edu_method" />
+          <attribute name="edu_reference" />
+          <attribute name="edu_paymentstatus" />
+          <attribute name="edu_recordedby" />
+          <order attribute="edu_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Payments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9a34f355-409d-5d10-a62e-0265cf701d6b}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{6e39ccdf-5e18-50a5-b536-8f5bd755f1eb}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{8000c8b8-f4ad-5010-99f8-832c19600e76}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Approval Delegation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b2c4d830-dc1e-5812-91ef-f06b5554f064}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Delegation Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{4930ada1-bb5c-57ca-83fb-4bbd5582bd65}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Delegator" languagecode="1033" />
+                        </labels>
+                        <control id="edu_delegator" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_delegator" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{673b59ab-780d-5e98-8d0f-aa01129ff5d2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Delegate" languagecode="1033" />
+                        </labels>
+                        <control id="edu_delegate" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_delegate" />
+                      </cell>
+                      <cell id="{8237cd25-663d-5f11-88a0-a4e04c6f80a8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Request Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_requesttype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_requesttype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5478f304-e7fe-5f54-8555-42c52c74ae97}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Valid From" languagecode="1033" />
+                        </labels>
+                        <control id="edu_validfrom" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_validfrom" />
+                      </cell>
+                      <cell id="{c841f6bb-b668-580f-ac62-2c08a599e418}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Valid To" languagecode="1033" />
+                        </labels>
+                        <control id="edu_validto" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_validto" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cd8b5443-1937-58c5-ab72-4eedb9824ef6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is Active" languagecode="1033" />
+                        </labels>
+                        <control id="edu_isactive" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="edu_isactive" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Approval Delegation" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

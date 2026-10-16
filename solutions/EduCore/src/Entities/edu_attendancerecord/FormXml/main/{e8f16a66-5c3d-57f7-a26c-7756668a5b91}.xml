@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e8f16a66-5c3d-57f7-a26c-7756668a5b91}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{64915ccb-7295-5d60-a397-c6387e18c3c2}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{70648c1d-6170-55fe-b468-77509f7be56a}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Attendance Record" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{05eccbae-a6ac-5546-8597-d20f028dfd61}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Attendance" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{5c72ec10-61c6-5607-92e5-ba492f9ae5a3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Attendance Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_attendancedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_attendancedate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a10f548d-93c5-59a1-9354-c04ce1203057}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Period" languagecode="1033" />
+                        </labels>
+                        <control id="edu_period" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_period" />
+                      </cell>
+                      <cell id="{354e0b9e-908c-52af-a1d2-e1182ecd7a95}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Attendance Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_attendancestatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_attendancestatus" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d2e6c69f-c676-5180-97b0-b58125fcea85}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Source" languagecode="1033" />
+                        </labels>
+                        <control id="edu_source" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_source" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2e80f37e-bb4a-5b59-aa5f-3aaec5687127}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="edu_notes" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_notes" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{229b2061-8a55-5083-b4ad-6c9ccb25b92c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Attendance Record" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

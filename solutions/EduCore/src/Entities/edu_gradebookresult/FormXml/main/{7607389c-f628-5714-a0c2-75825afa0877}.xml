@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7607389c-f628-5714-a0c2-75825afa0877}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{3362e8b8-18de-5d03-86a5-b1b35073ba32}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{efd5b32b-6c3a-5ca7-88c9-ebd23235ad5a}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Gradebook Result" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3077dced-f7e8-50f1-b191-05664879afbe}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Result" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{52eaca64-9bef-5a3c-b418-2ef674828358}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Gradebook Component" languagecode="1033" />
+                        </labels>
+                        <control id="edu_component" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_component" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{64816f7e-2bf5-5624-b36a-a76af76a65a0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Mark" languagecode="1033" />
+                        </labels>
+                        <control id="edu_mark" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="edu_mark" />
+                      </cell>
+                      <cell id="{fa278d65-e469-52df-b89f-afcb33767c35}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Grade" languagecode="1033" />
+                        </labels>
+                        <control id="edu_grade" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_grade" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1f8f6969-f318-5f4d-a6ab-b29bd3804339}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Teacher Comment" languagecode="1033" />
+                        </labels>
+                        <control id="edu_teachercomment" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_teachercomment" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04e8e521-8da0-5773-9653-3b4e1b77e041}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Reporting Data" languagecode="1033" />
+                        </labels>
+                        <control id="edu_reportingdata" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_reportingdata" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b5517c0-1d2a-5a9c-bac1-65344463d393}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Key" languagecode="1033" />
+                        </labels>
+                        <control id="edu_externalkey" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_externalkey" />
+                      </cell>
+                      <cell id="{530e23ce-8825-5170-abf2-755aaed9dff8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Gradebook Result" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

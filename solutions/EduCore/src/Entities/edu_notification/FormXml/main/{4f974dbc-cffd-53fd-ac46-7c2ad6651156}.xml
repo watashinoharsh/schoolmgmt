@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4f974dbc-cffd-53fd-ac46-7c2ad6651156}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{70688af2-353a-5c8e-8a2b-fcb705e559a0}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{2a1152f2-7a3e-57cb-9190-9ade5a7e39be}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Notification" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a0d51ce0-c656-581f-8311-accf1cdc2807}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{713befd1-2950-577b-a8ca-f8730d7888d3}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Message" languagecode="1033" />
+                        </labels>
+                        <control id="edu_message" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_message" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c7568e86-4102-51b6-ba10-c1b1d3f71aab}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Regarding Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_regardingtype" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_regardingtype" />
+                      </cell>
+                      <cell id="{96af0de5-9ad7-5af1-8921-ef40aa1e5808}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Regarding Id" languagecode="1033" />
+                        </labels>
+                        <control id="edu_regardingid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_regardingid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{51df4cd7-8340-5b24-91d0-489cd186fd85}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Context" languagecode="1033" />
+                        </labels>
+                        <control id="edu_context" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_context" />
+                      </cell>
+                      <cell id="{466d2549-c708-5dd2-bd5a-d9c35a8e24de}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Deep Link URL" languagecode="1033" />
+                        </labels>
+                        <control id="edu_deeplinkurl" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_deeplinkurl" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{34515947-166d-5caa-8eb7-4e1e6bfe3fed}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Priority" languagecode="1033" />
+                        </labels>
+                        <control id="edu_priority" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_priority" />
+                      </cell>
+                      <cell id="{8c051a54-8935-5c25-9584-430d4d2dc515}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="edu_category" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_category" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eaa4345f-3efc-5e83-b07c-9616b6c085a1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Notification Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_notificationstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_notificationstatus" />
+                      </cell>
+                      <cell id="{d4b24987-d9bc-567e-8cb6-69caedef9394}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Notification Rule" languagecode="1033" />
+                        </labels>
+                        <control id="edu_rule" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_rule" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3fbce39f-a7eb-5463-a426-ffaa8fcb4c4d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Notification" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

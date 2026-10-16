@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{69604048-8cc6-5c69-b195-35b417dadff6}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{47a006c7-48b4-5467-8895-c5988e86a568}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{b928b3ef-47c9-576b-8c81-837a38f5a63b}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Activity" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d7f5e503-086c-57cd-b8d7-b879584988aa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Activity Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{d0aaf1ab-e625-5b9e-a96a-785e612f13b9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Activity Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_activitytype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_activitytype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{da6dc7cb-2686-54eb-aa47-e4b7d83ecf4f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Starts On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_startson" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_startson" />
+                      </cell>
+                      <cell id="{81966e7e-b28c-5d5f-a052-5c35ccf21d89}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Ends On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_endson" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_endson" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e130276e-f663-5ae1-8acb-5318a2b208e0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Approval Mode" languagecode="1033" />
+                        </labels>
+                        <control id="edu_approvalmode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_approvalmode" />
+                      </cell>
+                      <cell id="{6b80b986-1bb7-50f3-b003-6cff4e7d4ac9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Activity Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_activitystatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_activitystatus" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f3a284f5-5013-5aff-a463-d6e8621d618d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Payment Link" languagecode="1033" />
+                        </labels>
+                        <control id="edu_paymentlink" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_paymentlink" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{42b5a366-fd2b-53a3-b688-9bbc3e8f535c}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="edu_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_description" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c6ffd85-8ac9-5761-b2d7-99970c547105}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Activity" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

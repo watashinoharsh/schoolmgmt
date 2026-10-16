@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entities>
+  <entity name="edu_feestructure" displayname="Fee Structure" etc="0" primaryidfield="edu_feestructureid" primarynamefield="edu_name" disableplugins="true">
+    <fields>
+      <field displayname="Fee Structure" name="edu_feestructureid" type="guid" primaryKey="true" />
+      <field displayname="edu_name" name="edu_name" type="string" />
+      <field displayname="edu_grade" name="edu_grade" type="entityreference" lookupType="edu_grade" />
+      <field displayname="edu_term" name="edu_term" type="entityreference" lookupType="edu_term" />
+      <field displayname="edu_feetype" name="edu_feetype" type="optionsetvalue" />
+      <field displayname="edu_amount" name="edu_amount" type="decimal" />
+      <field displayname="edu_uniquekey" name="edu_uniquekey" type="string" />
+    </fields>
+  </entity>
+  <entity name="edu_invoice" displayname="Invoice" etc="0" primaryidfield="edu_invoiceid" primarynamefield="edu_name" disableplugins="true">
+    <fields>
+      <field displayname="Invoice" name="edu_invoiceid" type="guid" primaryKey="true" />
+      <field displayname="edu_name" name="edu_name" type="string" />
+      <field displayname="edu_student" name="edu_student" type="entityreference" lookupType="edu_student" />
+      <field displayname="edu_term" name="edu_term" type="entityreference" lookupType="edu_term" />
+      <field displayname="edu_totalamount" name="edu_totalamount" type="decimal" />
+      <field displayname="edu_paidamount" name="edu_paidamount" type="decimal" />
+      <field displayname="edu_dueamount" name="edu_dueamount" type="decimal" />
+      <field displayname="edu_duedate" name="edu_duedate" type="datetime" />
+      <field displayname="edu_invoicestatus" name="edu_invoicestatus" type="optionsetvalue" />
+      <field displayname="edu_uniquekey" name="edu_uniquekey" type="string" />
+    </fields>
+  </entity>
+  <entity name="edu_invoiceline" displayname="Invoice Line" etc="0" primaryidfield="edu_invoicelineid" primarynamefield="edu_name" disableplugins="true">
+    <fields>
+      <field displayname="Invoice Line" name="edu_invoicelineid" type="guid" primaryKey="true" />
+      <field displayname="edu_name" name="edu_name" type="string" />
+      <field displayname="edu_invoice" name="edu_invoice" type="entityreference" lookupType="edu_invoice" />
+      <field displayname="edu_feetype" name="edu_feetype" type="optionsetvalue" />
+      <field displayname="edu_quantity" name="edu_quantity" type="decimal" />
+      <field displayname="edu_amount" name="edu_amount" type="decimal" />
+    </fields>
+  </entity>
+  <entity name="edu_payment" displayname="Payment" etc="0" primaryidfield="edu_paymentid" primarynamefield="edu_name" disableplugins="true">
+    <fields>
+      <field displayname="Payment" name="edu_paymentid" type="guid" primaryKey="true" />
+      <field displayname="edu_name" name="edu_name" type="string" />
+      <field displayname="edu_invoice" name="edu_invoice" type="entityreference" lookupType="edu_invoice" />
+      <field displayname="edu_amount" name="edu_amount" type="decimal" />
+      <field displayname="edu_paymentdate" name="edu_paymentdate" type="datetime" />
+      <field displayname="edu_method" name="edu_method" type="optionsetvalue" />
+      <field displayname="edu_reference" name="edu_reference" type="string" />
+      <field displayname="edu_paymentstatus" name="edu_paymentstatus" type="optionsetvalue" />
+    </fields>
+  </entity>
+</entities>

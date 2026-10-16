@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{66695472-2644-587a-bb08-fd544710b508}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{6dff0f78-8a67-55d1-af28-9d730e498931}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{a45ba93a-b563-57c8-b66e-f736e7174988}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Student" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4b0d96b3-e759-5a96-a72c-b3cf9da9f1a1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{468d1803-1042-52ce-9f12-8bfefdd95c39}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{86c644eb-a497-59fb-9614-36eb93f84e25}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Student Code" languagecode="1033" />
+                        </labels>
+                        <control id="edu_studentcode" classid="{468d1803-1042-52ce-9f12-8bfefdd95c39}" datafieldname="edu_studentcode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d2e2622f-cf50-5c4e-b8be-a30505ba431a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date of Birth" languagecode="1033" />
+                        </labels>
+                        <control id="edu_dateofbirth" classid="{f68234b8-8318-51f9-96fc-54dbb1c4f86f}" datafieldname="edu_dateofbirth" />
+                      </cell>
+                      <cell id="{efb60976-0612-5350-9a54-1cb440cbe587}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Gender" languagecode="1033" />
+                        </labels>
+                        <control id="edu_gender" classid="{bc576c57-ec0f-5968-954c-a74c7d62771a}" datafieldname="edu_gender" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b9ec12db-2dc1-53d1-b7be-30e1a170bdca}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Enrolment Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_enrolmentdate" classid="{f68234b8-8318-51f9-96fc-54dbb1c4f86f}" datafieldname="edu_enrolmentdate" />
+                      </cell>
+                      <cell id="{de482dd4-acfa-5d75-a261-a056da3f27a3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Current Grade" languagecode="1033" />
+                        </labels>
+                        <control id="edu_currentgrade" classid="{44e54887-3261-514b-b617-b342d55e0310}" datafieldname="edu_currentgrade" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ce380f22-e4dd-55bd-8f1d-0b7d8738f3d0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Current Section" languagecode="1033" />
+                        </labels>
+                        <control id="edu_currentsection" classid="{44e54887-3261-514b-b617-b342d55e0310}" datafieldname="edu_currentsection" />
+                      </cell>
+                      <cell id="{29c72a94-26ac-572c-ad52-31dcdfbbdff4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="National ID" languagecode="1033" />
+                        </labels>
+                        <control id="edu_nationalid" classid="{468d1803-1042-52ce-9f12-8bfefdd95c39}" datafieldname="edu_nationalid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fac6b93d-e026-5613-91df-cb0911ab6ef7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Fee Concession %" languagecode="1033" />
+                        </labels>
+                        <control id="edu_feeconcessionpercent" classid="{6ff2f316-81a5-5c8b-a4df-92ea3a96c8fe}" datafieldname="edu_feeconcessionpercent" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Student" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
