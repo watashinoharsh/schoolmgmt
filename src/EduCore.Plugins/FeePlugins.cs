@@ -190,7 +190,7 @@ namespace EduCore.Plugins
             var context = ctx.PluginExecutionContext;
             var studentRef = (EntityReference)context.InputParameters["StudentId"];
             var termRef = (EntityReference)context.InputParameters["TermId"];
-            DateTime? dueDate = context.InputParameters.Contains("DueDate") ? context.InputParameters["DueDate"] as DateTime? : null;
+            DateTime? dueDate = ApiInput.OptionalDate(context.InputParameters.Contains("DueDate") ? context.InputParameters["DueDate"] : null);
             var service = ctx.InitiatingUserService;
             var data = new OrgDataAccess(service);
 
