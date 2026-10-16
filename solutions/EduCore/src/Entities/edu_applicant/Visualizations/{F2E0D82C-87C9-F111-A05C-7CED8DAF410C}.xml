@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<visualization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedqueryvisualizationid>{F2E0D82C-87C9-F111-A05C-7CED8DAF410C}</savedqueryvisualizationid>
+  <datadescription>
+    <datadefinition>
+      <fetchcollection>
+        <fetch mapping="logical" aggregate="true">
+          <entity name="edu_applicant">
+            <attribute name="edu_applicantid" alias="cnt" aggregate="count" />
+            <attribute name="statuscode" alias="grp" groupby="true" />
+          </entity>
+        </fetch>
+      </fetchcollection>
+      <categorycollection>
+        <category alias="grp">
+          <measurecollection>
+            <measure alias="cnt" />
+          </measurecollection>
+        </category>
+      </categorycollection>
+    </datadefinition>
+  </datadescription>
+  <presentationdescription>
+    <Chart Palette="None" PaletteCustomColors="0,114,198;76,175,80;255,152,0;156,39,176">
+      <Series>
+        <Series ChartType="Column" IsValueShownAsLabel="True" />
+      </Series>
+      <ChartAreas>
+        <ChartArea>
+          <AxisY>
+            <MajorGrid LineColor="233, 233, 233" />
+          </AxisY>
+          <AxisX>
+            <MajorGrid Enabled="False" />
+          </AxisX>
+        </ChartArea>
+      </ChartAreas>
+      <Legends>
+        <Legend Alignment="Center" Docking="Bottom" />
+      </Legends>
+    </Chart>
+  </presentationdescription>
+  <isdefault>0</isdefault>
+  <LocalizedNames>
+    <LocalizedName description="EDU Applications by status" languagecode="1033" />
+  </LocalizedNames>
+  <IsCustomizable>1</IsCustomizable>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <CanBeDeleted>1</CanBeDeleted>
+</visualization>

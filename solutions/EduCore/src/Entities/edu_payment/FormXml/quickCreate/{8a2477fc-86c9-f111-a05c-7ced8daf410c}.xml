@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8a2477fc-86c9-f111-a05c-7ced8daf410c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_General" verticallayout="true" id="{DC4D3DE0-A0D8-4E6A-AB2E-64B95DE56AF5}" IsUserDefined="0" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_General" showlabel="true" showbar="false" columns="1" id="{2F4FAE04-5408-4CFE-BC05-6B0CD4277264}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{24218A87-796A-486B-BCF1-3891345B093A}" showlabel="true">
+                        <labels>
+                          <label description="Payment" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{A530203B-575E-4F4B-B559-DE0E1671349F}" showlabel="true">
+                        <labels>
+                          <label description="Invoice" languagecode="1033" />
+                        </labels>
+                        <control id="edu_invoice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_invoice" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{D66CFE6C-3D75-43A5-B263-9A3F6A565295}" showlabel="true">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="edu_amount" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079AFDE7}" datafieldname="edu_amount" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{F3F37B9B-C5C1-4FD8-8742-EE552E9C394D}" showlabel="true">
+                        <labels>
+                          <label description="Payment Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_paymentdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="edu_paymentdate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8BEB6FE2-ECF5-4221-974F-A3E9C802C37F}" showlabel="true">
+                        <labels>
+                          <label description="Method" languagecode="1033" />
+                        </labels>
+                        <control id="edu_method" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="edu_method" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{027CBDA5-5BE0-4309-9462-AD65A180CCA8}" showlabel="true">
+                        <labels>
+                          <label description="Reference" languagecode="1033" />
+                        </labels>
+                        <control id="edu_reference" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_reference" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="EduCore Quick Create" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="EduCore payment quick create" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

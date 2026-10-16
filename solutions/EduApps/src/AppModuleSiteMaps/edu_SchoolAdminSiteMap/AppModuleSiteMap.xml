@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>edu_SchoolAdminSiteMap</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="1.0.0.0">
+    <Area Id="area_Admissions" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Admissions" />
+      </Titles>
+      <Group Id="grp_Admissions">
+        <Titles>
+          <Title LCID="1033" Title="Admissions" />
+        </Titles>
+        <SubArea Id="sub_dashboards" Entity="dashboard">
+          <Titles>
+            <Title LCID="1033" Title="Dashboards" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="sub_edu_applicant" Entity="edu_applicant" />
+        <SubArea Id="sub_edu_reenrolment" Entity="edu_reenrolment" />
+        <SubArea Id="sub_edu_reenrolmentcycle" Entity="edu_reenrolmentcycle" />
+        <SubArea Id="sub_edu_reenrolmentcohort" Entity="edu_reenrolmentcohort" />
+        <SubArea Id="sub_edu_reenrolmentrule" Entity="edu_reenrolmentrule" />
+        <SubArea Id="sub_edu_approvalrequest" Entity="edu_approvalrequest" />
+        <SubArea Id="sub_edu_approvalhistory" Entity="edu_approvalhistory" />
+        <SubArea Id="sub_edu_documentreference" Entity="edu_documentreference" />
+      </Group>
+    </Area>
+    <Area Id="area_Students" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Students" />
+      </Titles>
+      <Group Id="grp_Students">
+        <Titles>
+          <Title LCID="1033" Title="Students" />
+        </Titles>
+        <SubArea Id="sub_edu_student" Entity="edu_student" />
+        <SubArea Id="sub_edu_studentguardian" Entity="edu_studentguardian" />
+        <SubArea Id="sub_contact" Entity="contact" />
+        <SubArea Id="sub_edu_enrolment" Entity="edu_enrolment" />
+        <SubArea Id="sub_edu_behaviourrecord" Entity="edu_behaviourrecord" />
+        <SubArea Id="sub_edu_behaviourcategory" Entity="edu_behaviourcategory" />
+        <SubArea Id="sub_edu_consentrecord" Entity="edu_consentrecord" />
+        <SubArea Id="sub_edu_consenttype" Entity="edu_consenttype" />
+        <SubArea Id="sub_edu_pickupauthorisation" Entity="edu_pickupauthorisation" />
+        <SubArea Id="sub_edu_gatepass" Entity="edu_gatepass" />
+        <SubArea Id="sub_edu_visitor" Entity="edu_visitor" />
+        <SubArea Id="sub_edu_kioskrecord" Entity="edu_kioskrecord" />
+      </Group>
+    </Area>
+    <Area Id="area_Academics" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Academics" />
+      </Titles>
+      <Group Id="grp_Academics">
+        <Titles>
+          <Title LCID="1033" Title="Academics" />
+        </Titles>
+        <SubArea Id="sub_edu_section" Entity="edu_section" />
+        <SubArea Id="sub_edu_course" Entity="edu_course" />
+        <SubArea Id="sub_edu_subjectassignment" Entity="edu_subjectassignment" />
+        <SubArea Id="sub_edu_classschedule" Entity="edu_classschedule" />
+        <SubArea Id="sub_edu_assessment" Entity="edu_assessment" />
+        <SubArea Id="sub_edu_studentmark" Entity="edu_studentmark" />
+        <SubArea Id="sub_edu_gradebookcomponent" Entity="edu_gradebookcomponent" />
+        <SubArea Id="sub_edu_gradebookresult" Entity="edu_gradebookresult" />
+        <SubArea Id="sub_edu_gradebookpublish" Entity="edu_gradebookpublish" />
+        <SubArea Id="sub_edu_reportcard" Entity="edu_reportcard" />
+        <SubArea Id="sub_edu_reportcardline" Entity="edu_reportcardline" />
+        <SubArea Id="sub_edu_academicreport" Entity="edu_academicreport" />
+        <SubArea Id="sub_edu_academicreportversion" Entity="edu_academicreportversion" />
+      </Group>
+    </Area>
+    <Area Id="area_Attendance" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Attendance" />
+      </Titles>
+      <Group Id="grp_Attendance">
+        <Titles>
+          <Title LCID="1033" Title="Attendance" />
+        </Titles>
+        <SubArea Id="sub_edu_attendance" Entity="edu_attendance" />
+        <SubArea Id="sub_edu_attendancerecord" Entity="edu_attendancerecord" />
+        <SubArea Id="sub_edu_attendancesummary" Entity="edu_attendancesummary" />
+        <SubArea Id="sub_edu_musterevent" Entity="edu_musterevent" />
+        <SubArea Id="sub_edu_musterentry" Entity="edu_musterentry" />
+      </Group>
+    </Area>
+    <Area Id="area_Finance" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Finance" />
+      </Titles>
+      <Group Id="grp_Finance">
+        <Titles>
+          <Title LCID="1033" Title="Finance" />
+        </Titles>
+        <SubArea Id="sub_edu_feestructure" Entity="edu_feestructure" />
+        <SubArea Id="sub_edu_feetype" Entity="edu_feetype" />
+        <SubArea Id="sub_edu_invoice" Entity="edu_invoice" />
+        <SubArea Id="sub_edu_invoiceline" Entity="edu_invoiceline" />
+        <SubArea Id="sub_edu_payment" Entity="edu_payment" />
+      </Group>
+    </Area>
+    <Area Id="area_Staff" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Staff" />
+      </Titles>
+      <Group Id="grp_Staff">
+        <Titles>
+          <Title LCID="1033" Title="Staff" />
+        </Titles>
+        <SubArea Id="sub_edu_staff" Entity="edu_staff" />
+        <SubArea Id="sub_edu_approvaldelegation" Entity="edu_approvaldelegation" />
+        <SubArea Id="sub_edu_activity" Entity="edu_activity" />
+        <SubArea Id="sub_edu_activityparticipant" Entity="edu_activityparticipant" />
+        <SubArea Id="sub_edu_activityvenue" Entity="edu_activityvenue" />
+        <SubArea Id="sub_edu_activitytransport" Entity="edu_activitytransport" />
+        <SubArea Id="sub_edu_activityrisk" Entity="edu_activityrisk" />
+        <SubArea Id="sub_edu_activityreport" Entity="edu_activityreport" />
+        <SubArea Id="sub_edu_activityfeedback" Entity="edu_activityfeedback" />
+      </Group>
+    </Area>
+    <Area Id="area_Setup" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Setup" />
+      </Titles>
+      <Group Id="grp_Setup">
+        <Titles>
+          <Title LCID="1033" Title="Setup" />
+        </Titles>
+        <SubArea Id="sub_edu_academicyear" Entity="edu_academicyear" />
+        <SubArea Id="sub_edu_term" Entity="edu_term" />
+        <SubArea Id="sub_edu_calendarday" Entity="edu_calendarday" />
+        <SubArea Id="sub_edu_period" Entity="edu_period" />
+        <SubArea Id="sub_edu_grade" Entity="edu_grade" />
+        <SubArea Id="sub_edu_gradeband" Entity="edu_gradeband" />
+        <SubArea Id="sub_edu_notification" Entity="edu_notification" />
+        <SubArea Id="sub_edu_notificationrule" Entity="edu_notificationrule" />
+        <SubArea Id="sub_edu_notificationtemplate" Entity="edu_notificationtemplate" />
+        <SubArea Id="sub_edu_notificationrecipient" Entity="edu_notificationrecipient" />
+        <SubArea Id="sub_edu_notificationrecipientrule" Entity="edu_notificationrecipientrule" />
+        <SubArea Id="sub_edu_approvalmatrix" Entity="edu_approvalmatrix" />
+        <SubArea Id="sub_edu_approvalmatrixdetail" Entity="edu_approvalmatrixdetail" />
+        <SubArea Id="sub_edu_approvalcontenttemplate" Entity="edu_approvalcontenttemplate" />
+        <SubArea Id="sub_edu_rolloverplan" Entity="edu_rolloverplan" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="EDU School Admin" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

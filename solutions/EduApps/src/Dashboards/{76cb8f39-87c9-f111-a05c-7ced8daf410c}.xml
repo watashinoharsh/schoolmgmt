@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="EDU Teacher Dashboard" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Sections, assessments to grade, report cards" languagecode="1033" />
+  </Descriptions>
+  <FormId>{76cb8f39-87c9-f111-a05c-7ced8daf410c}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab verticallayout="true" id="{A4E28107-0C42-424F-AD2C-B7F4CEB40D67}">
+            <labels>
+              <label description="" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" id="{DAC84041-B0CD-45B9-B2E3-9309D340217F}" columns="2">
+                    <labels>
+                      <label description="" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell id="{674D7F0D-D960-463F-8BB7-A20CCC7543EE}" showlabel="false" rowspan="9" colspan="1">
+                          <labels>
+                            <label description="Sections" languagecode="1033" />
+                          </labels>
+                          <control id="c2e9eee742432466e8749d7abebfe5d56" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{db898ece-96e2-5500-9334-a50df7940ef6}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>edu_section</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <ViewIds>{db898ece-96e2-5500-9334-a50df7940ef6}</ViewIds>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>6</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{4E9E707D-825F-471D-9C4D-AFF1AF38C255}" showlabel="false" rowspan="9" colspan="1">
+                          <labels>
+                            <label description="Assessments" languagecode="1033" />
+                          </labels>
+                          <control id="c7e29f7b69c6f4ac38d89f0920f13441a" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{a364eeeb-7ac7-5f4c-8c19-87502b5d00d2}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>edu_assessment</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <ViewIds>{a364eeeb-7ac7-5f4c-8c19-87502b5d00d2}</ViewIds>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>6</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{ABFE4FE5-D2DE-410A-9049-18A48E882172}" showlabel="false" rowspan="9" colspan="1">
+                          <labels>
+                            <label description="Assessments" languagecode="1033" />
+                          </labels>
+                          <control id="cb122c45854594c599637046dee57696d" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{a364eeeb-7ac7-5f4c-8c19-87502b5d00d2}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>edu_assessment</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{02e1d82c-87c9-f111-a05c-7ced8daf410c}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>5</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{FECB0C1A-B3B1-40EF-BCF0-6DEC5D18D734}" showlabel="false" rowspan="9" colspan="1">
+                          <labels>
+                            <label description="Report Cards" languagecode="1033" />
+                          </labels>
+                          <control id="ced5ef13ae0854fab93b431a2511a348e" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{eadc154b-8881-48d3-b754-560e57581f6b}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>edu_reportcard</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{06e1d82c-87c9-f111-a05c-7ced8daf410c}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>5</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

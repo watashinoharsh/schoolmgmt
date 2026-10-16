@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{387c8cdc-86c9-f111-a05c-7ced8daf410c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="edu_student" select="1" icon="1" preview="1">
+        <row name="result" id="edu_attendancesummaryid">
+          <cell name="edu_student" width="200" />
+          <cell name="edu_term" width="120" />
+          <cell name="edu_percentage" width="100" />
+          <cell name="edu_present" width="80" />
+          <cell name="edu_absent" width="80" />
+          <cell name="edu_late" width="80" />
+          <cell name="edu_teachingdays" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="edu_attendancesummary">
+          <attribute name="edu_student" />
+          <attribute name="edu_term" />
+          <attribute name="edu_percentage" />
+          <attribute name="edu_present" />
+          <attribute name="edu_absent" />
+          <attribute name="edu_late" />
+          <attribute name="edu_teachingdays" />
+          <attribute name="edu_attendancesummaryid" />
+          <order attribute="edu_percentage" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="edu_percentage" operator="lt" value="90" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Students Below Attendance Threshold" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Attendance percentage below 90" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

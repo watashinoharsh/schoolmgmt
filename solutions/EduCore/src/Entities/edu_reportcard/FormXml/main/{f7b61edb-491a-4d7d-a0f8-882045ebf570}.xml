@@ -7,20 +7,20 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{93907FF7-B4E5-42EE-B1AD-30C647055772}" IsUserDefined="1">
+        <tab name="tab_Summary" verticallayout="true" id="{92EBC310-7412-4614-8D08-0E85B5CE9741}" IsUserDefined="0" expanded="true">
           <labels>
-            <label description="General" languagecode="1033" />
+            <label description="Summary" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{21E87696-BB05-40A5-9282-99F90D40F025}">
+                <section name="sec_Summary" showlabel="true" showbar="false" columns="1" id="{9D0C16FD-CCF2-4F9B-82F6-08F86FFD6A03}">
                   <labels>
-                    <label description="General" languagecode="1033" />
+                    <label description="Summary" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{0C3DFE50-6CEF-4177-9531-19C768664F53}">
+                      <cell id="{47088BBA-9DE9-4FBC-BE43-2B76CD9255D5}" showlabel="true">
                         <labels>
                           <label description="Name" languagecode="1033" />
                         </labels>
@@ -28,11 +28,118 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{C36ED7D7-5F57-48BC-A612-AFED3693F5FC}">
+                      <cell id="{9136DBA1-410C-4828-9F36-FA8D8239F5AF}" showlabel="true">
+                        <labels>
+                          <label description="Student" languagecode="1033" />
+                        </labels>
+                        <control id="edu_student" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_student" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{D883BD6C-A391-4F5E-B31B-A9D48D444C48}" showlabel="true">
+                        <labels>
+                          <label description="Term" languagecode="1033" />
+                        </labels>
+                        <control id="edu_term" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_term" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{98471E2D-3AAD-4E45-9A37-2C59633AD959}" showlabel="true">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_reportstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="edu_reportstatus" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6A5CC904-2C75-4F03-960C-9D821408FE30}" showlabel="true">
+                        <labels>
+                          <label description="Overall Percent" languagecode="1033" />
+                        </labels>
+                        <control id="edu_overallpercent" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079AFDE7}" datafieldname="edu_overallpercent" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1B9337C9-00C5-4F00-9B9C-E27075D88888}" showlabel="true">
+                        <labels>
+                          <label description="Overall Grade" languagecode="1033" />
+                        </labels>
+                        <control id="edu_overallgrade" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_overallgrade" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0E267C57-880F-4A75-BAE6-53B344799B88}" showlabel="true">
+                        <labels>
+                          <label description="Attendance Percent" languagecode="1033" />
+                        </labels>
+                        <control id="edu_attendancepercent" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079AFDE7}" datafieldname="edu_attendancepercent" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{BC4D9BA2-0F67-483C-B7D5-EF69F4C7C7FB}" showlabel="true">
+                        <labels>
+                          <label description="Generated On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_generatedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="edu_generatedon" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{E0BBF5F2-9030-43B0-AA69-02A2FFE5CCA4}" showlabel="true">
+                        <labels>
+                          <label description="Published On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_publishedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="edu_publishedon" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{D5D9D220-AC15-4934-BA1A-1D18237CFC0A}" showlabel="true">
                         <labels>
                           <label description="Owner" languagecode="1033" />
                         </labels>
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Lines" verticallayout="true" id="{BAA7572F-12E4-4012-8A8F-503747E0DBE0}" IsUserDefined="0" expanded="true">
+          <labels>
+            <label description="Lines" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_Lines" showlabel="true" showbar="false" columns="1" id="{2FE7D369-7781-4573-A2A6-A6CFBBFF95CE}">
+                  <labels>
+                    <label description="Lines" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{A987486F-E11E-4E54-BCB9-7359A7DE1A00}" showlabel="false" rowspan="6" colspan="1">
+                        <labels>
+                          <label description="Report card lines" languagecode="1033" />
+                        </labels>
+                        <control id="sg_edu_reportcardline_reportcard" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{77BA3735-DFBD-4407-B5A8-11D6BF139D84}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>edu_reportcardline_reportcard</RelationshipName>
+                            <TargetEntityType>edu_reportcardline</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{77BA3735-DFBD-4407-B5A8-11D6BF139D84}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                   </rows>
@@ -46,10 +153,10 @@
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="EduCore Main" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
-      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="EduCore report card main form" languagecode="1033" />
     </Descriptions>
   </systemform>
 </forms>

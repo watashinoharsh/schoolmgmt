@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{457c8cdc-86c9-f111-a05c-7ced8daf410c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="edu_student" select="1" icon="1" preview="1">
+        <row name="result" id="edu_attendanceid">
+          <cell name="edu_student" width="200" />
+          <cell name="edu_date" width="110" />
+          <cell name="edu_attendancetype" width="120" />
+          <cell name="edu_absencereason" width="200" />
+          <cell name="edu_subjectassignment" width="160" />
+          <cell name="edu_recordedby" width="140" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="edu_attendance">
+          <attribute name="edu_student" />
+          <attribute name="edu_date" />
+          <attribute name="edu_attendancetype" />
+          <attribute name="edu_absencereason" />
+          <attribute name="edu_subjectassignment" />
+          <attribute name="edu_recordedby" />
+          <attribute name="edu_attendanceid" />
+          <order attribute="edu_student" descending="false" />
+          <filter type="and">
+            <condition attribute="edu_attendancestatus" operator="eq" value="859680002" />
+            <condition attribute="edu_date" operator="today" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Today's Absences" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Absent attendance records dated today" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

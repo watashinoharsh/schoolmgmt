@@ -7,86 +7,112 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab name="tab_general" id="{622a361c-d53a-5c0f-92a9-bff8de01dd9e}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+        <tab name="tab_Summary" verticallayout="true" id="{28E5D208-319F-4CEB-9ECC-AFD7D879A19F}" IsUserDefined="0" expanded="true">
           <labels>
-            <label description="General" languagecode="1033" />
+            <label description="Summary" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="sec_main" showlabel="true" showbar="false" id="{51f24e68-dc72-55b6-84b2-c6b289a24a0d}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                <section name="sec_Summary" showlabel="true" showbar="false" columns="1" id="{D271B709-D668-4CBF-A066-4A153FFB15B2}">
                   <labels>
-                    <label description="Applicant" languagecode="1033" />
+                    <label description="Summary" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{cc2c7aa4-c9e5-53e0-aa93-319d4f734d47}" showlabel="true" locklevel="0">
+                      <cell id="{C84BB6A7-63F8-48DD-8E97-D37EFDE99AFD}" showlabel="true">
                         <labels>
-                          <label description="Name" languagecode="1033" />
+                          <label description="Applicant" languagecode="1033" />
                         </labels>
-                        <control id="edu_name" classid="{d665ff00-7eb3-56d9-9f64-a82b2a63bd78}" datafieldname="edu_name" />
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
                       </cell>
-                      <cell id="{e231ad63-8fa5-51a2-ac21-a3855266f03d}" showlabel="true" locklevel="0">
+                    </row>
+                    <row>
+                      <cell id="{47B89804-483B-4D4F-8B82-B8B3B3B625F7}" showlabel="true">
                         <labels>
                           <label description="Applicant Number" languagecode="1033" />
                         </labels>
-                        <control id="edu_applicantnumber" classid="{d665ff00-7eb3-56d9-9f64-a82b2a63bd78}" datafieldname="edu_applicantnumber" />
+                        <control id="edu_applicantnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_applicantnumber" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{41349182-366e-53d0-8a0a-efc4564a29c3}" showlabel="true" locklevel="0">
+                      <cell id="{B6CE4BF3-5E4D-477E-B19A-DB53D5F925E8}" showlabel="true">
                         <labels>
                           <label description="Date of Birth" languagecode="1033" />
                         </labels>
-                        <control id="edu_dateofbirth" classid="{0b3f49c4-9979-5221-bea1-bd0b42b9c111}" datafieldname="edu_dateofbirth" />
-                      </cell>
-                      <cell id="{e2796149-00a0-53fe-b006-8539e961a2e0}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Applying Grade" languagecode="1033" />
-                        </labels>
-                        <control id="edu_applyinggrade" classid="{05ace971-e550-55b6-8b77-b6cd9cd0e956}" datafieldname="edu_applyinggrade" />
+                        <control id="edu_dateofbirth" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="edu_dateofbirth" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{1a583dc8-e641-51a6-93ee-36ed90ca259b}" showlabel="true" locklevel="0">
+                      <cell id="{8D7FF13D-49E4-4475-BD5E-599481829F32}" showlabel="true">
                         <labels>
                           <label description="Academic Year" languagecode="1033" />
                         </labels>
-                        <control id="edu_academicyear" classid="{05ace971-e550-55b6-8b77-b6cd9cd0e956}" datafieldname="edu_academicyear" />
-                      </cell>
-                      <cell id="{04b7a8ce-36f0-5552-8066-a46b38077bbe}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Primary Guardian" languagecode="1033" />
-                        </labels>
-                        <control id="edu_primaryguardian" classid="{05ace971-e550-55b6-8b77-b6cd9cd0e956}" datafieldname="edu_primaryguardian" />
+                        <control id="edu_academicyear" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_academicyear" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8b7a392c-09f4-58bb-b45e-3c2795f5616f}" showlabel="true" locklevel="0">
+                      <cell id="{489BFD41-8A8A-490A-ADB5-10073D26262F}" showlabel="true">
+                        <labels>
+                          <label description="Applying Grade" languagecode="1033" />
+                        </labels>
+                        <control id="edu_applyinggrade" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_applyinggrade" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{DCF6E277-1643-497F-AF57-039805E53961}" showlabel="true">
                         <labels>
                           <label description="Previous School" languagecode="1033" />
                         </labels>
-                        <control id="edu_previousschool" classid="{d665ff00-7eb3-56d9-9f64-a82b2a63bd78}" datafieldname="edu_previousschool" />
-                      </cell>
-                      <cell id="{ffc51821-4447-580c-86b2-9a42c6fd97d0}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Application Date" languagecode="1033" />
-                        </labels>
-                        <control id="edu_applicationdate" classid="{0b3f49c4-9979-5221-bea1-bd0b42b9c111}" datafieldname="edu_applicationdate" />
+                        <control id="edu_previousschool" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_previousschool" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f3644a70-25c6-54d9-b250-79bafde34173}" showlabel="true" locklevel="0">
+                      <cell id="{D805DB43-A06B-46DD-B990-353A0E5F5F82}" showlabel="true">
+                        <labels>
+                          <label description="Primary Guardian" languagecode="1033" />
+                        </labels>
+                        <control id="edu_primaryguardian" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_primaryguardian" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{44E3BC65-3A39-41F8-A784-F1DBB30B0B31}" showlabel="true">
+                        <labels>
+                          <label description="Application Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_applicationdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="edu_applicationdate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{DACD03BE-C6AB-417D-B0FB-A009F8F0D5A6}" showlabel="true">
                         <labels>
                           <label description="Offer Date" languagecode="1033" />
                         </labels>
-                        <control id="edu_offerdate" classid="{0b3f49c4-9979-5221-bea1-bd0b42b9c111}" datafieldname="edu_offerdate" />
+                        <control id="edu_offerdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="edu_offerdate" />
                       </cell>
-                      <cell id="{43869d1f-9463-58ec-8299-1ea2ab6883f2}" showlabel="true" locklevel="0">
+                    </row>
+                    <row>
+                      <cell id="{F3EFE74F-9340-4758-8590-B7A56108D4E3}" showlabel="true">
                         <labels>
                           <label description="Decision Reason" languagecode="1033" />
                         </labels>
-                        <control id="edu_decisionreason" classid="{d665ff00-7eb3-56d9-9f64-a82b2a63bd78}" datafieldname="edu_decisionreason" />
+                        <control id="edu_decisionreason" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_decisionreason" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{84422AE9-9468-49DD-BF67-BB12A4A62981}" showlabel="true">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{5D68B988-0661-4DB2-BC3E-17598AD3BE6C}" datafieldname="statuscode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{87E49FAE-4357-4620-849A-38E3ED2818E3}" showlabel="true">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                       </cell>
                     </row>
                   </rows>
@@ -100,10 +126,10 @@
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Applicant" languagecode="1033" />
+      <LocalizedName description="EduCore Main" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
-      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="EduCore applicant main form" languagecode="1033" />
     </Descriptions>
   </systemform>
 </forms>
