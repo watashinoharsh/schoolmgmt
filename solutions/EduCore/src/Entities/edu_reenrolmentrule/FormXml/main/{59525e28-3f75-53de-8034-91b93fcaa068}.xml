@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{59525e28-3f75-53de-8034-91b93fcaa068}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{b06992a6-3513-5391-811a-df2147331c7f}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{dc6e9356-87ed-5305-b57a-e48ebc42d225}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Re-enrolment Rule" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ba4cf5ea-2cf7-5c03-b006-540ec1a4dbbe}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Rule" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{be5bd947-abaa-5f39-a00a-af9a9dab43d4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Cycle" languagecode="1033" />
+                        </labels>
+                        <control id="edu_cycle" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_cycle" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4418fb7f-acab-51f5-90f5-dc9a56e8feea}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Rule Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_ruletype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_ruletype" />
+                      </cell>
+                      <cell id="{40ab46e5-adf2-5460-a632-a9cc5b563c4a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Blocking Reason" languagecode="1033" />
+                        </labels>
+                        <control id="edu_blockingreason" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_blockingreason" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47cb2cb0-e066-5480-b679-50f0e8109c5a}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="edu_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_description" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Re-enrolment Rule" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

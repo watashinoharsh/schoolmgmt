@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4e77ceac-d68f-5783-80b4-b1a935b3a8d0}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{4eb28b8e-5f83-5b6e-981e-dcee85a7ec69}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{d2d2aa89-efcc-54ef-8456-60897b3a0258}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Approval History" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7e8b1245-ae22-5cc4-a396-7658fd620af1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Entry" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{ba04295b-3f45-51ec-b284-6f975b93548b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Approval Request" languagecode="1033" />
+                        </labels>
+                        <control id="edu_request" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_request" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{717af6bd-4d87-559e-9dc9-d9229f88bedb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Action" languagecode="1033" />
+                        </labels>
+                        <control id="edu_action" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_action" />
+                      </cell>
+                      <cell id="{35257950-a249-599c-b008-d16a5235967a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Actor" languagecode="1033" />
+                        </labels>
+                        <control id="edu_actor" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_actor" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{48a88ee8-9e32-556b-85ee-0f573738d9bf}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Occurred On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_occurredon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_occurredon" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12938c3f-578a-518d-8423-c028fd2d8fd7}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Comment" languagecode="1033" />
+                        </labels>
+                        <control id="edu_comment" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_comment" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8b76cefa-5c09-5b90-9a05-16287d5ece81}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Approval History" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

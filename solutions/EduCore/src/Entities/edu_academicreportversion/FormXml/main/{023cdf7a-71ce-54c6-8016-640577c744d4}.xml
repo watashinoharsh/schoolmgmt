@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{023cdf7a-71ce-54c6-8016-640577c744d4}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{aebe012f-498e-5559-9895-ea5fc1679f2c}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{08a04f0b-47e8-528c-975e-e14c82e07730}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Academic Report Version" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6ba42fb0-68a3-52f0-816d-300046a324a3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Version" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{b24bc633-d385-5a0f-bda7-a9208f83fcfa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Academic Report" languagecode="1033" />
+                        </labels>
+                        <control id="edu_report" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_report" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c6e754e-4f06-5a26-9229-75ee5d7b6958}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Version Number" languagecode="1033" />
+                        </labels>
+                        <control id="edu_versionnumber" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="edu_versionnumber" />
+                      </cell>
+                      <cell id="{743e68e7-f908-5133-bc65-d13fa6dfc9d8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Version State" languagecode="1033" />
+                        </labels>
+                        <control id="edu_versionstate" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_versionstate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de8c6845-5efe-5c3a-ac1b-659254b2bf3b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Effective From" languagecode="1033" />
+                        </labels>
+                        <control id="edu_effectivefrom" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_effectivefrom" />
+                      </cell>
+                      <cell id="{35e453d7-75ae-5938-914b-5217aea263d8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Expires On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_expireson" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_expireson" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54ad9df3-b15d-562a-bd3f-dee1cc922ce3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Published On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_publishedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_publishedon" />
+                      </cell>
+                      <cell id="{5f5853f9-76f9-556c-b3cd-5fd7aa6d79dd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Reviewed On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_reviewedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_reviewedon" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5d65432e-eb4a-59a1-9edc-627b9a6721bc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="SharePoint Reference" languagecode="1033" />
+                        </labels>
+                        <control id="edu_sharepointref" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_sharepointref" />
+                      </cell>
+                      <cell id="{25e31f34-eae4-532e-a407-2bb22c0aea7d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Academic Report Version" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

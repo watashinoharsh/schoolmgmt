@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{84d689bd-b55d-560a-81e8-07fa5b10eadc}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{ca9e2d74-0402-56f9-b016-c2b0bfd356ed}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{8abe34dc-2a74-58df-afb1-a65f8d98498b}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Re-enrolment Cycle" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{da4e9f89-21cd-5bf3-8704-7f129ccc07a5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Cycle Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{95f2de4c-6956-5b99-9943-9add8022201c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Opens" languagecode="1033" />
+                        </labels>
+                        <control id="edu_opens" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_opens" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b505ace1-fde0-5b4a-ba89-130ff1a2c97c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Closes" languagecode="1033" />
+                        </labels>
+                        <control id="edu_closes" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_closes" />
+                      </cell>
+                      <cell id="{93ab17fe-a7e3-5012-899c-046bbf0b0d74}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Cycle Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_cyclestatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_cyclestatus" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Re-enrolment Cycle" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

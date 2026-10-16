@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ab8c27d6-b76b-552a-9374-3e68d21a09ea}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{7d30d9f0-90f5-5a06-9d09-14865ec6f464}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{57329487-d1cb-5c9e-a4a4-1b38b7762b8f}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Calendar Day" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e4d9501b-bf53-589c-839b-2abe3e745b1f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{7ca188ac-4bff-5d7a-99e9-f47eddf781e8}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{4053d259-cc09-589b-aa49-ab17e991591b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_date" classid="{23fd127f-4f70-59b3-a50b-7c7027ef7b35}" datafieldname="edu_date" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{78811bf5-aaef-5514-bd8a-bd2bdf1df226}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Academic Year" languagecode="1033" />
+                        </labels>
+                        <control id="edu_academicyear" classid="{3c778e8f-5c0c-518d-bbcd-469f744f9676}" datafieldname="edu_academicyear" />
+                      </cell>
+                      <cell id="{cc4bdf77-5f97-568a-a9e5-6f9edd7e2128}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_daytype" classid="{b0d6a35b-79f0-58da-9a96-ae408e418f90}" datafieldname="edu_daytype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{374ebdb3-77c6-5074-a98e-a87bf2c99dc7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="edu_description" classid="{7ca188ac-4bff-5d7a-99e9-f47eddf781e8}" datafieldname="edu_description" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Calendar Day" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

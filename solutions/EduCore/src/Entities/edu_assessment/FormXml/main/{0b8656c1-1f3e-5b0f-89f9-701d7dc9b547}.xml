@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0b8656c1-1f3e-5b0f-89f9-701d7dc9b547}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{e4d78c43-daa8-586c-8f7e-7c42d8f1aca7}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{5a62926a-3d0e-5c31-871c-2efa1a1bbda3}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Assessment" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1234bc29-51a6-50b6-8abb-7d824573814e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{b546df11-a57f-589c-bc03-2db368da26e3}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{b24456e2-74d6-5513-a971-1f2a3fb1776c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Subject Assignment" languagecode="1033" />
+                        </labels>
+                        <control id="edu_subjectassignment" classid="{68738688-bff0-5431-a583-ec0a208467a4}" datafieldname="edu_subjectassignment" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a8abfd11-4435-54b3-add4-6b9630739991}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_assessmenttype" classid="{c1ba4c8a-f65d-531e-8975-bba26f624259}" datafieldname="edu_assessmenttype" />
+                      </cell>
+                      <cell id="{06895506-28e7-5b39-8f1e-18fe9ed79636}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Maximum Marks" languagecode="1033" />
+                        </labels>
+                        <control id="edu_maxmarks" classid="{48673d6c-c7fd-5720-82aa-d12d4bf6dde9}" datafieldname="edu_maxmarks" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{393ec4c4-f743-58f8-a5b2-075e30c7702c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Weightage %" languagecode="1033" />
+                        </labels>
+                        <control id="edu_weightage" classid="{48673d6c-c7fd-5720-82aa-d12d4bf6dde9}" datafieldname="edu_weightage" />
+                      </cell>
+                      <cell id="{5ae22630-f389-5e68-ac0c-507a0f91fcaa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Assessment Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_assessmentdate" classid="{557deae3-4859-5d50-b42f-b1a3d4f03b6e}" datafieldname="edu_assessmentdate" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Assessment" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

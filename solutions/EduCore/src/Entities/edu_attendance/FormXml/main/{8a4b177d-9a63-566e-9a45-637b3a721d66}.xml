@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8a4b177d-9a63-566e-9a45-637b3a721d66}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{4ae0378a-4120-5b4b-8944-57f85fc60f59}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{4e1ae523-571c-5b71-bdfa-02805f46b1a5}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Attendance" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9ebac52b-5607-568f-a7de-50c318d44074}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{05674029-7454-5fd0-b562-f65e494ebb09}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{be83010f-7db4-598e-9d92-2140c9acd895}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Student" languagecode="1033" />
+                        </labels>
+                        <control id="edu_student" classid="{3b42ad2f-6689-58f0-a5dd-79cb8dc93ee4}" datafieldname="edu_student" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3ccc5653-2cd2-5eb2-8d07-ea2e99a317ba}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_date" classid="{7397f939-20af-5b41-931d-777d4bb70e8a}" datafieldname="edu_date" />
+                      </cell>
+                      <cell id="{6351b9e8-ecac-50f1-8db2-1b37d1c0b903}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Term" languagecode="1033" />
+                        </labels>
+                        <control id="edu_term" classid="{3b42ad2f-6689-58f0-a5dd-79cb8dc93ee4}" datafieldname="edu_term" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{40a9cb1f-b05b-5f23-9ac3-116c39ca53e1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_attendancetype" classid="{d3cb5a11-f239-575c-8dca-2e7541e33de5}" datafieldname="edu_attendancetype" />
+                      </cell>
+                      <cell id="{f4e21353-6fc7-5875-bd22-d42342048a98}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Subject Assignment" languagecode="1033" />
+                        </labels>
+                        <control id="edu_subjectassignment" classid="{3b42ad2f-6689-58f0-a5dd-79cb8dc93ee4}" datafieldname="edu_subjectassignment" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c0a73f16-411d-59d2-8e0e-9858ca117210}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_attendancestatus" classid="{d3cb5a11-f239-575c-8dca-2e7541e33de5}" datafieldname="edu_attendancestatus" />
+                      </cell>
+                      <cell id="{a9500eeb-6203-54ea-9042-cfc5110f7c9b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Absence Reason" languagecode="1033" />
+                        </labels>
+                        <control id="edu_absencereason" classid="{05674029-7454-5fd0-b562-f65e494ebb09}" datafieldname="edu_absencereason" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c30e885d-e595-59bf-b419-15ce97c35e2c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Recorded By" languagecode="1033" />
+                        </labels>
+                        <control id="edu_recordedby" classid="{3b42ad2f-6689-58f0-a5dd-79cb8dc93ee4}" datafieldname="edu_recordedby" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Attendance" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

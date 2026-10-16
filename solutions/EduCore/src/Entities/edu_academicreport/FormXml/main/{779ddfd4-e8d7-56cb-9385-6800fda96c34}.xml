@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{779ddfd4-e8d7-56cb-9385-6800fda96c34}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{43bdf9bc-8fba-5250-82d7-aad34c9d33ec}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{07a847d8-bcdd-5201-a772-8d3ac67cd17e}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Academic Report" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f47ff69c-d0eb-55fa-bbac-42c5c10cfa63}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Report" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{8f843eb0-f7cf-581a-b206-8f9d3c4446c8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Reporting Period" languagecode="1033" />
+                        </labels>
+                        <control id="edu_reportingperiod" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_reportingperiod" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e8d2c42-f4b5-5cd0-ae78-ce8d89b006b4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Classification" languagecode="1033" />
+                        </labels>
+                        <control id="edu_classification" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_classification" />
+                      </cell>
+                      <cell id="{09af2aea-b85a-54d7-8b96-b76e0a13cf25}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent Visible" languagecode="1033" />
+                        </labels>
+                        <control id="edu_parentvisible" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="edu_parentvisible" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{da4f565d-3585-5768-bf92-5eed9dbf51bd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Staff Visible" languagecode="1033" />
+                        </labels>
+                        <control id="edu_staffvisible" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="edu_staffvisible" />
+                      </cell>
+                      <cell id="{5c3caeee-fa3f-574e-a990-9739a82d8714}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Lifecycle State" languagecode="1033" />
+                        </labels>
+                        <control id="edu_lifecyclestate" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_lifecyclestate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{425479a6-d060-566b-9f65-b5427aca6c76}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Current Version" languagecode="1033" />
+                        </labels>
+                        <control id="edu_currentversion" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_currentversion" />
+                      </cell>
+                      <cell id="{2560d673-5284-54c2-ab66-cd76f2911b1f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Academic Report" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

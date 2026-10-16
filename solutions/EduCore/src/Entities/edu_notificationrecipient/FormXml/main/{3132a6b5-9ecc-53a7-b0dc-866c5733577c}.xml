@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3132a6b5-9ecc-53a7-b0dc-866c5733577c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{ddf30046-006c-5cc1-bd74-d6b204f50294}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{8a949e3a-b796-5bda-be36-88af2bbaf22a}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Notification Recipient" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{09fcd434-6fc5-553d-92dd-e004fa61fc34}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Recipient" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{23eb7fab-cfa1-5881-93df-070895ac9791}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Notification" languagecode="1033" />
+                        </labels>
+                        <control id="edu_notification" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_notification" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c428c54-105c-5567-b818-51cc07e4f4db}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Recipient Contact" languagecode="1033" />
+                        </labels>
+                        <control id="edu_recipientcontact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_recipientcontact" />
+                      </cell>
+                      <cell id="{379213af-f7c3-59b0-933c-c4646c563512}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Recipient User" languagecode="1033" />
+                        </labels>
+                        <control id="edu_recipientuser" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_recipientuser" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0c826ffa-9ffd-5e6d-9ccf-72968ec74bf9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Channel" languagecode="1033" />
+                        </labels>
+                        <control id="edu_channel" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_channel" />
+                      </cell>
+                      <cell id="{2115965e-9b1e-5976-ae1f-28a40f007b22}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Delivery Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_deliverystatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_deliverystatus" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6b63b9e9-4be0-5f6d-bdca-8e6dab552048}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Delivered On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_deliveredon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_deliveredon" />
+                      </cell>
+                      <cell id="{648e8739-0310-5ac2-b85a-a10d64847242}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Read On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_readon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_readon" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5edc6ea9-2434-57aa-8a87-964b3ed25288}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Notification Recipient" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

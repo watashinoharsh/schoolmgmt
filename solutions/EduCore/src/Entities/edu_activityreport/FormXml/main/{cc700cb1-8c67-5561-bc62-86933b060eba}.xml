@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{cc700cb1-8c67-5561-bc62-86933b060eba}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{7889e583-fbfe-5811-b1bd-6ad327ac341e}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{df0031a3-6b38-53d2-80c5-a6052d81c06a}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Activity Report" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2bab3cd4-408d-5670-bf58-d6c4a19d157c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Report" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{ce2ff322-ae95-5d0b-a0a6-84a24f186a60}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Activity" languagecode="1033" />
+                        </labels>
+                        <control id="edu_activity" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_activity" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54dbf3d5-6902-5cc3-b220-8d44dc29bfb1}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Summary" languagecode="1033" />
+                        </labels>
+                        <control id="edu_summary" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_summary" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5627456e-64b0-5a3a-9d95-797d23066a98}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Report Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_reportstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_reportstatus" />
+                      </cell>
+                      <cell id="{189b62dd-aeb0-5c97-9da6-7da2a0d0db66}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Activity Report" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

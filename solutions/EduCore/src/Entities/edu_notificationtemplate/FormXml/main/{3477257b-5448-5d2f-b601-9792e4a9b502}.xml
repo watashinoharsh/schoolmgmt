@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3477257b-5448-5d2f-b601-9792e4a9b502}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{e349e1aa-e559-5b56-a5de-2c578d74e441}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{79eeacb7-443b-52a6-b8cc-f73354dc7dc4}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Notification Template" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1f1e52ec-9825-54bc-a282-bcb8609724f8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Template Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{a50bebc1-e072-5099-876e-2e154907a472}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Channel" languagecode="1033" />
+                        </labels>
+                        <control id="edu_channel" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_channel" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5c2803cd-6711-5017-bff0-46dba2864611}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Subject" languagecode="1033" />
+                        </labels>
+                        <control id="edu_subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_subject" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cdffc375-7854-5635-b5ed-ba59b5617641}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Body" languagecode="1033" />
+                        </labels>
+                        <control id="edu_body" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_body" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Notification Template" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

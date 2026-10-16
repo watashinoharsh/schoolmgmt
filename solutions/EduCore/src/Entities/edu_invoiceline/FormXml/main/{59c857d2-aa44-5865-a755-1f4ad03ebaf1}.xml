@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{59c857d2-aa44-5865-a755-1f4ad03ebaf1}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{267a7ca0-750d-5fe9-977f-0b01368b3001}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{aaa4d952-1f39-5b28-8be3-a8c4a1a625c6}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Invoice Line" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{83b53d1f-49f7-50c2-9054-758dec09f2ce}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{380faa58-a57a-53d2-97f5-15f915e871f6}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{7e674807-b147-597e-ba4d-e482282d4a8e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Invoice" languagecode="1033" />
+                        </labels>
+                        <control id="edu_invoice" classid="{d938c3d1-de67-5a4a-8b69-6ff74c3b76c0}" datafieldname="edu_invoice" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{794288bb-e613-56ec-9078-486f17fb91e4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Fee Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_feetype" classid="{87493925-9977-5566-8846-c7993a713ef9}" datafieldname="edu_feetype" />
+                      </cell>
+                      <cell id="{2e513b50-4654-5cf2-becb-470a8397e989}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="edu_description" classid="{380faa58-a57a-53d2-97f5-15f915e871f6}" datafieldname="edu_description" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{382f7d93-2842-52c9-ac55-7b0578858fcb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="edu_quantity" classid="{2182820e-04ca-55c4-be88-be99184ce8ac}" datafieldname="edu_quantity" />
+                      </cell>
+                      <cell id="{db732434-3994-5be1-9f7d-9cc290dd64db}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="edu_amount" classid="{2182820e-04ca-55c4-be88-be99184ce8ac}" datafieldname="edu_amount" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Invoice Line" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

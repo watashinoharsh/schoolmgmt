@@ -36,7 +36,8 @@ DEV environment setup, first import and test users: `docs/phase0-runbook.md`.
 | 3 Admissions | Built and imported to DEV with seed data. Open: plug-in step registration and binding the Custom API (`docs/phase3.md`) |
 | 4 Academics | Built and imported to DEV with seed data. Open: plug-in step registration (`docs/phase4.md`) |
 | 5 Attendance | Built and imported to DEV with seed data. Open: flows, plug-in registration (`docs/phase5.md`) |
-| 6 to 10 | Not started. Plan and design: `docs/LLD_v2_EduCore.md` |
+| 6 Fees | Built (source and tests); tables imported to DEV, see docs/phase6.md |
+| 7 to 10 | Not started. Plan and design: `docs/LLD_v2_EduCore.md` |
 
 ## Requirements
 Power Platform CLI (`pac`), .NET SDK, PowerShell. A Dataverse environment for DEV.

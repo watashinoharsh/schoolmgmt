@@ -1,35 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.643" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.26094.142" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.26094.142" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.26101.00152">
   <SolutionManifest>
-    <!-- Unique Name of Cds Solution-->
     <UniqueName>EduCore</UniqueName>
     <LocalizedNames>
-      <!-- Localized Solution Name in language code -->
       <LocalizedName description="EduCore" languagecode="1033" />
     </LocalizedNames>
-    <Descriptions><Description description="Tables, choices, security roles, field security, plugin package and environment variables for the EDU School Management System." languagecode="1033" /></Descriptions>
+    <Descriptions>
+      <Description description="Tables, choices, security roles, field security, plugin package and environment variables for the EDU School Management System." languagecode="1033" />
+    </Descriptions>
     <Version>1.0.0.0</Version>
-    <!-- Solution Package Type: Unmanaged(0)/Managed(1)/Both(2)-->
     <Managed>2</Managed>
     <Publisher>
-      <!-- Unique Publisher Name of Cds Solution -->
       <UniqueName>EduPublisher</UniqueName>
       <LocalizedNames>
-        <!-- Localized Cds Publisher Name in language code-->
         <LocalizedName description="Edu Publisher" languagecode="1033" />
       </LocalizedNames>
       <Descriptions>
-        <!-- Description of Cds Publisher in language code -->
         <Description description="EduPublisher" languagecode="1033" />
       </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
-      <!-- Customization Prefix for the Cds Publisher-->
       <CustomizationPrefix>edu</CustomizationPrefix>
-      <!-- Derived Option Value Prefix for the Customization Prefix of Cds Publisher -->
       <CustomizationOptionValuePrefix>85968</CustomizationOptionValuePrefix>
       <Addresses>
-        <!-- Address of the Publisher-->
         <Address>
           <AddressNumber>1</AddressNumber>
           <AddressTypeCode>1</AddressTypeCode>
@@ -89,8 +82,10 @@
       </Addresses>
     </Publisher>
     <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="1" />
       <RootComponent type="1" schemaName="edu_academicreport" behavior="0" />
       <RootComponent type="1" schemaName="edu_academicreportversion" behavior="0" />
+      <RootComponent type="1" schemaName="edu_academicyear" behavior="0" />
       <RootComponent type="1" schemaName="edu_activity" behavior="0" />
       <RootComponent type="1" schemaName="edu_activityfeedback" behavior="0" />
       <RootComponent type="1" schemaName="edu_activityparticipant" behavior="0" />
@@ -98,22 +93,36 @@
       <RootComponent type="1" schemaName="edu_activityrisk" behavior="0" />
       <RootComponent type="1" schemaName="edu_activitytransport" behavior="0" />
       <RootComponent type="1" schemaName="edu_activityvenue" behavior="0" />
+      <RootComponent type="1" schemaName="edu_applicant" behavior="0" />
       <RootComponent type="1" schemaName="edu_approvalcontenttemplate" behavior="0" />
       <RootComponent type="1" schemaName="edu_approvaldelegation" behavior="0" />
       <RootComponent type="1" schemaName="edu_approvalhistory" behavior="0" />
       <RootComponent type="1" schemaName="edu_approvalmatrix" behavior="0" />
       <RootComponent type="1" schemaName="edu_approvalmatrixdetail" behavior="0" />
       <RootComponent type="1" schemaName="edu_approvalrequest" behavior="0" />
+      <RootComponent type="1" schemaName="edu_assessment" behavior="0" />
+      <RootComponent type="1" schemaName="edu_attendance" behavior="0" />
       <RootComponent type="1" schemaName="edu_attendancerecord" behavior="0" />
+      <RootComponent type="1" schemaName="edu_attendancesummary" behavior="0" />
       <RootComponent type="1" schemaName="edu_behaviourcategory" behavior="0" />
       <RootComponent type="1" schemaName="edu_behaviourrecord" behavior="0" />
+      <RootComponent type="1" schemaName="edu_calendarday" behavior="0" />
+      <RootComponent type="1" schemaName="edu_classschedule" behavior="0" />
       <RootComponent type="1" schemaName="edu_consentrecord" behavior="0" />
       <RootComponent type="1" schemaName="edu_consenttype" behavior="0" />
+      <RootComponent type="1" schemaName="edu_course" behavior="0" />
       <RootComponent type="1" schemaName="edu_documentreference" behavior="0" />
+      <RootComponent type="1" schemaName="edu_enrolment" behavior="0" />
+      <RootComponent type="1" schemaName="edu_feestructure" behavior="0" />
+      <RootComponent type="1" schemaName="edu_feetype" behavior="0" />
       <RootComponent type="1" schemaName="edu_gatepass" behavior="0" />
+      <RootComponent type="1" schemaName="edu_grade" behavior="0" />
+      <RootComponent type="1" schemaName="edu_gradeband" behavior="0" />
       <RootComponent type="1" schemaName="edu_gradebookcomponent" behavior="0" />
       <RootComponent type="1" schemaName="edu_gradebookpublish" behavior="0" />
       <RootComponent type="1" schemaName="edu_gradebookresult" behavior="0" />
+      <RootComponent type="1" schemaName="edu_invoice" behavior="0" />
+      <RootComponent type="1" schemaName="edu_invoiceline" behavior="0" />
       <RootComponent type="1" schemaName="edu_kioskrecord" behavior="0" />
       <RootComponent type="1" schemaName="edu_musterentry" behavior="0" />
       <RootComponent type="1" schemaName="edu_musterevent" behavior="0" />
@@ -122,41 +131,22 @@
       <RootComponent type="1" schemaName="edu_notificationrecipientrule" behavior="0" />
       <RootComponent type="1" schemaName="edu_notificationrule" behavior="0" />
       <RootComponent type="1" schemaName="edu_notificationtemplate" behavior="0" />
+      <RootComponent type="1" schemaName="edu_payment" behavior="0" />
+      <RootComponent type="1" schemaName="edu_period" behavior="0" />
       <RootComponent type="1" schemaName="edu_pickupauthorisation" behavior="0" />
       <RootComponent type="1" schemaName="edu_reenrolment" behavior="0" />
       <RootComponent type="1" schemaName="edu_reenrolmentcohort" behavior="0" />
       <RootComponent type="1" schemaName="edu_reenrolmentcycle" behavior="0" />
       <RootComponent type="1" schemaName="edu_reenrolmentrule" behavior="0" />
       <RootComponent type="1" schemaName="edu_rolloverplan" behavior="0" />
-      <RootComponent type="1" schemaName="edu_visitor" behavior="0" />
-      <RootComponent type="1" schemaName="edu_academicyear" behavior="0" />
-      <RootComponent type="1" schemaName="edu_term" behavior="0" />
-      <RootComponent type="1" schemaName="edu_calendarday" behavior="0" />
-      <RootComponent type="1" schemaName="edu_grade" behavior="0" />
-      <RootComponent type="1" schemaName="edu_course" behavior="0" />
-      <RootComponent type="1" schemaName="edu_period" behavior="0" />
-      <RootComponent type="1" schemaName="edu_gradeband" behavior="0" />
-      <RootComponent type="1" schemaName="edu_staff" behavior="0" />
       <RootComponent type="1" schemaName="edu_section" behavior="0" />
+      <RootComponent type="1" schemaName="edu_staff" behavior="0" />
       <RootComponent type="1" schemaName="edu_student" behavior="0" />
       <RootComponent type="1" schemaName="edu_studentguardian" behavior="0" />
-      <RootComponent type="1" schemaName="edu_enrolment" behavior="0" />
-      <RootComponent type="1" schemaName="edu_applicant" behavior="0" />
-      <RootComponent type="1" schemaName="edu_subjectassignment" behavior="0" />
-      <RootComponent type="1" schemaName="edu_classschedule" behavior="0" />
-      <RootComponent type="1" schemaName="edu_assessment" behavior="0" />
       <RootComponent type="1" schemaName="edu_studentmark" behavior="0" />
-      <RootComponent type="1" schemaName="edu_attendance" behavior="0" />
-      <RootComponent type="1" schemaName="edu_attendancesummary" behavior="0" />
-      <RootComponent type="1" schemaName="contact" behavior="1" />
-      <RootComponent type="380" schemaName="edu_AttendanceThreshold" behavior="0" />
-      <RootComponent type="380" schemaName="edu_DefaultReminderIntervalHours" behavior="0" />
-      <RootComponent type="380" schemaName="edu_FeeReminderDaysBefore" behavior="0" />
-      <RootComponent type="380" schemaName="edu_NotificationDeepLinkBase" behavior="0" />
-      <RootComponent type="380" schemaName="edu_PaymentLinkBase" behavior="0" />
-      <RootComponent type="380" schemaName="edu_PortalBaseUrl" behavior="0" />
-      <RootComponent type="380" schemaName="edu_SenderMailbox" behavior="0" />
-      <RootComponent type="380" schemaName="edu_SharePointSiteUrl" behavior="0" />
+      <RootComponent type="1" schemaName="edu_subjectassignment" behavior="0" />
+      <RootComponent type="1" schemaName="edu_term" behavior="0" />
+      <RootComponent type="1" schemaName="edu_visitor" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>

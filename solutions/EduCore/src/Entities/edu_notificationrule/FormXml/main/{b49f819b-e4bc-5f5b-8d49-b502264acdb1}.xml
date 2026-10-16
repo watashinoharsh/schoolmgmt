@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b49f819b-e4bc-5f5b-8d49-b502264acdb1}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{e45ddb40-aae3-58b4-9bac-e51d80d5ee23}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{a366dcc5-ef4b-53a1-b707-337ac342c5a1}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Notification Rule" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{59c25c96-ef26-5aba-9598-670e485432fc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Rule Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{18aaaecc-77d1-57b5-8b99-06a7879c650a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Event Code" languagecode="1033" />
+                        </labels>
+                        <control id="edu_eventcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_eventcode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d716563c-6720-59a1-b267-f1aeea590921}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="edu_category" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_category" />
+                      </cell>
+                      <cell id="{27a4b470-9bb8-593d-857d-b4bfc182b0a8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Template" languagecode="1033" />
+                        </labels>
+                        <control id="edu_template" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_template" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{266e9e9f-024f-54d1-9461-0310d75ca282}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Channels" languagecode="1033" />
+                        </labels>
+                        <control id="edu_channels" classid="{4AA28AB7-9C13-4F57-A73D-4E3C9A2C0F05}" datafieldname="edu_channels" />
+                      </cell>
+                      <cell id="{e2d867b6-7900-50b2-bd60-436c9407b801}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Reminder Interval (hours)" languagecode="1033" />
+                        </labels>
+                        <control id="edu_reminderintervalhours" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="edu_reminderintervalhours" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a7d9eab9-0553-52da-82fc-ef0faaf6f5fa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Max Reminders" languagecode="1033" />
+                        </labels>
+                        <control id="edu_maxreminders" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="edu_maxreminders" />
+                      </cell>
+                      <cell id="{bd16fff4-bb0a-5cb3-90e3-9fdd002db655}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Stop Condition" languagecode="1033" />
+                        </labels>
+                        <control id="edu_stopcondition" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_stopcondition" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1dd0daaf-1ab8-50fa-b46c-f9809bc927a4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is Active" languagecode="1033" />
+                        </labels>
+                        <control id="edu_isactive" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="edu_isactive" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Notification Rule" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

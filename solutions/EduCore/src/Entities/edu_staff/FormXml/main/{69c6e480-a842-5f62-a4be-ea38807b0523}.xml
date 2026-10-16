@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{69c6e480-a842-5f62-a4be-ea38807b0523}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{e386ded8-97ef-5ac3-b145-be7467889879}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{241d98d5-3633-5d1c-b6a7-da55e4c7e9e8}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Staff" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7633aba9-e5b1-5b28-87d3-da8f48502b3e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{723ae87e-ef4c-5434-bf9a-2d70fa55987e}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{6c57f1ab-e199-53aa-ba3f-fbee0d264e75}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Staff Code" languagecode="1033" />
+                        </labels>
+                        <control id="edu_staffcode" classid="{723ae87e-ef4c-5434-bf9a-2d70fa55987e}" datafieldname="edu_staffcode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f988c3fa-4a03-5ae6-abcb-b0ff3a8e9e18}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="edu_email" classid="{723ae87e-ef4c-5434-bf9a-2d70fa55987e}" datafieldname="edu_email" />
+                      </cell>
+                      <cell id="{feeb5dce-207c-5120-bd6d-2d480db3885b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Staff Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_stafftype" classid="{a95498cd-609e-5a40-af1a-425f688bd93a}" datafieldname="edu_stafftype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{272fd251-16e9-59d7-bfe5-6269c5f0782d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="User Account" languagecode="1033" />
+                        </labels>
+                        <control id="edu_useraccount" classid="{d2235066-e7d2-5bd6-a426-17e3381773ac}" datafieldname="edu_useraccount" />
+                      </cell>
+                      <cell id="{048eb764-2407-5338-8e3c-bdc0852def62}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is Active" languagecode="1033" />
+                        </labels>
+                        <control id="edu_isactive" classid="{09cf490b-3a16-567d-b94a-26f20ea0a7d6}" datafieldname="edu_isactive" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Staff" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
