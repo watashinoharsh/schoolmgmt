@@ -9,8 +9,10 @@
 | Settings files | `deploy/settings.test.json`, `.uat.json`, `.prod.json` (no values that identify an environment) |
 | Export script fix | `scripts/export-solution.ps1` now unpacks unmanaged without deleting files and restores `<Managed>2</Managed>`; the old `--packagetype Both` step failed because no managed zip was exported |
 
+Custom APIs `edu_GenerateInvoice` and `edu_GenerateReportCards` were created in DEV (unbound to a plug-in) by `scripts/New-CustomApis.ps1`; the re-export matched the repo source exactly.
+
 ## Not done yet
 - **Clean managed deploy to a second environment.** Needs an environment that is not Clinic Mgmt DEV01 (see `docs/phase0-runbook.md`); import `out\*_managed.zip` with the matching settings file and confirm the app opens and the seed loads.
 - **Pipeline run to TEST.** Needs an Azure DevOps project, the `edu-vars` variable group, service connections and the three environments.
-- **Build location.** Phases 1 to 9 were built in Clinic Mgmt DEV01, which the runbook says not to use for EduCore. Importing the managed packages into a clean environment is the way to prove nothing in DEV was left out of source (for example the unbound Custom APIs, the quick-create settings and the teams).
+- **Build location.** Phases 1 to 9 were built in Clinic Mgmt DEV01, which the runbook says not to use for EduCore. Importing the managed packages into a clean environment is the way to prove nothing in DEV was left out of source (for example the quick-create settings and the teams).
 - Plug-in step registration, cloud flows (nightly refresh, low-attendance alert, overdue, fee reminder, report card published notice), Enrol and Generate buttons, and the Phase 9 real-user persona tests, as listed in the phase notes.
