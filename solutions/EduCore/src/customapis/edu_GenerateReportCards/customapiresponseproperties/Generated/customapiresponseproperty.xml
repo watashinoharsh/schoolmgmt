@@ -1,0 +1,11 @@
+<customapiresponseproperty uniquename="Generated">
+  <description default="Report cards written">
+    <label description="Report cards written" languagecode="1033" />
+  </description>
+  <displayname default="Generated">
+    <label description="Generated" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <name>Generated</name>
+  <type>7</type>
+</customapiresponseproperty>
