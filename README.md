@@ -37,7 +37,7 @@ DEV environment setup, first import and test users: `docs/phase0-runbook.md`.
 | 4 Academics | Built and imported to DEV with seed data. Open: plug-in step registration (`docs/phase4.md`) |
 | 5 Attendance | Built and imported to DEV with seed data. Open: flows, plug-in registration (`docs/phase5.md`) |
 | 6 Fees | Built (source and tests); tables imported to DEV, see docs/phase6.md |
-| 7 Report cards | Built and tables in DEV. Open: seed data, plug-in step registration, publish flow (`docs/phase7.md`) |
+| 7 Report cards | Built, tables and seed data in DEV. Open: plug-in step registration, publish flow (`docs/phase7.md`) |
 | 8 to 10 | Not started. Plan and design: `docs/LLD_v2_EduCore.md` |
 
 ## Requirements

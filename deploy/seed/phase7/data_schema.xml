@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entities>
+  <entity name="edu_reportcard" displayname="Report Card" etc="0" primaryidfield="edu_reportcardid" primarynamefield="edu_name" disableplugins="true">
+    <fields>
+      <field displayname="Report Card" name="edu_reportcardid" type="guid" primaryKey="true" />
+      <field displayname="edu_name" name="edu_name" type="string" />
+      <field displayname="edu_student" name="edu_student" type="entityreference" lookupType="edu_student" />
+      <field displayname="edu_term" name="edu_term" type="entityreference" lookupType="edu_term" />
+      <field displayname="edu_overallpercent" name="edu_overallpercent" type="decimal" />
+      <field displayname="edu_overallgrade" name="edu_overallgrade" type="string" />
+      <field displayname="edu_attendancepercent" name="edu_attendancepercent" type="decimal" />
+      <field displayname="edu_reportstatus" name="edu_reportstatus" type="optionsetvalue" />
+      <field displayname="edu_generatedon" name="edu_generatedon" type="datetime" />
+      <field displayname="edu_publishedon" name="edu_publishedon" type="datetime" />
+      <field displayname="edu_uniquekey" name="edu_uniquekey" type="string" />
+    </fields>
+  </entity>
+  <entity name="edu_reportcardline" displayname="Report Card Line" etc="0" primaryidfield="edu_reportcardlineid" primarynamefield="edu_name" disableplugins="true">
+    <fields>
+      <field displayname="Report Card Line" name="edu_reportcardlineid" type="guid" primaryKey="true" />
+      <field displayname="edu_name" name="edu_name" type="string" />
+      <field displayname="edu_reportcard" name="edu_reportcard" type="entityreference" lookupType="edu_reportcard" />
+      <field displayname="edu_subjectassignment" name="edu_subjectassignment" type="entityreference" lookupType="edu_subjectassignment" />
+      <field displayname="edu_finalpercent" name="edu_finalpercent" type="decimal" />
+      <field displayname="edu_letter" name="edu_letter" type="string" />
+      <field displayname="edu_uniquekey" name="edu_uniquekey" type="string" />
+    </fields>
+  </entity>
+</entities>
