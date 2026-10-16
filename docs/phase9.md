@@ -12,7 +12,7 @@
 
 ## Not done yet
 - **Test each persona with a real user** (the Phase 9 exit criterion). Four test users, one per persona, are still pending from Phase 0. Add each to its team, then walk the app scenarios and the denials (for example Finance cannot delete a payment, a Teacher cannot open an invoice, only Front Office and Coordinators see National ID).
-- Field security profiles and teams are not solution components in the export, so they exist in DEV and are recreated by the script in other environments.
+- The two field security profiles are in the EduCore solution (they appear in its `Customizations.xml`). Teams are not solution components, so other environments get them by running the script, then adding users.
 - `edu_notificationlog` is not a table yet, so the Notification log row of the matrix is skipped.
 - The organisation-wide audit setting must also be on for table auditing to record anything.
 - The Parent role is Power Pages table permissions, not a Dataverse role (stretch).
