@@ -11,5 +11,8 @@
   <isfunction>0</isfunction>
   <isprivate>0</isprivate>
   <name>edu_EnrolApplicant</name>
+  <plugintypeid>
+    <plugintypeexportkey>D3D9A6993E2BBF9D17CCFA6BE6AFCE9F9E7F0DEC27F7C6084D2836FBB2867426</plugintypeexportkey>
+  </plugintypeid>
   <workflowsdkstepenabled>0</workflowsdkstepenabled>
 </customapi>

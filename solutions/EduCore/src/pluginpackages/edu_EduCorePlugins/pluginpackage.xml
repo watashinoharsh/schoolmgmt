@@ -1,0 +1,9 @@
+<pluginpackage uniquename="edu_EduCorePlugins">
+  <exportkeyversion>1</exportkeyversion>
+  <iscustomizable>1</iscustomizable>
+  <name>edu_EduCorePlugins</name>
+  <package mimetype="application/octet-stream">edu_EduCorePlugins.nupkg</package>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <version>1.0.0</version>
+</pluginpackage>
