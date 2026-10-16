@@ -35,6 +35,8 @@
   <EntityRelationship Name="business_unit_edu_payment" />
   <EntityRelationship Name="business_unit_edu_pickupauthorisation" />
   <EntityRelationship Name="business_unit_edu_reenrolment" />
+  <EntityRelationship Name="business_unit_edu_reportcard" />
+  <EntityRelationship Name="business_unit_edu_reportcardline" />
   <EntityRelationship Name="business_unit_edu_section" />
   <EntityRelationship Name="business_unit_edu_staff" />
   <EntityRelationship Name="business_unit_edu_student" />
@@ -103,6 +105,10 @@
   <EntityRelationship Name="edu_reenrolment_cycle" />
   <EntityRelationship Name="edu_reenrolmentcohort_cycle" />
   <EntityRelationship Name="edu_reenrolmentrule_cycle" />
+  <EntityRelationship Name="edu_reportcard_student" />
+  <EntityRelationship Name="edu_reportcard_term" />
+  <EntityRelationship Name="edu_reportcardline_reportcard" />
+  <EntityRelationship Name="edu_reportcardline_subjectassignment" />
   <EntityRelationship Name="edu_rolloverplan_cycle" />
   <EntityRelationship Name="edu_section_academicyear" />
   <EntityRelationship Name="edu_section_classteacher" />
@@ -230,6 +236,10 @@
   <EntityRelationship Name="lk_edu_reenrolmentcycle_modifiedby" />
   <EntityRelationship Name="lk_edu_reenrolmentrule_createdby" />
   <EntityRelationship Name="lk_edu_reenrolmentrule_modifiedby" />
+  <EntityRelationship Name="lk_edu_reportcard_createdby" />
+  <EntityRelationship Name="lk_edu_reportcard_modifiedby" />
+  <EntityRelationship Name="lk_edu_reportcardline_createdby" />
+  <EntityRelationship Name="lk_edu_reportcardline_modifiedby" />
   <EntityRelationship Name="lk_edu_rolloverplan_createdby" />
   <EntityRelationship Name="lk_edu_rolloverplan_modifiedby" />
   <EntityRelationship Name="lk_edu_section_createdby" />
@@ -305,6 +315,8 @@
   <EntityRelationship Name="owner_edu_payment" />
   <EntityRelationship Name="owner_edu_pickupauthorisation" />
   <EntityRelationship Name="owner_edu_reenrolment" />
+  <EntityRelationship Name="owner_edu_reportcard" />
+  <EntityRelationship Name="owner_edu_reportcardline" />
   <EntityRelationship Name="owner_edu_section" />
   <EntityRelationship Name="owner_edu_staff" />
   <EntityRelationship Name="owner_edu_student" />
@@ -347,6 +359,8 @@
   <EntityRelationship Name="team_edu_payment" />
   <EntityRelationship Name="team_edu_pickupauthorisation" />
   <EntityRelationship Name="team_edu_reenrolment" />
+  <EntityRelationship Name="team_edu_reportcard" />
+  <EntityRelationship Name="team_edu_reportcardline" />
   <EntityRelationship Name="team_edu_section" />
   <EntityRelationship Name="team_edu_staff" />
   <EntityRelationship Name="team_edu_student" />
@@ -389,6 +403,8 @@
   <EntityRelationship Name="user_edu_payment" />
   <EntityRelationship Name="user_edu_pickupauthorisation" />
   <EntityRelationship Name="user_edu_reenrolment" />
+  <EntityRelationship Name="user_edu_reportcard" />
+  <EntityRelationship Name="user_edu_reportcardline" />
   <EntityRelationship Name="user_edu_section" />
   <EntityRelationship Name="user_edu_staff" />
   <EntityRelationship Name="user_edu_student" />

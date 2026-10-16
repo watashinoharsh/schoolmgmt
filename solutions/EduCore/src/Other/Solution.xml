@@ -138,6 +138,8 @@
       <RootComponent type="1" schemaName="edu_reenrolmentcohort" behavior="0" />
       <RootComponent type="1" schemaName="edu_reenrolmentcycle" behavior="0" />
       <RootComponent type="1" schemaName="edu_reenrolmentrule" behavior="0" />
+      <RootComponent type="1" schemaName="edu_reportcard" behavior="0" />
+      <RootComponent type="1" schemaName="edu_reportcardline" behavior="0" />
       <RootComponent type="1" schemaName="edu_rolloverplan" behavior="0" />
       <RootComponent type="1" schemaName="edu_section" behavior="0" />
       <RootComponent type="1" schemaName="edu_staff" behavior="0" />
