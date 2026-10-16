@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{05561cc6-0da5-5725-bd5c-3060e10a5fed}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{7b8819bc-3363-528b-8358-0551d110e905}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{363d2639-320b-542b-abc8-d9ebb59d16b9}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Student Mark" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{99639cf5-e61e-5ab6-ba4b-0dec5ca28955}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{70b17c54-5fd6-59c7-a22c-e2f47358730a}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{d2e3f880-e72d-562c-b340-f23d1848b2d1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Assessment" languagecode="1033" />
+                        </labels>
+                        <control id="edu_assessment" classid="{0cea7189-eb74-5897-b86a-ef3233677d74}" datafieldname="edu_assessment" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6f80a325-05b3-5144-a19f-7b90a9162822}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Student" languagecode="1033" />
+                        </labels>
+                        <control id="edu_student" classid="{0cea7189-eb74-5897-b86a-ef3233677d74}" datafieldname="edu_student" />
+                      </cell>
+                      <cell id="{419cfc5a-922d-5b85-980a-9196747c170b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Marks Obtained" languagecode="1033" />
+                        </labels>
+                        <control id="edu_marksobtained" classid="{45a20934-97e6-5536-9d05-360418ed8b1c}" datafieldname="edu_marksobtained" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8ee883e5-0656-5902-9273-50b9d72d94b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Percentage" languagecode="1033" />
+                        </labels>
+                        <control id="edu_percentage" classid="{45a20934-97e6-5536-9d05-360418ed8b1c}" datafieldname="edu_percentage" />
+                      </cell>
+                      <cell id="{093e552a-04ae-5605-ae8d-c04bc2bcbaf3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Grade Letter" languagecode="1033" />
+                        </labels>
+                        <control id="edu_gradeletter" classid="{70b17c54-5fd6-59c7-a22c-e2f47358730a}" datafieldname="edu_gradeletter" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b9e89497-b010-53e3-a62e-10d65357ac9d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Remarks" languagecode="1033" />
+                        </labels>
+                        <control id="edu_remarks" classid="{70b17c54-5fd6-59c7-a22c-e2f47358730a}" datafieldname="edu_remarks" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Student Mark" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

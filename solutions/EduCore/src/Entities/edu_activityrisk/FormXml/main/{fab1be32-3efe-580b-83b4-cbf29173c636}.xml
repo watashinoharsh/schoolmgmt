@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{fab1be32-3efe-580b-83b4-cbf29173c636}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{fc70b9de-4385-593c-97a8-d462b4b434c5}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{aeaf44ba-39f2-514e-8239-d714a0a4c702}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Activity Risk Assessment" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dcf4c09d-9c62-5f9f-8acd-43bbf3f04900}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Assessment" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{19fdda9d-570e-59c8-b046-6234f0a1cd3f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Activity" languagecode="1033" />
+                        </labels>
+                        <control id="edu_activity" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_activity" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1caa3f69-2b74-54ec-a6fe-ce7d88e9a369}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Risk Score" languagecode="1033" />
+                        </labels>
+                        <control id="edu_riskscore" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="edu_riskscore" />
+                      </cell>
+                      <cell id="{1dbeaa30-278b-5cf8-b46b-9b407d111197}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Risk Level" languagecode="1033" />
+                        </labels>
+                        <control id="edu_risklevel" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_risklevel" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{217ff793-152e-5d2d-aa78-e2275bd54d46}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Assessment" languagecode="1033" />
+                        </labels>
+                        <control id="edu_assessment" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_assessment" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cd0c0f35-2b5e-552a-b226-013e97c74fd0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Assessed On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_assessedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_assessedon" />
+                      </cell>
+                      <cell id="{e7463afa-f8d9-5ae2-b038-e5037a1007fe}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Activity Risk Assessment" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

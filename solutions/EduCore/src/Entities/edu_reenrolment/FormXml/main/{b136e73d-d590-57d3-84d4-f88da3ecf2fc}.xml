@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b136e73d-d590-57d3-84d4-f88da3ecf2fc}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{8b54c2e5-58c1-568c-b247-3d9c76572c1f}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{1f68705b-95ec-542c-8da6-f1545222a0cc}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Re-enrolment" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{607bbfed-2dd8-5839-8568-b9ee62455bd6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Re-enrolment" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{ae020f13-e071-5926-a895-bf866907f69e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Cycle" languagecode="1033" />
+                        </labels>
+                        <control id="edu_cycle" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_cycle" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a9085020-651f-53e4-bfb0-165c25f318f7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Intent" languagecode="1033" />
+                        </labels>
+                        <control id="edu_intent" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_intent" />
+                      </cell>
+                      <cell id="{78586d67-36b5-5e3b-8ba1-7837f65cd324}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Deposit Paid" languagecode="1033" />
+                        </labels>
+                        <control id="edu_depositpaid" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="edu_depositpaid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3eb81904-4ed7-5fc2-a4fa-ad971c24faa4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Deposit Reference" languagecode="1033" />
+                        </labels>
+                        <control id="edu_depositreference" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_depositreference" />
+                      </cell>
+                      <cell id="{aa4c8c63-53e6-5744-a363-cc0c433cc170}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Ready For Promotion" languagecode="1033" />
+                        </labels>
+                        <control id="edu_readyforpromotion" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="edu_readyforpromotion" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9517298f-539f-57f1-aec1-4cb361101d70}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Promotion Blocked Reason" languagecode="1033" />
+                        </labels>
+                        <control id="edu_promotionblockedreason" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_promotionblockedreason" />
+                      </cell>
+                      <cell id="{54158b39-09be-5537-97ff-d8fd4edbff50}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Re-enrolment" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

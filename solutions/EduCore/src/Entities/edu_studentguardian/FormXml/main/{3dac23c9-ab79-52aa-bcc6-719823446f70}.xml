@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3dac23c9-ab79-52aa-bcc6-719823446f70}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{de0bbd6d-63be-52fb-a61d-080455bc93a6}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{12dbe68c-cba2-56fc-973b-b715d1e926c7}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Student Guardian" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e0aed0e6-9c9e-5330-b9bd-653a04771f50}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{67212258-394f-522b-b8de-53d42ff9efe6}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{c4f357ae-10d1-5933-9619-d1d89c91fc5c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Student" languagecode="1033" />
+                        </labels>
+                        <control id="edu_student" classid="{3a95a770-ce2d-5aed-8413-09c1ab41a66b}" datafieldname="edu_student" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e0e989c7-cb0c-52aa-8901-c78284022d49}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Guardian" languagecode="1033" />
+                        </labels>
+                        <control id="edu_guardian" classid="{3a95a770-ce2d-5aed-8413-09c1ab41a66b}" datafieldname="edu_guardian" />
+                      </cell>
+                      <cell id="{7a04746e-29a8-5d36-88cd-ebae3ccb2d77}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Relationship" languagecode="1033" />
+                        </labels>
+                        <control id="edu_relationship" classid="{afbfee8a-204f-582d-a2c6-6eacc73e8d06}" datafieldname="edu_relationship" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aea74e55-c08f-52c2-b03c-bc65046d42e1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is Primary" languagecode="1033" />
+                        </labels>
+                        <control id="edu_isprimary" classid="{c411002a-6be6-5c76-bc86-8afc7efd7d22}" datafieldname="edu_isprimary" />
+                      </cell>
+                      <cell id="{efe1d5a5-340e-580d-807e-5fa2691dc8d9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Emergency Contact" languagecode="1033" />
+                        </labels>
+                        <control id="edu_emergencycontact" classid="{c411002a-6be6-5c76-bc86-8afc7efd7d22}" datafieldname="edu_emergencycontact" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bde98315-c0b3-5a6a-8573-5417f0744e51}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Pickup Authorised" languagecode="1033" />
+                        </labels>
+                        <control id="edu_pickupauthorised" classid="{c411002a-6be6-5c76-bc86-8afc7efd7d22}" datafieldname="edu_pickupauthorised" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Student Guardian" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

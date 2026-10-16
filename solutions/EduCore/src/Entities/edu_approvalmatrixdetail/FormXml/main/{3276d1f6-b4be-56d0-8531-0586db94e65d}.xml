@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3276d1f6-b4be-56d0-8531-0586db94e65d}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{ceb1cbb9-589a-5ef1-ad7a-8e1b49b0a28f}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{2d1ab801-2c13-5c28-811f-3b5fb03efb10}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Approval Matrix Detail" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{90d29ba3-679d-5c08-9fb2-3bfb5b030451}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Detail Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{23901b16-540a-5c31-be5d-45e1c9455051}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Approval Matrix" languagecode="1033" />
+                        </labels>
+                        <control id="edu_matrix" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_matrix" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4284bfca-9532-53b8-9366-60e938e3e759}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Resolver Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_resolvertype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_resolvertype" />
+                      </cell>
+                      <cell id="{a15e2999-292f-5d65-bf0c-ed658e51a3d1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Role Code" languagecode="1033" />
+                        </labels>
+                        <control id="edu_rolecode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_rolecode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{18622b68-fb82-5727-b26b-13eeccf45959}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Priority" languagecode="1033" />
+                        </labels>
+                        <control id="edu_priority" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="edu_priority" />
+                      </cell>
+                      <cell id="{879ca09c-8e3f-5c6b-b6d5-8cd7c92c96c9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Escalate After (hours)" languagecode="1033" />
+                        </labels>
+                        <control id="edu_escalationafterhours" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="edu_escalationafterhours" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{906b40e2-0e7b-5297-8a7f-dae155cf5714}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Effective From" languagecode="1033" />
+                        </labels>
+                        <control id="edu_effectivefrom" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_effectivefrom" />
+                      </cell>
+                      <cell id="{83798ad9-9519-505a-95e7-efaa738e5e7b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Effective To" languagecode="1033" />
+                        </labels>
+                        <control id="edu_effectiveto" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_effectiveto" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b13ac3f2-38e5-50e4-88c0-22e7ea9091d6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Content Template" languagecode="1033" />
+                        </labels>
+                        <control id="edu_contenttemplate" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_contenttemplate" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Approval Matrix Detail" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

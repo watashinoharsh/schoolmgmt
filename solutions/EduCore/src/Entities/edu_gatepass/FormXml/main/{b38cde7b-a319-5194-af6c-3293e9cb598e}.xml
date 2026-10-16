@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b38cde7b-a319-5194-af6c-3293e9cb598e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{e7df9673-ceee-5b41-a4d7-ac4e7b8e53ce}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{72b28536-8ebc-544b-bad9-cde32a745c52}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Gate Pass" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cc7eeed2-0fbf-57b9-b4f7-b49dca1d4dd6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Pass Number" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{d296d5a9-6007-5e09-92f0-4d872fdbac9f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Visitor" languagecode="1033" />
+                        </labels>
+                        <control id="edu_visitor" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_visitor" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3be9318d-33ef-5d6f-bbb3-23e716393797}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Valid From" languagecode="1033" />
+                        </labels>
+                        <control id="edu_validfrom" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_validfrom" />
+                      </cell>
+                      <cell id="{01045638-a331-5b0e-b250-3c949b12993f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Valid To" languagecode="1033" />
+                        </labels>
+                        <control id="edu_validto" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_validto" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{97452c8f-d30e-5e98-9303-5691c9510533}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Pass Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_passstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_passstatus" />
+                      </cell>
+                      <cell id="{c36e4e93-66b0-5c99-926d-0bb562fd8401}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Gate Pass" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

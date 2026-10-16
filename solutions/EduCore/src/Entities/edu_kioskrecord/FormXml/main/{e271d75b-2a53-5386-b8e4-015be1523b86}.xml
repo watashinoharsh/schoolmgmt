@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e271d75b-2a53-5386-b8e4-015be1523b86}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{16db2be7-fd04-5c70-9262-d6ef203a7d3c}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{3aa2b80a-c1e6-581e-ab5c-3775a3c98699}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Kiosk Record" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b55386fb-948c-5672-848c-df1ec2239490}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Interaction" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{589cfc85-7e7d-532c-af74-4db1f3e56236}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Interaction Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_interactiontype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_interactiontype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eda26606-4b15-504d-aa1d-0f37aa67cf74}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Occurred On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_occurredon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_occurredon" />
+                      </cell>
+                      <cell id="{6e4bd17c-aab2-5745-ace2-0919dfe4ad66}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Visitor" languagecode="1033" />
+                        </labels>
+                        <control id="edu_visitor" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_visitor" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{74b15bc7-8ca2-5b64-b5a4-6e05eab66813}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Gate Pass" languagecode="1033" />
+                        </labels>
+                        <control id="edu_gatepass" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_gatepass" />
+                      </cell>
+                      <cell id="{ba8b6047-3b5d-52a3-bc83-cdf25bf187fb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Pickup Authorisation" languagecode="1033" />
+                        </labels>
+                        <control id="edu_pickupauthorisation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_pickupauthorisation" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9270cc30-0316-55fb-b4d9-da3e600ed132}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Outcome Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_outcomestatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_outcomestatus" />
+                      </cell>
+                      <cell id="{461289d7-ec5e-57e3-a51d-3014c27191ad}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Escalation Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_escalationstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_escalationstatus" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{29193e2c-ab16-5a41-b3ae-4436a108e7bc}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="edu_notes" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_notes" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{327e369f-ed12-53d9-bc0b-faaa65fe089b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Kiosk Record" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

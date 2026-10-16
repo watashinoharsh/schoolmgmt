@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{eece0c66-8d1e-52fb-8cce-6b015917f403}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{211930e3-ae21-5278-902f-bfb4cbdcf54e}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{c4e37aae-3452-5054-a4ec-a9ed89f8128c}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Term" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c7111fdc-f006-572c-a7c5-b135dc1dfdf5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{af4c3c95-8042-5fe8-83ca-e8fd198af29b}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{736d5954-bb77-5059-917e-a9a45c46d75a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Academic Year" languagecode="1033" />
+                        </labels>
+                        <control id="edu_academicyear" classid="{ce8f201b-649c-5c3f-835d-b27d6d693a8d}" datafieldname="edu_academicyear" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{55e157af-8560-5e5b-9b14-f0b4f701a4e9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_startdate" classid="{fa771591-6246-53dd-a0fd-972fd03c133b}" datafieldname="edu_startdate" />
+                      </cell>
+                      <cell id="{4aa0e844-fd02-5434-99eb-808aa05dcaa1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_enddate" classid="{fa771591-6246-53dd-a0fd-972fd03c133b}" datafieldname="edu_enddate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{32194b77-6bdc-5797-8e42-614137a92c33}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sequence" languagecode="1033" />
+                        </labels>
+                        <control id="edu_sequence" classid="{aa7c320d-7ef5-5f50-bc68-141af8441457}" datafieldname="edu_sequence" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Term" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{57f4228f-2357-5152-8e93-6a5d5dd1d821}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{622a361c-d53a-5c0f-92a9-bff8de01dd9e}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{51f24e68-dc72-55b6-84b2-c6b289a24a0d}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Applicant" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cc2c7aa4-c9e5-53e0-aa93-319d4f734d47}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{d665ff00-7eb3-56d9-9f64-a82b2a63bd78}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{e231ad63-8fa5-51a2-ac21-a3855266f03d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Applicant Number" languagecode="1033" />
+                        </labels>
+                        <control id="edu_applicantnumber" classid="{d665ff00-7eb3-56d9-9f64-a82b2a63bd78}" datafieldname="edu_applicantnumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{41349182-366e-53d0-8a0a-efc4564a29c3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date of Birth" languagecode="1033" />
+                        </labels>
+                        <control id="edu_dateofbirth" classid="{0b3f49c4-9979-5221-bea1-bd0b42b9c111}" datafieldname="edu_dateofbirth" />
+                      </cell>
+                      <cell id="{e2796149-00a0-53fe-b006-8539e961a2e0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Applying Grade" languagecode="1033" />
+                        </labels>
+                        <control id="edu_applyinggrade" classid="{05ace971-e550-55b6-8b77-b6cd9cd0e956}" datafieldname="edu_applyinggrade" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1a583dc8-e641-51a6-93ee-36ed90ca259b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Academic Year" languagecode="1033" />
+                        </labels>
+                        <control id="edu_academicyear" classid="{05ace971-e550-55b6-8b77-b6cd9cd0e956}" datafieldname="edu_academicyear" />
+                      </cell>
+                      <cell id="{04b7a8ce-36f0-5552-8066-a46b38077bbe}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Guardian" languagecode="1033" />
+                        </labels>
+                        <control id="edu_primaryguardian" classid="{05ace971-e550-55b6-8b77-b6cd9cd0e956}" datafieldname="edu_primaryguardian" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8b7a392c-09f4-58bb-b45e-3c2795f5616f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Previous School" languagecode="1033" />
+                        </labels>
+                        <control id="edu_previousschool" classid="{d665ff00-7eb3-56d9-9f64-a82b2a63bd78}" datafieldname="edu_previousschool" />
+                      </cell>
+                      <cell id="{ffc51821-4447-580c-86b2-9a42c6fd97d0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_applicationdate" classid="{0b3f49c4-9979-5221-bea1-bd0b42b9c111}" datafieldname="edu_applicationdate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f3644a70-25c6-54d9-b250-79bafde34173}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Offer Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_offerdate" classid="{0b3f49c4-9979-5221-bea1-bd0b42b9c111}" datafieldname="edu_offerdate" />
+                      </cell>
+                      <cell id="{43869d1f-9463-58ec-8299-1ea2ab6883f2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Decision Reason" languagecode="1033" />
+                        </labels>
+                        <control id="edu_decisionreason" classid="{d665ff00-7eb3-56d9-9f64-a82b2a63bd78}" datafieldname="edu_decisionreason" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Applicant" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

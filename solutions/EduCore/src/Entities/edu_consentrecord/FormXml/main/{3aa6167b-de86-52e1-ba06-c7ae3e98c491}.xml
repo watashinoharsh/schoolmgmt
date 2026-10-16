@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3aa6167b-de86-52e1-ba06-c7ae3e98c491}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{1310d364-ee6b-5ebd-a0c1-95454cc8fd7e}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{2415e92e-0a37-5211-9138-24b0e3f8e6c6}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Consent Record" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a15704b6-24ad-5bf1-b8bc-5b88eaf104cc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Consent" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{dda0f436-5465-54d6-8e63-420233338244}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Guardian" languagecode="1033" />
+                        </labels>
+                        <control id="edu_guardian" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_guardian" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f8837b02-b8e1-5c89-992e-bda8cee2986d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Consent Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_consenttype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_consenttype" />
+                      </cell>
+                      <cell id="{202cbc82-2423-5806-8f8a-9b8310965b5a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Consent Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_consentstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_consentstatus" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e0b054a0-28b8-5641-af97-102c7c0eab68}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Given On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_givenon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_givenon" />
+                      </cell>
+                      <cell id="{f509ca52-6f64-554b-9b57-67572f0fc765}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Expires On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_expireson" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_expireson" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b6afdc17-1127-5231-a2b9-bf4576955768}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Source" languagecode="1033" />
+                        </labels>
+                        <control id="edu_source" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_source" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c08f461f-e845-5404-a184-f3b31942c58c}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Evidence" languagecode="1033" />
+                        </labels>
+                        <control id="edu_evidence" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_evidence" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b1f2cea5-a67a-5aff-ab5c-c479891e8f62}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Consent Record" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

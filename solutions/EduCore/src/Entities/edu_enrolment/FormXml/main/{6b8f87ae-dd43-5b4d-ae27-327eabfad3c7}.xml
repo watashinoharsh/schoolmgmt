@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6b8f87ae-dd43-5b4d-ae27-327eabfad3c7}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{093b284c-09db-5dd6-be56-7629dad85034}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{9a4bc80d-66f3-5011-a74a-8b23c6ceaef6}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Enrolment" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f6966052-28d0-55b3-9ed1-3a00e524faee}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{696da675-bfd8-5486-b898-73e063aa43ee}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{a0366ee1-b778-5af4-83b1-3d883094a896}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Student" languagecode="1033" />
+                        </labels>
+                        <control id="edu_student" classid="{14b0238c-5729-508a-9b1c-93a9f5d8e014}" datafieldname="edu_student" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{562dc156-469d-5dd2-b9a2-2a1a88f3430f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Section" languagecode="1033" />
+                        </labels>
+                        <control id="edu_section" classid="{14b0238c-5729-508a-9b1c-93a9f5d8e014}" datafieldname="edu_section" />
+                      </cell>
+                      <cell id="{9180a1df-9fde-5aae-94e5-b30c32ed4fa6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Academic Year" languagecode="1033" />
+                        </labels>
+                        <control id="edu_academicyear" classid="{14b0238c-5729-508a-9b1c-93a9f5d8e014}" datafieldname="edu_academicyear" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1091e267-3b74-55c9-85e9-f152492999b2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_startdate" classid="{4f4d0feb-8db4-51ef-9297-f9a742e4a438}" datafieldname="edu_startdate" />
+                      </cell>
+                      <cell id="{60c17c2d-24cc-5fbf-a2ea-02a2b7e5f78f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="edu_enddate" classid="{4f4d0feb-8db4-51ef-9297-f9a742e4a438}" datafieldname="edu_enddate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5f36f872-2017-5902-8965-8fc9e2705379}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Exit Reason" languagecode="1033" />
+                        </labels>
+                        <control id="edu_exitreason" classid="{696da675-bfd8-5486-b898-73e063aa43ee}" datafieldname="edu_exitreason" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Enrolment" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

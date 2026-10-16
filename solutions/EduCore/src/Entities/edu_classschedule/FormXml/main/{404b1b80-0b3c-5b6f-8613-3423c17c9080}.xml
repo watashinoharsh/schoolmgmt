@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{404b1b80-0b3c-5b6f-8613-3423c17c9080}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{10e1e182-1f0f-5f09-85ef-7214973fb929}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{f016009e-27b9-5f53-a5f2-4eb3f9d0201a}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Class Schedule" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{96a47a85-429b-5679-b4af-afac3c85258e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{1fdb7d0a-4826-5a63-84c8-3d8397ed496b}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{996e7734-5046-5af9-ad13-db0e94e88637}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Subject Assignment" languagecode="1033" />
+                        </labels>
+                        <control id="edu_subjectassignment" classid="{26a4fbc1-a0d0-5bfb-92b6-3614fc3f4ec6}" datafieldname="edu_subjectassignment" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0ef834d2-2ae1-5f40-ba1e-8c2de5973788}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Weekday" languagecode="1033" />
+                        </labels>
+                        <control id="edu_weekday" classid="{0ae9adcc-c9da-585f-a6b2-85e412c6435a}" datafieldname="edu_weekday" />
+                      </cell>
+                      <cell id="{a5edcdd4-8135-5774-97ae-0d27f2afcded}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Period" languagecode="1033" />
+                        </labels>
+                        <control id="edu_period" classid="{26a4fbc1-a0d0-5bfb-92b6-3614fc3f4ec6}" datafieldname="edu_period" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c2114813-5bc0-59e5-a908-a820e40ab5de}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Room" languagecode="1033" />
+                        </labels>
+                        <control id="edu_room" classid="{1fdb7d0a-4826-5a63-84c8-3d8397ed496b}" datafieldname="edu_room" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Class Schedule" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

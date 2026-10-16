@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{df3927a9-6221-5cdd-a873-b4a9a1d8ac71}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{2ac71fde-ba60-5120-8c4f-a7121b710ebb}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{34bac9ef-cce8-544b-a0f2-e279c8bd9b31}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Activity Feedback" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5278b454-5157-5b9c-8c94-c66f00515315}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Feedback" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{d43ff68b-5d7e-56c7-a15b-7914843c4746}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Activity" languagecode="1033" />
+                        </labels>
+                        <control id="edu_activity" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_activity" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f025fb97-62ec-5be1-a87f-912e09d522a2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Rating" languagecode="1033" />
+                        </labels>
+                        <control id="edu_rating" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="edu_rating" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6829ed8a-8598-5446-b012-a010c8eea4aa}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Comment" languagecode="1033" />
+                        </labels>
+                        <control id="edu_comment" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_comment" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4cffc45f-22cf-5363-84cd-f44b46069417}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Activity Feedback" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

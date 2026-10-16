@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{020f73e6-0ff1-57e6-bf75-4e83b437306c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{7b51703f-1190-5c85-b80a-bc2330f13c7d}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{90a61301-7d78-56df-a6ec-a18e0c2c7deb}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Behaviour Record" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2ccc895d-b77a-5b0b-80fe-faaad2b58a1d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Record" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{41129bd9-bcc7-5334-8ebd-b7987ca678a5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="edu_category" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_category" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e243267e-dd8d-51d8-8aae-5bb707f17d82}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Points" languagecode="1033" />
+                        </labels>
+                        <control id="edu_points" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="edu_points" />
+                      </cell>
+                      <cell id="{76eecca6-bf86-50e4-b07e-4ff0c2522f61}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Occurred On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_occurredon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_occurredon" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2532a0f8-2e50-5c7e-860f-cca84bd526ce}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="edu_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_description" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6030b075-a061-56b2-9545-d16cdefac94a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Behaviour Record" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

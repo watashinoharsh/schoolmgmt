@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{143ea137-3ba4-5707-9f4d-749b2538b02e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{e5ded419-edad-5b09-ad04-ef6ea161452c}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{54b5fd85-1822-57d3-9dff-f2bbc63643ee}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Activity Transport" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{fcc5dbfc-3b30-573a-b0ff-bb22f125fb61}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Provider" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{ca4b03e1-4a51-5d43-8791-7b99ab47ce3f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Activity" languagecode="1033" />
+                        </labels>
+                        <control id="edu_activity" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="edu_activity" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c91b684c-37e8-588e-baff-2c1684a063f8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Capacity" languagecode="1033" />
+                        </labels>
+                        <control id="edu_capacity" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="edu_capacity" />
+                      </cell>
+                      <cell id="{b10f0938-b8f5-5f35-b1e0-8bc8a2afed8e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Cost" languagecode="1033" />
+                        </labels>
+                        <control id="edu_cost" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="edu_cost" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8968aaef-7ca6-5fc1-9611-862615033321}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="edu_notes" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_notes" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{38ade49d-4ae3-5789-b5dd-2702119834c3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Activity Transport" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

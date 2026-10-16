@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{48727c44-7829-517f-a1e0-a5414dce13ec}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" id="{4a3d3d7a-40fb-5c33-9755-96e23e2219ad}" IsUserDefined="1" verticallayout="true" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="sec_main" showlabel="true" showbar="false" id="{0efd7739-2476-5def-986b-ff70f059a800}" layout="varwidth" columns="2" labelwidth="140" celllabelposition="Top">
+                  <labels>
+                    <label description="Muster Event" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1b9c00e9-e39d-5f22-8d68-632408a7832d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Muster" languagecode="1033" />
+                        </labels>
+                        <control id="edu_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="edu_name" />
+                      </cell>
+                      <cell id="{dac25124-6443-58d4-813a-965e70660fa5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Event Type" languagecode="1033" />
+                        </labels>
+                        <control id="edu_eventtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_eventtype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{84522978-618e-5a36-be09-489d3ca4671f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Started On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_startedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_startedon" />
+                      </cell>
+                      <cell id="{f1a916a2-edf5-5459-a4de-68cfa4d4b175}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Ended On" languagecode="1033" />
+                        </labels>
+                        <control id="edu_endedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="edu_endedon" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{075e020a-1586-568f-9b98-9637d8a13b4f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Muster Status" languagecode="1033" />
+                        </labels>
+                        <control id="edu_musterstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="edu_musterstatus" />
+                      </cell>
+                      <cell id="{0e360baa-569e-5e49-a633-54070a75337f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Muster Event" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
