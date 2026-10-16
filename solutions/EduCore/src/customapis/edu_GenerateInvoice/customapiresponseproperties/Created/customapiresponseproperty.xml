@@ -1,0 +1,11 @@
+<customapiresponseproperty uniquename="Created">
+  <description default="True when a new invoice was created">
+    <label description="True when a new invoice was created" languagecode="1033" />
+  </description>
+  <displayname default="Created">
+    <label description="Created" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <name>Created</name>
+  <type>0</type>
+</customapiresponseproperty>

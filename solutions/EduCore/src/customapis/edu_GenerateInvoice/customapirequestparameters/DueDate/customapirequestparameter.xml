@@ -1,0 +1,12 @@
+<customapirequestparameter uniquename="DueDate">
+  <description default="Invoice due date">
+    <label description="Invoice due date" languagecode="1033" />
+  </description>
+  <displayname default="DueDate">
+    <label description="DueDate" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isoptional>1</isoptional>
+  <name>DueDate</name>
+  <type>2</type>
+</customapirequestparameter>

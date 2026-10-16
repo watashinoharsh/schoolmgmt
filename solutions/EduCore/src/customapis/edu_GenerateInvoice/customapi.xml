@@ -1,0 +1,15 @@
+<customapi uniquename="edu_GenerateInvoice">
+  <allowedcustomprocessingsteptype>0</allowedcustomprocessingsteptype>
+  <bindingtype>0</bindingtype>
+  <description default="Creates one Draft invoice with its lines from the fee structure for the student current grade and term, reduced by the fee concession. Returns the existing invoice if one exists for the student and term.">
+    <label description="Creates one Draft invoice with its lines from the fee structure for the student current grade and term, reduced by the fee concession. Returns the existing invoice if one exists for the student and term." languagecode="1033" />
+  </description>
+  <displayname default="Generate Invoice">
+    <label description="Generate Invoice" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isfunction>0</isfunction>
+  <isprivate>0</isprivate>
+  <name>edu_GenerateInvoice</name>
+  <workflowsdkstepenabled>0</workflowsdkstepenabled>
+</customapi>
