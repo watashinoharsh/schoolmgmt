@@ -8,7 +8,7 @@ Admissions and enrolment, student information, academics (timetable, assessments
 ## Repository layout
 | Path | Contents |
 |---|---|
-| `docs/` | LLD v2, conventions, Phase 0 runbook |
+| `docs/` | LLD v2, conventions, architecture diagrams, demo script, Phase 0 runbook, per-phase notes |
 | `solutions/EduCore` | Tables, roles, plug-in package, environment variables (unpacked source) |
 | `solutions/EduFlows` | Cloud flows and connection references |
 | `solutions/EduApps` | Model-driven app, site map, dashboards |
@@ -37,10 +37,10 @@ DEV environment setup, first import and test users: `docs/phase0-runbook.md`.
 | 4 Academics | Built and imported to DEV with seed data. Open: plug-in step registration (`docs/phase4.md`) |
 | 5 Attendance | Built and imported to DEV with seed data. Open: flows, plug-in registration (`docs/phase5.md`) |
 | 6 Fees | Built (source and tests); tables imported to DEV, see docs/phase6.md |
-| 7 Report cards | Built, tables and seed data in DEV. Open: plug-in step registration, publish flow (`docs/phase7.md`) |
+| 7 Report cards | Built, tables and seed data in DEV. Plug-in steps registered in DEV (`docs/phase10.md`). Open: publish flow (`docs/phase7.md`) |
 | 8 App | App, site map, main and quick-create forms, views and dashboards built in DEV and exported (`docs/phase8.md`). Not yet checked in the UI |
 | 9 Security | Roles, teams, column security and auditing built in DEV and verified against the matrix (`docs/phase9.md`). Real-user persona tests pending |
-| 10 | Not started. Plan and design: `docs/LLD_v2_EduCore.md` |
+| 10 Release | Architecture (`docs/architecture.md`), demo script (`docs/demo-script.md`), settings files and pipeline are in the repo. A managed deploy to a second environment and a pipeline run to TEST are pending (need a target environment and an Azure DevOps project; see `docs/phase10.md`) |
 
 ## Requirements
 Power Platform CLI (`pac`), .NET SDK, PowerShell. A Dataverse environment for DEV.

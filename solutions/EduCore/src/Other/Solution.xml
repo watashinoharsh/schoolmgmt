@@ -156,6 +156,61 @@
       <RootComponent type="20" id="{edc1c309-89c9-f111-a05a-000d3ac9f23e}" behavior="0" />
       <RootComponent type="70" id="{324142bc-89c9-f111-a05a-000d3ac9f23e}" behavior="0" />
       <RootComponent type="70" id="{60e19399-89c9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="91" id="{58798616-8cc9-f111-a05a-000d3ac9f23e}" schemaName="EduCore.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" behavior="0" />
+      <RootComponent type="92" id="{0554dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{0854dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{0c54dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{0f54dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{1b54dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{2f54dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{3a71560f-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{3c48f68c-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{3f48f68c-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{3f71560f-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{4348f68c-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{4354dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{4371560f-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{4648f68c-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{4654dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{4871560f-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{4a54dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{4b71560f-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{4f71560f-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{5254dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{58e60503-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{5be60503-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{5fe60503-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{6c54dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{6f54dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{7354dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{7754dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{7b54dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{7f54dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{8254dc86-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{8736c280-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{8a36c280-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{8e36c280-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{9136c280-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{9536c280-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{9836c280-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{9c36c280-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{9f36c280-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{a336c280-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{a636c280-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{a68e5b09-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{aa36c280-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{aa8e5b09-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{ad36c280-8cc9-f111-a05a-000d3ac9f23e}" behavior="0" />
+      <RootComponent type="92" id="{ad8e5b09-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{b18e5b09-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{b58e5b09-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{b88e5b09-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{bc8e5b09-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{c08e5b09-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{c48e5b09-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{c98e5b09-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{cd8e5b09-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
+      <RootComponent type="92" id="{d18e5b09-8dc9-f111-a05c-7ced8daf410c}" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>

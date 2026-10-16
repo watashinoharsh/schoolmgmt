@@ -11,5 +11,8 @@
   <isfunction>0</isfunction>
   <isprivate>0</isprivate>
   <name>edu_GenerateReportCards</name>
+  <plugintypeid>
+    <plugintypeexportkey>7D7A52D04A500585DC5E2579DA891B8ECB46BC780E699784D9304A9725BDF836</plugintypeexportkey>
+  </plugintypeid>
   <workflowsdkstepenabled>0</workflowsdkstepenabled>
 </customapi>

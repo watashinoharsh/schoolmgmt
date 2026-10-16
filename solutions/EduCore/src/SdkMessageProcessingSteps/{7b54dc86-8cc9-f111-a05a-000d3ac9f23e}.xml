@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="ApplicantPlugin: Update of edu_applicant (pre)" SdkMessageProcessingStepId="{7b54dc86-8cc9-f111-a05a-000d3ac9f23e}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeExportKey>620D2612AA6C36211390ACD6A5F8B2A7085C1BD37CC811B05CE4DD2423FE3AB5</PluginTypeExportKey>
+  <PrimaryEntity>edu_applicant</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes>statuscode,edu_decisionreason</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="pre">
+      <SdkMessageProcessingStepImageId>{7e54dc86-8cc9-f111-a05a-000d3ac9f23e}</SdkMessageProcessingStepImageId>
+      <Attributes></Attributes>
+      <EntityAlias>pre</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

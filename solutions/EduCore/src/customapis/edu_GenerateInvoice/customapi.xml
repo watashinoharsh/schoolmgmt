@@ -11,5 +11,8 @@
   <isfunction>0</isfunction>
   <isprivate>0</isprivate>
   <name>edu_GenerateInvoice</name>
+  <plugintypeid>
+    <plugintypeexportkey>71F130A180EB6DAD3D13FB06FCA50E85FBFE7BB5B09837D60EB6AEFCF7B1488C</plugintypeexportkey>
+  </plugintypeid>
   <workflowsdkstepenabled>0</workflowsdkstepenabled>
 </customapi>

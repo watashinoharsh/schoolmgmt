@@ -11,5 +11,8 @@
   <isfunction>0</isfunction>
   <isprivate>0</isprivate>
   <name>edu_RefreshAttendanceSummary</name>
+  <plugintypeid>
+    <plugintypeexportkey>16B7E138B393E27FE676885CEA42EE5CE74AB0278A3F204C9C3E5F6292BFD929</plugintypeexportkey>
+  </plugintypeid>
   <workflowsdkstepenabled>0</workflowsdkstepenabled>
 </customapi>
